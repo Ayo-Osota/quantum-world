@@ -1,1 +1,755 @@
-{"sections":{"ceccf1ae-f9cc-4cb3-9e59-f49f317aad19":{"type":"image-banner","blocks":{"template--16677415977196__ceccf1ae-f9cc-4cb3-9e59-f49f317aad19-1676653827d2476f23-0":{"type":"heading","settings":{"heading":"GIVING TO THE NEEDY IS OUR PRIORITY","heading_size":"h0"}},"template--16677415977196__ceccf1ae-f9cc-4cb3-9e59-f49f317aad19-1676653827d2476f23-1":{"type":"text","settings":{"text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.","text_style":"body"}},"template--16677415977196__ceccf1ae-f9cc-4cb3-9e59-f49f317aad19-1676653827d2476f23-2":{"type":"buttons","settings":{"button_label_1":"Donate","button_link_1":"shopify:\/\/collections\/donations-pot","button_style_secondary_1":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["template--16677415977196__ceccf1ae-f9cc-4cb3-9e59-f49f317aad19-1676653827d2476f23-0","template--16677415977196__ceccf1ae-f9cc-4cb3-9e59-f49f317aad19-1676653827d2476f23-1","template--16677415977196__ceccf1ae-f9cc-4cb3-9e59-f49f317aad19-1676653827d2476f23-2"],"settings":{"image":"shopify:\/\/shop_images\/Group_30_2.png","image_2":"shopify:\/\/shop_images\/ben-koorengevel-sjuLxUOEMY8-unsplash_2.png","image_overlay_opacity":0,"image_height":"medium","adapt_height_first_image":false,"desktop_content_position":"middle-left","show_text_box":false,"desktop_content_alignment":"left","color_scheme":"background-1","mobile_content_alignment":"center","stack_images_on_mobile":false,"show_text_below":false}},"5f01d18d-b57e-4efa-b09f-6c4077844df6":{"type":"custom-liquid","settings":{"custom_liquid":"<div class=\"section-p\">\n<div id=\"Scroll-Section\" class=\"section-1 haze wf-section\">\n      <div class=\"wrapper\">\n        <div class=\"shop-header\">\n          <h3 class=\"shop-headerh3 no-margin\">Blogs and Latest News<\/h3>\n\n<div class=\"view-all\">\n<a href=\"\/blogs\/news\" class=\"link arrow-link\">\nView Blog Page \n<i class=\"fa-solid fa-arrow-right-long\"><\/i><\/a>\n<\/div>\n\n\n<div class=\"shop-header-line\">\n<div class=\"shop-header-color\">&nbsp;<\/div>\n          <\/div>\n\n        <\/div>\n        <div class=\"home-categories\">\n          <div data-w-id=\"79f09a57-05ab-ed81-c059-4d50244b2341\" style=\"opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\" class=\"home-category-card\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0654\/0335\/5372\/files\/0F7689F8-04CD-48BC-8796-CF8D29CA67A2.png\" srcset=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0654\/0335\/5372\/files\/0F7689F8-04CD-48BC-8796-CF8D29CA67A2.png 500w, https:\/\/cdn.shopify.com\/s\/files\/1\/0654\/0335\/5372\/files\/0F7689F8-04CD-48BC-8796-CF8D29CA67A2.png 1200w\" sizes=\"(max-width: 479px) 64vw, (max-width: 991px) 176px, 220px\" alt=\"\" class=\"home-category-image-1\">\n            <div class=\"home-category-info-1\">\n              <h4 class=\"headingh2\">Blog<\/h4>\n              <a href=\"\/blogs\/news\" class=\"button small white w-button\">Read More<\/a>\n            <\/div>\n          <\/div>\n          <div data-w-id=\"b498480a-a03d-afff-8227-912980ab2a0a\" style=\"opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\" class=\"home-category-card red\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0654\/0335\/5372\/files\/6721A8F5-5E52-4DE9-8F34-6A201257E30B.png\" srcset=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0654\/0335\/5372\/files\/6721A8F5-5E52-4DE9-8F34-6A201257E30B.png 500w, https:\/\/cdn.shopify.com\/s\/files\/1\/0654\/0335\/5372\/files\/6721A8F5-5E52-4DE9-8F34-6A201257E30B.png 1200w\" sizes=\"(max-width: 479px) 60vw, (max-width: 991px) 176px, 220px\" alt=\"\" class=\"home-category-image-2\">\n            <div class=\"home-category-info-2\">\n              <h4 class=\"headingh2\">Latest News<\/h4>\n              <a href=\"#newsletter-signup\" class=\"button small white w-button\">Sign Up<\/a>\n            <\/div>\n          <\/div>\n        <\/div>\n      <\/div>\n    <\/div>\n<\/div>","color_scheme":"background-1","padding_top":0,"padding_bottom":0}},"166378005982182dfa":{"type":"custom-liquid","disabled":true,"settings":{"custom_liquid":"<div class=\"container\">\n<div class=\"row\">\n<div class=\"col-12\">\n<div id=\"Scroll-Section\" class=\"section-1 custom-section-header haze wf-section\">\n      <div class=\"wrapper\">\n        <div class=\"shop-header\">\n          <h3 class=\"no-margin\">Blogs and Latest News<\/h3>\n\n<div class=\"view-all\">\n<a href=\"\/blogs\/news\" class=\"link arrow-link\">\nView Blog Page \n<i class=\"fa-solid fa-arrow-right-long\"><\/i><\/a>\n<\/div>\n\n\n<div class=\"shop-header-line\">\n<div class=\"shop-header-color\">&nbsp;<\/div>\n          <\/div>\n\n        <\/div>\n        <div class=\"home-categories\">\n          <div data-w-id=\"79f09a57-05ab-ed81-c059-4d50244b2341\" style=\"opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\" class=\"home-category-card\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0654\/0335\/5372\/files\/0F7689F8-04CD-48BC-8796-CF8D29CA67A2.png\" srcset=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0654\/0335\/5372\/files\/0F7689F8-04CD-48BC-8796-CF8D29CA67A2.png 500w, https:\/\/cdn.shopify.com\/s\/files\/1\/0654\/0335\/5372\/files\/0F7689F8-04CD-48BC-8796-CF8D29CA67A2.png 1200w\" sizes=\"(max-width: 479px) 64vw, (max-width: 991px) 176px, 220px\" alt=\"\" class=\"home-category-image-1\">\n            <div class=\"home-category-info-1\">\n              <h4 class=\"headingh2\">Blog<\/h4>\n              <a href=\"\/blogs\/news\" class=\"button small white w-button\">Read More<\/a>\n            <\/div>\n          <\/div>\n          <div data-w-id=\"b498480a-a03d-afff-8227-912980ab2a0a\" style=\"opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\" class=\"home-category-card red\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0654\/0335\/5372\/files\/6721A8F5-5E52-4DE9-8F34-6A201257E30B.png\" srcset=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0654\/0335\/5372\/files\/6721A8F5-5E52-4DE9-8F34-6A201257E30B.png 500w, https:\/\/cdn.shopify.com\/s\/files\/1\/0654\/0335\/5372\/files\/6721A8F5-5E52-4DE9-8F34-6A201257E30B.png 1200w\" sizes=\"(max-width: 479px) 60vw, (max-width: 991px) 176px, 220px\" alt=\"\" class=\"home-category-image-2\">\n            <div class=\"home-category-info-2\">\n              <h4 class=\"headingh2\">Latest News<\/h4>\n              <a href=\"#newsletter-signup\" class=\"button small white w-button\">Sign Up<\/a>\n            <\/div>\n          <\/div>\n        <\/div>\n      <\/div>\n    <\/div>\n<\/div>\n<\/div>\n<\/div>","color_scheme":"background-1","padding_top":60,"padding_bottom":60}},"eabf7cc8-89a1-425c-9903-b255796ba093":{"type":"image-with-text","blocks":{"template--16677415977196__eabf7cc8-89a1-425c-9903-b255796ba093-1676719281a42e950a-0":{"type":"heading","settings":{"heading":"CHRISTMAS RAFFLE","heading_size":"h1"}},"template--16677415977196__eabf7cc8-89a1-425c-9903-b255796ba093-1676719281a42e950a-1":{"type":"text","settings":{"text":"<p>Spreading love to the needy This Festive period. Want to win a chance of winning monthly cash Prizes and gifts, enter our raffle today. <\/p>","text_style":"body"}},"template--16677415977196__eabf7cc8-89a1-425c-9903-b255796ba093-1676719281a42e950a-2":{"type":"button","settings":{"button_label":"Get Raffle Ticket","button_link":"shopify:\/\/pages\/christmas-free-raffle-2022"}},"747186ba-faa0-45b6-bb76-6fa13cf8ee0f":{"type":"button","settings":{"button_label":"Donate towards raffle","button_link":"shopify:\/\/collections\/donations-pot"}}},"block_order":["template--16677415977196__eabf7cc8-89a1-425c-9903-b255796ba093-1676719281a42e950a-0","template--16677415977196__eabf7cc8-89a1-425c-9903-b255796ba093-1676719281a42e950a-1","template--16677415977196__eabf7cc8-89a1-425c-9903-b255796ba093-1676719281a42e950a-2","747186ba-faa0-45b6-bb76-6fa13cf8ee0f"],"custom_css":[],"settings":{"image":"shopify:\/\/shop_images\/Rectangle_43.png","height":"adapt","desktop_image_width":"medium","layout":"image_first","desktop_content_position":"top","desktop_content_alignment":"left","content_layout":"no-overlap","color_scheme":"background-1","mobile_content_alignment":"left","padding_top":20,"padding_bottom":20}},"d0b4d784-f8a8-4f60-898e-7154df633b82":{"type":"image-banner","blocks":{"template--16677415977196__d0b4d784-f8a8-4f60-898e-7154df633b82-1676991786bb166d75-0":{"type":"heading","settings":{"heading":"We are all about inspiring, development and growth of the people.","heading_size":"h1"}},"template--16677415977196__d0b4d784-f8a8-4f60-898e-7154df633b82-1676991786bb166d75-1":{"type":"text","settings":{"text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.","text_style":"body"}},"template--16677415977196__d0b4d784-f8a8-4f60-898e-7154df633b82-1676991786bb166d75-2":{"type":"buttons","settings":{"button_label_1":"","button_link_1":"","button_style_secondary_1":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["template--16677415977196__d0b4d784-f8a8-4f60-898e-7154df633b82-1676991786bb166d75-0","template--16677415977196__d0b4d784-f8a8-4f60-898e-7154df633b82-1676991786bb166d75-1","template--16677415977196__d0b4d784-f8a8-4f60-898e-7154df633b82-1676991786bb166d75-2"],"custom_css":["h2 {font-family: arial; font-weight: 900;}"],"settings":{"image":"shopify:\/\/shop_images\/Background_2.png","image_2":"shopify:\/\/shop_images\/Group_32.png","image_overlay_opacity":0,"image_height":"medium","adapt_height_first_image":false,"desktop_content_position":"middle-left","show_text_box":false,"desktop_content_alignment":"left","color_scheme":"background-1","mobile_content_alignment":"center","stack_images_on_mobile":false,"show_text_below":false}},"5a00b4f1-8be5-4016-b08e-fb8f68bf873a":{"type":"multicolumn","blocks":{"template--16677415977196__5a00b4f1-8be5-4016-b08e-fb8f68bf873a-167689805133584779-0":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/mdi_donation-outline.svg","title":"Donation","text":"<p>Lorem ipsum dolor sit amet. Id voluptatum omnis <\/p>","link_label":"","link":"shopify:\/\/collections\/donations-pot"}},"template--16677415977196__5a00b4f1-8be5-4016-b08e-fb8f68bf873a-167689805133584779-1":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Group.svg","title":"Fundraising","text":"<p>Lorem ipsum dolor sit amet. Id voluptatum omnis <\/p>","link_label":"","link":"shopify:\/\/collections\/donations-pot"}},"template--16677415977196__5a00b4f1-8be5-4016-b08e-fb8f68bf873a-167689805133584779-2":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/emojione-monotone_money-bag.svg","title":"Support","text":"<p>Lorem ipsum dolor sit amet. Id voluptatum omnis <\/p>","link_label":"","link":"shopify:\/\/collections\/donations-pot"}}},"block_order":["template--16677415977196__5a00b4f1-8be5-4016-b08e-fb8f68bf873a-167689805133584779-0","template--16677415977196__5a00b4f1-8be5-4016-b08e-fb8f68bf873a-167689805133584779-1","template--16677415977196__5a00b4f1-8be5-4016-b08e-fb8f68bf873a-167689805133584779-2"],"custom_css":[],"settings":{"title":"","heading_size":"h1","image_width":"full","image_ratio":"adapt","columns_desktop":3,"column_alignment":"left","background_style":"primary","button_label":"","button_link":"","color_scheme":"background-1","columns_mobile":"2","swipe_on_mobile":true,"padding_top":0,"padding_bottom":0}},"69495abc-5c8e-4cd5-acfa-106c8bb93e40":{"type":"collage2","blocks":{"04633d42-8e77-4617-a447-261deaed903c":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/roman-nguyen-lPPkJ4NfQtQ-unsplash_2.png","image_padding":false}},"87b915ba-c9c3-4ae9-9a51-aab8dfac9d88":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/annie-spratt-cVEOh_JJmEE-unsplash_1.png","image_padding":false}},"e037e1f7-43e1-4afc-9ac9-095ddb36fbe5":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/annie-spratt-cVEOh_JJmEE-unsplash_2.png","image_padding":false}}},"block_order":["04633d42-8e77-4617-a447-261deaed903c","87b915ba-c9c3-4ae9-9a51-aab8dfac9d88","e037e1f7-43e1-4afc-9ac9-095ddb36fbe5"],"settings":{"heading":"","heading_size":"h1","desktop_layout":"left","mobile_layout":"collage2","color_scheme":"background-1","padding_top":36,"padding_bottom":36}},"174a8597-1440-4f95-bd46-56d146a6d0b5":{"type":"custom-image-text-with-bar","disabled":true,"blocks":{"template--16677415977196__174a8597-1440-4f95-bd46-56d146a6d0b5-1677083335507461a3-0":{"type":"heading","settings":{"heading":"PROVIDE CLOTH FOR THE NEEDY","heading_size":"h1"}},"template--16677415977196__174a8597-1440-4f95-bd46-56d146a6d0b5-1677083335507461a3-1":{"type":"text","settings":{"text":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<\/p>","text_style":"body"}},"template--16677415977196__174a8597-1440-4f95-bd46-56d146a6d0b5-1677083335507461a3-2":{"type":"button","settings":{"button_label":"Donate","button_link":"shopify:\/\/pages\/about-us"}},"799bfaf0-c766-4aa7-928f-b026a08fc2cc":{"type":"button","settings":{"button_label":"Share","button_link":"shopify:\/\/pages\/about-us"}}},"block_order":["template--16677415977196__174a8597-1440-4f95-bd46-56d146a6d0b5-1677083335507461a3-0","template--16677415977196__174a8597-1440-4f95-bd46-56d146a6d0b5-1677083335507461a3-1","template--16677415977196__174a8597-1440-4f95-bd46-56d146a6d0b5-1677083335507461a3-2","799bfaf0-c766-4aa7-928f-b026a08fc2cc"],"settings":{"image":"shopify:\/\/shop_images\/Image_1.png","height":"adapt","desktop_image_width":"medium","layout":"image_first","desktop_content_position":"top","desktop_content_alignment":"left","content_layout":"no-overlap","color_scheme":"background-1","mobile_content_alignment":"left","padding_top":20,"padding_bottom":20}},"35f87c00-720b-43cb-bb0b-d6fc2e6fb563":{"type":"custom-donor","blocks":{"template--16677415977196__35f87c00-720b-43cb-bb0b-d6fc2e6fb563-1676989904329cf5c6-0":{"type":"column","settings":{"image":"shopify:\/\/shop_images\/Rectangle_101_1.png","title":"Qwantm world","text":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<\/p>","link_label":"- Tony Elizabeth","link":""}},"template--16677415977196__35f87c00-720b-43cb-bb0b-d6fc2e6fb563-1676989904329cf5c6-1":{"type":"column","disabled":true,"settings":{"title":"Column","text":"<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>","link_label":"","link":""}},"template--16677415977196__35f87c00-720b-43cb-bb0b-d6fc2e6fb563-1676989904329cf5c6-2":{"type":"column","disabled":true,"settings":{"title":"Column","text":"<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>","link_label":"","link":""}}},"block_order":["template--16677415977196__35f87c00-720b-43cb-bb0b-d6fc2e6fb563-1676989904329cf5c6-0","template--16677415977196__35f87c00-720b-43cb-bb0b-d6fc2e6fb563-1676989904329cf5c6-1","template--16677415977196__35f87c00-720b-43cb-bb0b-d6fc2e6fb563-1676989904329cf5c6-2"],"custom_css":[],"settings":{"title":"Listen to what our Donor says about Quantm world","heading_size":"h1","image_width":"half","image_ratio":"adapt","columns_desktop":1,"column_alignment":"left","background_style":"primary","button_label":"","button_link":"","color_scheme":"background-1","columns_mobile":"1","swipe_on_mobile":true,"padding_top":60,"padding_bottom":60}},"30912376-2de7-4cbf-9119-211214962dcc":{"type":"custom-image-and-text","blocks":{"template--16677415977196__30912376-2de7-4cbf-9119-211214962dcc-167805833481ba1e61-0":{"type":"heading","settings":{"heading":"WE SELL MERCHANDISE TO  CONTINUALLY SUPPORT OUR  AGENDA","heading_size":"h1"}},"template--16677415977196__30912376-2de7-4cbf-9119-211214962dcc-167805833481ba1e61-1":{"type":"text","settings":{"text":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<\/p>","text_style":"body"}},"template--16677415977196__30912376-2de7-4cbf-9119-211214962dcc-167805833481ba1e61-2":{"type":"button","settings":{"button_label":"View our online store","button_link":"shopify:\/\/collections\/all"}}},"block_order":["template--16677415977196__30912376-2de7-4cbf-9119-211214962dcc-167805833481ba1e61-0","template--16677415977196__30912376-2de7-4cbf-9119-211214962dcc-167805833481ba1e61-1","template--16677415977196__30912376-2de7-4cbf-9119-211214962dcc-167805833481ba1e61-2"],"custom_css":[".custom-raffle-button {background-color: #002d37e5; border: 1px solid #002d37e5; color: #ffffff; border-radius: 0.5rem; background-position: right bottom; transition: all 0.5s ease-in-out; width: 25rem; margin-top: 3vh; padding: 8px 28px 8px 28px; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; line-height: 24px; font-weight: 300; text-align: center;}",".custom-raffle-button:hover {background-color: #025f73; border: 1px solid #025f73; cursor: pointer; color: #ffffff;}"],"settings":{"image":"shopify:\/\/shop_images\/Image.png","height":"adapt","desktop_image_width":"medium","layout":"image_first","desktop_content_position":"top","desktop_content_alignment":"left","content_layout":"no-overlap","color_scheme":"background-1","mobile_content_alignment":"left","padding_top":36,"padding_bottom":36}},"e0ef3d83-5022-4b5b-9b37-5561c3b4d25d":{"type":"image-banner","blocks":{"template--16677415977196__e0ef3d83-5022-4b5b-9b37-5561c3b4d25d-167698805216b5ec5b-0":{"type":"heading","settings":{"heading":"PROFIT MADE FROM OUR SALES OF MERCHANDISE WILL BE CHANNEL TOWARDS GIVING","heading_size":"h1"}},"template--16677415977196__e0ef3d83-5022-4b5b-9b37-5561c3b4d25d-167698805216b5ec5b-1":{"type":"text","settings":{"text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.","text_style":"body"}},"template--16677415977196__e0ef3d83-5022-4b5b-9b37-5561c3b4d25d-167698805216b5ec5b-2":{"type":"buttons","settings":{"button_label_1":"","button_link_1":"","button_style_secondary_1":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["template--16677415977196__e0ef3d83-5022-4b5b-9b37-5561c3b4d25d-167698805216b5ec5b-0","template--16677415977196__e0ef3d83-5022-4b5b-9b37-5561c3b4d25d-167698805216b5ec5b-1","template--16677415977196__e0ef3d83-5022-4b5b-9b37-5561c3b4d25d-167698805216b5ec5b-2"],"custom_css":["span {font-family: arial; color: #002d37e5;}"],"settings":{"image":"shopify:\/\/shop_images\/Where_our_profit_is_going_1.png","image_overlay_opacity":0,"image_height":"small","adapt_height_first_image":false,"desktop_content_position":"middle-left","show_text_box":false,"desktop_content_alignment":"left","color_scheme":"background-1","mobile_content_alignment":"center","stack_images_on_mobile":false,"show_text_below":false}},"166411723628c5d288":{"type":"featured-collection","disabled":true,"settings":{"title":"Sweaters, Jumpers and Hoodies","heading_size":"h0","description":"","show_description":false,"description_style":"body","collection":"jumpers-and-hoodies","products_to_show":5,"columns_desktop":5,"full_width":false,"show_view_all":true,"view_all_style":"solid","enable_desktop_slider":false,"color_scheme":"background-1","image_ratio":"adapt","show_secondary_image":false,"show_vendor":false,"show_rating":false,"enable_quick_add":false,"columns_mobile":"2","swipe_on_mobile":true,"padding_top":36,"padding_bottom":36}},"16641172212c866713":{"type":"featured-collection","disabled":true,"settings":{"title":"Clothes, Shoes and Much More","heading_size":"h0","description":"","show_description":false,"description_style":"body","collection":"clothes-shoes-and-much-more","products_to_show":5,"columns_desktop":5,"full_width":false,"show_view_all":true,"view_all_style":"solid","enable_desktop_slider":false,"color_scheme":"background-1","image_ratio":"adapt","show_secondary_image":false,"show_vendor":false,"show_rating":false,"enable_quick_add":false,"columns_mobile":"2","swipe_on_mobile":true,"padding_top":36,"padding_bottom":36}},"1663776407801f64b1":{"type":"custom-liquid","disabled":true,"settings":{"custom_liquid":"<div class=\"section-1 video-section wf-section\">\n      <div class=\"wrapper\">\n        <div data-w-id=\"3c65db2d-dfc4-c6e7-82f4-ccf13df0f1d5\" style=\"opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\" class=\"intro wide no-margin\">\n          <div class=\"title white\">About Us<\/div>\n          <h2 class=\"headingh2\">Our Journey<\/h2>\n          <p>Thinking about the world today. Focusing on diversity and our community. We want to build recognition for people from different backgrounds. Please Click below to find out more.<\/p><a href=\"\/pages\/about-us\" aria-current=\"page\" class=\"button w-button w--current\">ABOUT<\/a>\n        <\/div>\n      <\/div>\n\n      \n\n    <\/div>","color_scheme":"background-1","padding_top":0,"padding_bottom":0}},"16641287529d8f0e84":{"type":"custom-liquid","disabled":true,"settings":{"custom_liquid":"<div id=\"More-About\" class=\"section-2 wf-section\">\n    <div class=\"wrapper\">\n        <div class=\"intro-2\">\n          <div class=\"title\">What You Can Do<\/div>\n          <h2>Give Us a&nbsp;Helping Hand<\/h2>\n        <\/div>\n    <\/div>\n<\/div>","color_scheme":"background-1","padding_top":0,"padding_bottom":0}},"1663779989e5dfe148":{"type":"custom-liquid","disabled":true,"settings":{"custom_liquid":"<div class=\"section-2 haze wf-section\">\n      <div class=\"wrapper\">\n        <div class=\"intro\">\n          <div class=\"title\">@QuantmWorld<\/div>\n          <h2 class=\"no-margin-bottom\">We're on Instagram!<\/h2>\n        <\/div>\n        <div data-w-id=\"6e1d3527-5090-7380-17f7-30bf0f5a58b4\" class=\"instagram\" style=\"opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\">\n          <a href=\"https:\/\/instagram.com\" target=\"_blank\" class=\"instagram-link w-inline-block\"><img src=\"https:\/\/d2n3notmdf08g1.cloudfront.net\/common\/icons\/fundraise-hero-icon-3.png\" alt=\"\" class=\"full-width\"><\/a>\n          <a href=\"https:\/\/instagram.com\" target=\"_blank\" class=\"instagram-link w-inline-block\"><img src=\"https:\/\/d2n3notmdf08g1.cloudfront.net\/common\/icons\/fundraise-hero-icon-3.png\" alt=\"\" class=\"full-width\"><\/a>\n          <a href=\"https:\/\/instagram.com\" target=\"_blank\" class=\"instagram-link w-inline-block\"><img src=\"https:\/\/d2n3notmdf08g1.cloudfront.net\/common\/icons\/fundraise-hero-icon-3.png\" alt=\"\" class=\"full-width\"><\/a>\n          <a href=\"https:\/\/instagram.com\" target=\"_blank\" class=\"instagram-link w-inline-block\"><img src=\"https:\/\/d2n3notmdf08g1.cloudfront.net\/common\/icons\/fundraise-hero-icon-3.png\" alt=\"\" class=\"full-width\"><\/a>\n          <a href=\"https:\/\/instagram.com\" target=\"_blank\" class=\"instagram-link w-inline-block\"><img src=\"https:\/\/d2n3notmdf08g1.cloudfront.net\/common\/icons\/fundraise-hero-icon-3.png\" alt=\"\" class=\"full-width\"><\/a>\n          <a href=\"https:\/\/instagram.com\" target=\"_blank\" class=\"instagram-link w-inline-block\"><img src=\"https:\/\/d2n3notmdf08g1.cloudfront.net\/common\/icons\/fundraise-hero-icon-3.png\" alt=\"\" class=\"full-width\"><\/a>\n        <\/div>\n        <a href=\"https:\/\/www.instagram.com\/QuantmWorld\/\" target=\"_blank\" class=\"button w-button\">See More Photos<\/a>\n\n<br><br>\n      <\/div>\n    <\/div>","color_scheme":"background-1","padding_top":0,"padding_bottom":0}},"2d81040e-e20f-4bf4-ad6a-07ef583be553":{"type":"custom-image-banner-with-header","disabled":true,"blocks":{"template--16677415977196__2d81040e-e20f-4bf4-ad6a-07ef583be553-167689020862276095-0":{"type":"heading","settings":{"heading":"We are all about inspiring, development and growth of the people.","heading_size":"h1"}},"template--16677415977196__2d81040e-e20f-4bf4-ad6a-07ef583be553-167689020862276095-1":{"type":"text","settings":{"text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.","text_style":"body"}},"template--16677415977196__2d81040e-e20f-4bf4-ad6a-07ef583be553-167689020862276095-2":{"type":"buttons","settings":{"button_label_1":"","button_link_1":"","button_style_secondary_1":false,"button_label_2":"","button_link_2":"","button_style_secondary_2":false}}},"block_order":["template--16677415977196__2d81040e-e20f-4bf4-ad6a-07ef583be553-167689020862276095-0","template--16677415977196__2d81040e-e20f-4bf4-ad6a-07ef583be553-167689020862276095-1","template--16677415977196__2d81040e-e20f-4bf4-ad6a-07ef583be553-167689020862276095-2"],"custom_css":["h2 {font-family: arial; font-weight: 900;}"],"settings":{"title":"Multicolumn","image":"shopify:\/\/shop_images\/Background_2.png","image_2":"shopify:\/\/shop_images\/Group_32.png","image_overlay_opacity":0,"image_height":"medium","adapt_height_first_image":false,"desktop_content_position":"middle-left","show_text_box":false,"desktop_content_alignment":"left","color_scheme":"background-1","mobile_content_alignment":"center","stack_images_on_mobile":false,"show_text_below":false}},"32493d13-4933-4703-926a-7da9e3f02fcf":{"type":"custom-image-banner-with-header","disabled":true,"blocks":{"template--16677415977196__32493d13-4933-4703-926a-7da9e3f02fcf-167699029026e674e0-0":{"type":"heading","settings":{"heading":"Quantm world","heading_size":"h1"}},"template--16677415977196__32493d13-4933-4703-926a-7da9e3f02fcf-167699029026e674e0-1":{"type":"text","settings":{"text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.","text_style":"body"}},"a7138ef1-a824-4aa6-a9cc-ee7e8700ff2c":{"type":"text","settings":{"text":"- Tony Elizabeth","text_style":"body"}}},"block_order":["template--16677415977196__32493d13-4933-4703-926a-7da9e3f02fcf-167699029026e674e0-0","template--16677415977196__32493d13-4933-4703-926a-7da9e3f02fcf-167699029026e674e0-1","a7138ef1-a824-4aa6-a9cc-ee7e8700ff2c"],"custom_css":[],"settings":{"title":"Listen to what our Donor says about Quantm world","image":"shopify:\/\/shop_images\/Group_31_5.png","image_overlay_opacity":0,"image_height":"medium","adapt_height_first_image":false,"desktop_content_position":"middle-center","show_text_box":true,"desktop_content_alignment":"left","color_scheme":"background-1","mobile_content_alignment":"center","stack_images_on_mobile":false,"show_text_below":false}},"1663866709a749cd01":{"type":"newsletter","blocks":{"1663866709d9ea94e2-0":{"type":"heading","settings":{"heading":"Subscribe to Our Newsletter for","heading_size":"h2"}},"1663866709d9ea94e2-1":{"type":"paragraph","settings":{"text":"<p>Subscribe to our newsletter & get 10% discount!<\/p>"}},"1663866709d9ea94e2-2":{"type":"email_form","settings":{}}},"block_order":["1663866709d9ea94e2-0","1663866709d9ea94e2-1","1663866709d9ea94e2-2"],"settings":{"color_scheme":"background-1","full_width":true,"padding_top":0,"padding_bottom":0}},"7e22e954-e0bb-412c-879f-7a669033e234":{"type":"custom-liquid","disabled":true,"settings":{"custom_liquid":"<div style=\"height: 350px; overflow: hidden;\" >\n<svg viewBox=\"0 0 500 150\" preserveAspectRatio=\"none\" style=\"height: 100%; width: 100%;\"><path d=\"M0.00,49.98 C149.98,150.00 356.91,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z\" style=\"stroke: none; fill:#FEE988 ;\">\n<\/path><\/svg>\n\n<\/div>","color_scheme":"background-1","padding_top":40,"padding_bottom":52}},"6af32d16-0061-48f1-b812-cc4131ee13ca":{"type":"custom-liquid","disabled":true,"settings":{"custom_liquid":"<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" version=\"1.1\" id=\"Calque_1\" x=\"0px\"\ny=\"0px\" viewBox=\"0 0 1300 550\" style=\"enable-background:new 0 0 1300 550;\" xml:space=\"preserve\">\n<style type=\"text\/css\">\n\t.st1{opacity:0.6;fill:rgba(255, 222, 89, 0.9);enable-background:new;}\n<\/style>\n    <path class=\"st1\" d=\"M 0 250 C 600 450 650 100 1300 250 L 1300 550 L 0 550 L 0 250\">\n\t\t<animate\nattributeName=\"d\"\ndur=\"10s\"\nbegin=\"1s\"\nvalues=\"M 0 250 C 600 450 650 100 1300 250 L 1300 550 L 0 550 L 0 250;\n                M 0 250 C 600 100 650 450 1300 250 L 1300 550 L 0 550 L 0 250;\n\t\t\t\tM 0 250 C 600 450 650 100 1300 250 L 1300 550 L 0 550 L 0 250\"\nrepeatCount=\"indefinite\"\n        \/>\n\t<\/path>\n\t<path class=\"st1\" d=\"M 0 250 C 600 100 650 450 1300 250 L 1300 550 L 0 550 L 0 250\">\n\t\t<animate\nattributeName=\"d\"\ndur=\"5s\"\nvalues=\"M 0 250 C 600 100 650 450 1300 250 L 1300 550 L 0 550 L 0 250;\n                M 0 250 C 600 450 650 100 1300 250 L 1300 550 L 0 550 L 0 250;\n\t\t\t\tM 0 250 C 600 100 650 450 1300 250 L 1300 550 L 0 550 L 0 250\"\nrepeatCount=\"indefinite\"\n        \/>\n\t<\/path>\n\t<path class=\"st1\" d=\"M 0 250 C 950 350 950 150 1300 250 L 1300 550 L 0 550 L 0 250\">\n\t\t<animate\nattributeName=\"d\"\ndur=\"5s\"\nbegin=\"2s\"\nvalues=\"M 0 250 C 950 350 950 150 1300 250 L 1300 550 L 0 550 L 0 250;\n                M 0 250 C 350 150 350 350 1300 250 L 1300 550 L 0 550 L 0 250;\n\t\t\t\tM 0 250 C 950 350 950 150 1300 250 L 1300 550 L 0 550 L 0 250\"\nrepeatCount=\"indefinite\"\n        \/>\n\t<\/path>\n\t<path class=\"st1\" d=\"M 0 250 C 350 150 350 350 1300 250 L 1300 550 L 0 550 L 0 250\">\n\t\t<animate\nattributeName=\"d\"\ndur=\"5s\"\nvalues=\"M 0 250 C 350 150 350 350 1300 250 L 1300 550 L 0 550 L 0 250;\n                M 0 250 C 950 350 950 150 1300 250 L 1300 550 L 0 550 L 0 250;\n\t\t\t\tM 0 250 C 350 150 350 350 1300 250 L 1300 550 L 0 550 L 0 250\"\nrepeatCount=\"indefinite\"\n        \/>\n\t<\/path>\n<\/svg>","color_scheme":"background-1","padding_top":40,"padding_bottom":52}}},"order":["ceccf1ae-f9cc-4cb3-9e59-f49f317aad19","5f01d18d-b57e-4efa-b09f-6c4077844df6","166378005982182dfa","eabf7cc8-89a1-425c-9903-b255796ba093","d0b4d784-f8a8-4f60-898e-7154df633b82","5a00b4f1-8be5-4016-b08e-fb8f68bf873a","69495abc-5c8e-4cd5-acfa-106c8bb93e40","174a8597-1440-4f95-bd46-56d146a6d0b5","35f87c00-720b-43cb-bb0b-d6fc2e6fb563","30912376-2de7-4cbf-9119-211214962dcc","e0ef3d83-5022-4b5b-9b37-5561c3b4d25d","166411723628c5d288","16641172212c866713","1663776407801f64b1","16641287529d8f0e84","1663779989e5dfe148","2d81040e-e20f-4bf4-ad6a-07ef583be553","32493d13-4933-4703-926a-7da9e3f02fcf","1663866709a749cd01","7e22e954-e0bb-412c-879f-7a669033e234","6af32d16-0061-48f1-b812-cc4131ee13ca"]}
+{
+  "sections": {
+    "ceccf1ae-f9cc-4cb3-9e59-f49f317aad19": {
+      "type": "image-banner",
+      "blocks": {
+        "template--16677415977196__ceccf1ae-f9cc-4cb3-9e59-f49f317aad19-1676653827d2476f23-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "GIVING TO THE NEEDY IS OUR PRIORITY",
+            "heading_size": "h0"
+          }
+        },
+        "template--16677415977196__ceccf1ae-f9cc-4cb3-9e59-f49f317aad19-1676653827d2476f23-1": {
+          "type": "text",
+          "settings": {
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "text_style": "body"
+          }
+        },
+        "template--16677415977196__ceccf1ae-f9cc-4cb3-9e59-f49f317aad19-1676653827d2476f23-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Donate",
+            "button_link_1": "shopify:\/\/collections\/donations-pot",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16677415977196__ceccf1ae-f9cc-4cb3-9e59-f49f317aad19-1676653827d2476f23-0",
+        "template--16677415977196__ceccf1ae-f9cc-4cb3-9e59-f49f317aad19-1676653827d2476f23-1",
+        "template--16677415977196__ceccf1ae-f9cc-4cb3-9e59-f49f317aad19-1676653827d2476f23-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Group_30_2.png",
+        "image_2": "shopify:\/\/shop_images\/ben-koorengevel-sjuLxUOEMY8-unsplash_2.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
+    "5f01d18d-b57e-4efa-b09f-6c4077844df6": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"section-p\">\n<div id=\"Scroll-Section\" class=\"section-1 haze wf-section\">\n      <div class=\"wrapper\">\n        <div class=\"shop-header\">\n          <h3 class=\"shop-headerh3 no-margin\">Blogs and Latest News<\/h3>\n\n<div class=\"view-all\">\n<a href=\"\/blogs\/news\" class=\"link arrow-link\">\nView Blog Page \n<i class=\"fa-solid fa-arrow-right-long\"><\/i><\/a>\n<\/div>\n\n\n<div class=\"shop-header-line\">\n<div class=\"shop-header-color\">&nbsp;<\/div>\n          <\/div>\n\n        <\/div>\n        <div class=\"home-categories\">\n          <div data-w-id=\"79f09a57-05ab-ed81-c059-4d50244b2341\" style=\"opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\" class=\"home-category-card\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0654\/0335\/5372\/files\/0F7689F8-04CD-48BC-8796-CF8D29CA67A2.png\" srcset=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0654\/0335\/5372\/files\/0F7689F8-04CD-48BC-8796-CF8D29CA67A2.png 500w, https:\/\/cdn.shopify.com\/s\/files\/1\/0654\/0335\/5372\/files\/0F7689F8-04CD-48BC-8796-CF8D29CA67A2.png 1200w\" sizes=\"(max-width: 479px) 64vw, (max-width: 991px) 176px, 220px\" alt=\"\" class=\"home-category-image-1\">\n            <div class=\"home-category-info-1\">\n              <h4 class=\"headingh2\">Blog<\/h4>\n              <a href=\"\/blogs\/news\" class=\"button small white w-button\">Read More<\/a>\n            <\/div>\n          <\/div>\n          <div data-w-id=\"b498480a-a03d-afff-8227-912980ab2a0a\" style=\"opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\" class=\"home-category-card red\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0654\/0335\/5372\/files\/6721A8F5-5E52-4DE9-8F34-6A201257E30B.png\" srcset=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0654\/0335\/5372\/files\/6721A8F5-5E52-4DE9-8F34-6A201257E30B.png 500w, https:\/\/cdn.shopify.com\/s\/files\/1\/0654\/0335\/5372\/files\/6721A8F5-5E52-4DE9-8F34-6A201257E30B.png 1200w\" sizes=\"(max-width: 479px) 60vw, (max-width: 991px) 176px, 220px\" alt=\"\" class=\"home-category-image-2\">\n            <div class=\"home-category-info-2\">\n              <h4 class=\"headingh2\">Latest News<\/h4>\n              <a href=\"#newsletter-signup\" class=\"button small white w-button\">Sign Up<\/a>\n            <\/div>\n          <\/div>\n        <\/div>\n      <\/div>\n    <\/div>\n<\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "166378005982182dfa": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<div class=\"container\">\n<div class=\"row\">\n<div class=\"col-12\">\n<div id=\"Scroll-Section\" class=\"section-1 custom-section-header haze wf-section\">\n      <div class=\"wrapper\">\n        <div class=\"shop-header\">\n          <h3 class=\"no-margin\">Blogs and Latest News<\/h3>\n\n<div class=\"view-all\">\n<a href=\"\/blogs\/news\" class=\"link arrow-link\">\nView Blog Page \n<i class=\"fa-solid fa-arrow-right-long\"><\/i><\/a>\n<\/div>\n\n\n<div class=\"shop-header-line\">\n<div class=\"shop-header-color\">&nbsp;<\/div>\n          <\/div>\n\n        <\/div>\n        <div class=\"home-categories\">\n          <div data-w-id=\"79f09a57-05ab-ed81-c059-4d50244b2341\" style=\"opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\" class=\"home-category-card\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0654\/0335\/5372\/files\/0F7689F8-04CD-48BC-8796-CF8D29CA67A2.png\" srcset=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0654\/0335\/5372\/files\/0F7689F8-04CD-48BC-8796-CF8D29CA67A2.png 500w, https:\/\/cdn.shopify.com\/s\/files\/1\/0654\/0335\/5372\/files\/0F7689F8-04CD-48BC-8796-CF8D29CA67A2.png 1200w\" sizes=\"(max-width: 479px) 64vw, (max-width: 991px) 176px, 220px\" alt=\"\" class=\"home-category-image-1\">\n            <div class=\"home-category-info-1\">\n              <h4 class=\"headingh2\">Blog<\/h4>\n              <a href=\"\/blogs\/news\" class=\"button small white w-button\">Read More<\/a>\n            <\/div>\n          <\/div>\n          <div data-w-id=\"b498480a-a03d-afff-8227-912980ab2a0a\" style=\"opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\" class=\"home-category-card red\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0654\/0335\/5372\/files\/6721A8F5-5E52-4DE9-8F34-6A201257E30B.png\" srcset=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0654\/0335\/5372\/files\/6721A8F5-5E52-4DE9-8F34-6A201257E30B.png 500w, https:\/\/cdn.shopify.com\/s\/files\/1\/0654\/0335\/5372\/files\/6721A8F5-5E52-4DE9-8F34-6A201257E30B.png 1200w\" sizes=\"(max-width: 479px) 60vw, (max-width: 991px) 176px, 220px\" alt=\"\" class=\"home-category-image-2\">\n            <div class=\"home-category-info-2\">\n              <h4 class=\"headingh2\">Latest News<\/h4>\n              <a href=\"#newsletter-signup\" class=\"button small white w-button\">Sign Up<\/a>\n            <\/div>\n          <\/div>\n        <\/div>\n      <\/div>\n    <\/div>\n<\/div>\n<\/div>\n<\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "eabf7cc8-89a1-425c-9903-b255796ba093": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16677415977196__eabf7cc8-89a1-425c-9903-b255796ba093-1676719281a42e950a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "CHRISTMAS RAFFLE",
+            "heading_size": "h1"
+          }
+        },
+        "template--16677415977196__eabf7cc8-89a1-425c-9903-b255796ba093-1676719281a42e950a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Spreading love to the needy This Festive period. Want to win a chance of winning monthly cash Prizes and gifts, enter our raffle today. <\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16677415977196__eabf7cc8-89a1-425c-9903-b255796ba093-1676719281a42e950a-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get Raffle Ticket",
+            "button_link": "shopify:\/\/pages\/christmas-free-raffle-2022"
+          }
+        },
+        "747186ba-faa0-45b6-bb76-6fa13cf8ee0f": {
+          "type": "button",
+          "settings": {
+            "button_label": "Donate towards raffle",
+            "button_link": "shopify:\/\/collections\/donations-pot"
+          }
+        }
+      },
+      "block_order": [
+        "template--16677415977196__eabf7cc8-89a1-425c-9903-b255796ba093-1676719281a42e950a-0",
+        "template--16677415977196__eabf7cc8-89a1-425c-9903-b255796ba093-1676719281a42e950a-1",
+        "template--16677415977196__eabf7cc8-89a1-425c-9903-b255796ba093-1676719281a42e950a-2",
+        "747186ba-faa0-45b6-bb76-6fa13cf8ee0f"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Rectangle_43.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "d0b4d784-f8a8-4f60-898e-7154df633b82": {
+      "type": "image-banner",
+      "blocks": {
+        "template--16677415977196__d0b4d784-f8a8-4f60-898e-7154df633b82-1676991786bb166d75-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "We are all about inspiring, development and growth of the people.",
+            "heading_size": "h1"
+          }
+        },
+        "template--16677415977196__d0b4d784-f8a8-4f60-898e-7154df633b82-1676991786bb166d75-1": {
+          "type": "text",
+          "settings": {
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "text_style": "body"
+          }
+        },
+        "template--16677415977196__d0b4d784-f8a8-4f60-898e-7154df633b82-1676991786bb166d75-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16677415977196__d0b4d784-f8a8-4f60-898e-7154df633b82-1676991786bb166d75-0",
+        "template--16677415977196__d0b4d784-f8a8-4f60-898e-7154df633b82-1676991786bb166d75-1",
+        "template--16677415977196__d0b4d784-f8a8-4f60-898e-7154df633b82-1676991786bb166d75-2"
+      ],
+      "custom_css": [
+        "h2 {font-family: arial; font-weight: 900;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Background_2.png",
+        "image_2": "shopify:\/\/shop_images\/Group_32.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "5a00b4f1-8be5-4016-b08e-fb8f68bf873a": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--16677415977196__5a00b4f1-8be5-4016-b08e-fb8f68bf873a-167689805133584779-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mdi_donation-outline.svg",
+            "title": "Donation",
+            "text": "<p>Lorem ipsum dolor sit amet. Id voluptatum omnis <\/p>",
+            "link_label": "",
+            "link": "shopify:\/\/collections\/donations-pot"
+          }
+        },
+        "template--16677415977196__5a00b4f1-8be5-4016-b08e-fb8f68bf873a-167689805133584779-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group.svg",
+            "title": "Fundraising",
+            "text": "<p>Lorem ipsum dolor sit amet. Id voluptatum omnis <\/p>",
+            "link_label": "",
+            "link": "shopify:\/\/collections\/donations-pot"
+          }
+        },
+        "template--16677415977196__5a00b4f1-8be5-4016-b08e-fb8f68bf873a-167689805133584779-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/emojione-monotone_money-bag.svg",
+            "title": "Support",
+            "text": "<p>Lorem ipsum dolor sit amet. Id voluptatum omnis <\/p>",
+            "link_label": "",
+            "link": "shopify:\/\/collections\/donations-pot"
+          }
+        }
+      },
+      "block_order": [
+        "template--16677415977196__5a00b4f1-8be5-4016-b08e-fb8f68bf873a-167689805133584779-0",
+        "template--16677415977196__5a00b4f1-8be5-4016-b08e-fb8f68bf873a-167689805133584779-1",
+        "template--16677415977196__5a00b4f1-8be5-4016-b08e-fb8f68bf873a-167689805133584779-2"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "69495abc-5c8e-4cd5-acfa-106c8bb93e40": {
+      "type": "collage2",
+      "blocks": {
+        "04633d42-8e77-4617-a447-261deaed903c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/roman-nguyen-lPPkJ4NfQtQ-unsplash_2.png",
+            "image_padding": false
+          }
+        },
+        "87b915ba-c9c3-4ae9-9a51-aab8dfac9d88": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/annie-spratt-cVEOh_JJmEE-unsplash_1.png",
+            "image_padding": false
+          }
+        },
+        "e037e1f7-43e1-4afc-9ac9-095ddb36fbe5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/annie-spratt-cVEOh_JJmEE-unsplash_2.png",
+            "image_padding": false
+          }
+        }
+      },
+      "block_order": [
+        "04633d42-8e77-4617-a447-261deaed903c",
+        "87b915ba-c9c3-4ae9-9a51-aab8dfac9d88",
+        "e037e1f7-43e1-4afc-9ac9-095ddb36fbe5"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "collage2",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "174a8597-1440-4f95-bd46-56d146a6d0b5": {
+      "type": "custom-image-text-with-bar",
+      "disabled": true,
+      "blocks": {
+        "template--16677415977196__174a8597-1440-4f95-bd46-56d146a6d0b5-1677083335507461a3-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "PROVIDE CLOTH FOR THE NEEDY",
+            "heading_size": "h1"
+          }
+        },
+        "template--16677415977196__174a8597-1440-4f95-bd46-56d146a6d0b5-1677083335507461a3-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16677415977196__174a8597-1440-4f95-bd46-56d146a6d0b5-1677083335507461a3-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Donate",
+            "button_link": "shopify:\/\/pages\/about-us"
+          }
+        },
+        "799bfaf0-c766-4aa7-928f-b026a08fc2cc": {
+          "type": "button",
+          "settings": {
+            "button_label": "Share",
+            "button_link": "shopify:\/\/pages\/about-us"
+          }
+        }
+      },
+      "block_order": [
+        "template--16677415977196__174a8597-1440-4f95-bd46-56d146a6d0b5-1677083335507461a3-0",
+        "template--16677415977196__174a8597-1440-4f95-bd46-56d146a6d0b5-1677083335507461a3-1",
+        "template--16677415977196__174a8597-1440-4f95-bd46-56d146a6d0b5-1677083335507461a3-2",
+        "799bfaf0-c766-4aa7-928f-b026a08fc2cc"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Image_1.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "35f87c00-720b-43cb-bb0b-d6fc2e6fb563": {
+      "type": "custom-donor",
+      "blocks": {
+        "template--16677415977196__35f87c00-720b-43cb-bb0b-d6fc2e6fb563-1676989904329cf5c6-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Rectangle_101_1.png",
+            "title": "Qwantm world",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<\/p>",
+            "link_label": "- Tony Elizabeth",
+            "link": ""
+          }
+        },
+        "template--16677415977196__35f87c00-720b-43cb-bb0b-d6fc2e6fb563-1676989904329cf5c6-1": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16677415977196__35f87c00-720b-43cb-bb0b-d6fc2e6fb563-1676989904329cf5c6-2": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16677415977196__35f87c00-720b-43cb-bb0b-d6fc2e6fb563-1676989904329cf5c6-0",
+        "template--16677415977196__35f87c00-720b-43cb-bb0b-d6fc2e6fb563-1676989904329cf5c6-1",
+        "template--16677415977196__35f87c00-720b-43cb-bb0b-d6fc2e6fb563-1676989904329cf5c6-2"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "title": "Listen to what our Donor says about Quantm world",
+        "heading_size": "h1",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "columns_desktop": 1,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 60,
+        "padding_bottom": 60
+      }
+    },
+    "30912376-2de7-4cbf-9119-211214962dcc": {
+      "type": "custom-image-and-text",
+      "blocks": {
+        "template--16677415977196__30912376-2de7-4cbf-9119-211214962dcc-167805833481ba1e61-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "WE SELL MERCHANDISE TO  CONTINUALLY SUPPORT OUR  AGENDA",
+            "heading_size": "h1"
+          }
+        },
+        "template--16677415977196__30912376-2de7-4cbf-9119-211214962dcc-167805833481ba1e61-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16677415977196__30912376-2de7-4cbf-9119-211214962dcc-167805833481ba1e61-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "View our online store",
+            "button_link": "shopify:\/\/collections\/all"
+          }
+        }
+      },
+      "block_order": [
+        "template--16677415977196__30912376-2de7-4cbf-9119-211214962dcc-167805833481ba1e61-0",
+        "template--16677415977196__30912376-2de7-4cbf-9119-211214962dcc-167805833481ba1e61-1",
+        "template--16677415977196__30912376-2de7-4cbf-9119-211214962dcc-167805833481ba1e61-2"
+      ],
+      "custom_css": [
+        ".custom-raffle-button {background-color: #002d37e5; border: 1px solid #002d37e5; color: #ffffff; border-radius: 0.5rem; background-position: right bottom; transition: all 0.5s ease-in-out; width: 25rem; margin-top: 3vh; padding: 8px 28px 8px 28px; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; line-height: 24px; font-weight: 300; text-align: center;}",
+        ".custom-raffle-button:hover {background-color: #025f73; border: 1px solid #025f73; cursor: pointer; color: #ffffff;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Image.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "e0ef3d83-5022-4b5b-9b37-5561c3b4d25d": {
+      "type": "image-banner",
+      "blocks": {
+        "template--16677415977196__e0ef3d83-5022-4b5b-9b37-5561c3b4d25d-167698805216b5ec5b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "PROFIT MADE FROM OUR SALES OF MERCHANDISE WILL BE CHANNEL TOWARDS GIVING",
+            "heading_size": "h1"
+          }
+        },
+        "template--16677415977196__e0ef3d83-5022-4b5b-9b37-5561c3b4d25d-167698805216b5ec5b-1": {
+          "type": "text",
+          "settings": {
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "text_style": "body"
+          }
+        },
+        "template--16677415977196__e0ef3d83-5022-4b5b-9b37-5561c3b4d25d-167698805216b5ec5b-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16677415977196__e0ef3d83-5022-4b5b-9b37-5561c3b4d25d-167698805216b5ec5b-0",
+        "template--16677415977196__e0ef3d83-5022-4b5b-9b37-5561c3b4d25d-167698805216b5ec5b-1",
+        "template--16677415977196__e0ef3d83-5022-4b5b-9b37-5561c3b4d25d-167698805216b5ec5b-2"
+      ],
+      "custom_css": [
+        "span {font-family: arial; color: #002d37e5;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Where_our_profit_is_going_1.png",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "166411723628c5d288": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Sweaters, Jumpers and Hoodies",
+        "heading_size": "h0",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "jumpers-and-hoodies",
+        "products_to_show": 5,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16641172212c866713": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Clothes, Shoes and Much More",
+        "heading_size": "h0",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "clothes-shoes-and-much-more",
+        "products_to_show": 5,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1663776407801f64b1": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<div class=\"section-1 video-section wf-section\">\n      <div class=\"wrapper\">\n        <div data-w-id=\"3c65db2d-dfc4-c6e7-82f4-ccf13df0f1d5\" style=\"opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\" class=\"intro wide no-margin\">\n          <div class=\"title white\">About Us<\/div>\n          <h2 class=\"headingh2\">Our Journey<\/h2>\n          <p>Thinking about the world today. Focusing on diversity and our community. We want to build recognition for people from different backgrounds. Please Click below to find out more.<\/p><a href=\"\/pages\/about-us\" aria-current=\"page\" class=\"button w-button w--current\">ABOUT<\/a>\n        <\/div>\n      <\/div>\n\n      \n\n    <\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "16641287529d8f0e84": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<div id=\"More-About\" class=\"section-2 wf-section\">\n    <div class=\"wrapper\">\n        <div class=\"intro-2\">\n          <div class=\"title\">What You Can Do<\/div>\n          <h2>Give Us a&nbsp;Helping Hand<\/h2>\n        <\/div>\n    <\/div>\n<\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "1663779989e5dfe148": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<div class=\"section-2 haze wf-section\">\n      <div class=\"wrapper\">\n        <div class=\"intro\">\n          <div class=\"title\">@QuantmWorld<\/div>\n          <h2 class=\"no-margin-bottom\">We're on Instagram!<\/h2>\n        <\/div>\n        <div data-w-id=\"6e1d3527-5090-7380-17f7-30bf0f5a58b4\" class=\"instagram\" style=\"opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\">\n          <a href=\"https:\/\/instagram.com\" target=\"_blank\" class=\"instagram-link w-inline-block\"><img src=\"https:\/\/d2n3notmdf08g1.cloudfront.net\/common\/icons\/fundraise-hero-icon-3.png\" alt=\"\" class=\"full-width\"><\/a>\n          <a href=\"https:\/\/instagram.com\" target=\"_blank\" class=\"instagram-link w-inline-block\"><img src=\"https:\/\/d2n3notmdf08g1.cloudfront.net\/common\/icons\/fundraise-hero-icon-3.png\" alt=\"\" class=\"full-width\"><\/a>\n          <a href=\"https:\/\/instagram.com\" target=\"_blank\" class=\"instagram-link w-inline-block\"><img src=\"https:\/\/d2n3notmdf08g1.cloudfront.net\/common\/icons\/fundraise-hero-icon-3.png\" alt=\"\" class=\"full-width\"><\/a>\n          <a href=\"https:\/\/instagram.com\" target=\"_blank\" class=\"instagram-link w-inline-block\"><img src=\"https:\/\/d2n3notmdf08g1.cloudfront.net\/common\/icons\/fundraise-hero-icon-3.png\" alt=\"\" class=\"full-width\"><\/a>\n          <a href=\"https:\/\/instagram.com\" target=\"_blank\" class=\"instagram-link w-inline-block\"><img src=\"https:\/\/d2n3notmdf08g1.cloudfront.net\/common\/icons\/fundraise-hero-icon-3.png\" alt=\"\" class=\"full-width\"><\/a>\n          <a href=\"https:\/\/instagram.com\" target=\"_blank\" class=\"instagram-link w-inline-block\"><img src=\"https:\/\/d2n3notmdf08g1.cloudfront.net\/common\/icons\/fundraise-hero-icon-3.png\" alt=\"\" class=\"full-width\"><\/a>\n        <\/div>\n        <a href=\"https:\/\/www.instagram.com\/QuantmWorld\/\" target=\"_blank\" class=\"button w-button\">See More Photos<\/a>\n\n<br><br>\n      <\/div>\n    <\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "2d81040e-e20f-4bf4-ad6a-07ef583be553": {
+      "type": "custom-image-banner-with-header",
+      "disabled": true,
+      "blocks": {
+        "template--16677415977196__2d81040e-e20f-4bf4-ad6a-07ef583be553-167689020862276095-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "We are all about inspiring, development and growth of the people.",
+            "heading_size": "h1"
+          }
+        },
+        "template--16677415977196__2d81040e-e20f-4bf4-ad6a-07ef583be553-167689020862276095-1": {
+          "type": "text",
+          "settings": {
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "text_style": "body"
+          }
+        },
+        "template--16677415977196__2d81040e-e20f-4bf4-ad6a-07ef583be553-167689020862276095-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16677415977196__2d81040e-e20f-4bf4-ad6a-07ef583be553-167689020862276095-0",
+        "template--16677415977196__2d81040e-e20f-4bf4-ad6a-07ef583be553-167689020862276095-1",
+        "template--16677415977196__2d81040e-e20f-4bf4-ad6a-07ef583be553-167689020862276095-2"
+      ],
+      "custom_css": [
+        "h2 {font-family: arial; font-weight: 900;}"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "image": "shopify:\/\/shop_images\/Background_2.png",
+        "image_2": "shopify:\/\/shop_images\/Group_32.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "32493d13-4933-4703-926a-7da9e3f02fcf": {
+      "type": "custom-image-banner-with-header",
+      "disabled": true,
+      "blocks": {
+        "template--16677415977196__32493d13-4933-4703-926a-7da9e3f02fcf-167699029026e674e0-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Quantm world",
+            "heading_size": "h1"
+          }
+        },
+        "template--16677415977196__32493d13-4933-4703-926a-7da9e3f02fcf-167699029026e674e0-1": {
+          "type": "text",
+          "settings": {
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "text_style": "body"
+          }
+        },
+        "a7138ef1-a824-4aa6-a9cc-ee7e8700ff2c": {
+          "type": "text",
+          "settings": {
+            "text": "- Tony Elizabeth",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--16677415977196__32493d13-4933-4703-926a-7da9e3f02fcf-167699029026e674e0-0",
+        "template--16677415977196__32493d13-4933-4703-926a-7da9e3f02fcf-167699029026e674e0-1",
+        "a7138ef1-a824-4aa6-a9cc-ee7e8700ff2c"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "title": "Listen to what our Donor says about Quantm world",
+        "image": "shopify:\/\/shop_images\/Group_31_5.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "1663866709a749cd01": {
+      "type": "newsletter",
+      "blocks": {
+        "1663866709d9ea94e2-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to Our Newsletter for",
+            "heading_size": "h2"
+          }
+        },
+        "1663866709d9ea94e2-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Subscribe to our newsletter & get 10% discount!<\/p>"
+          }
+        },
+        "1663866709d9ea94e2-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "1663866709d9ea94e2-0",
+        "1663866709d9ea94e2-1",
+        "1663866709d9ea94e2-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "7e22e954-e0bb-412c-879f-7a669033e234": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<div style=\"height: 350px; overflow: hidden;\" >\n<svg viewBox=\"0 0 500 150\" preserveAspectRatio=\"none\" style=\"height: 100%; width: 100%;\"><path d=\"M0.00,49.98 C149.98,150.00 356.91,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z\" style=\"stroke: none; fill:#FEE988 ;\">\n<\/path><\/svg>\n\n<\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "6af32d16-0061-48f1-b812-cc4131ee13ca": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" version=\"1.1\" id=\"Calque_1\" x=\"0px\"\ny=\"0px\" viewBox=\"0 0 1300 550\" style=\"enable-background:new 0 0 1300 550;\" xml:space=\"preserve\">\n<style type=\"text\/css\">\n\t.st1{opacity:0.6;fill:rgba(255, 222, 89, 0.9);enable-background:new;}\n<\/style>\n    <path class=\"st1\" d=\"M 0 250 C 600 450 650 100 1300 250 L 1300 550 L 0 550 L 0 250\">\n\t\t<animate\nattributeName=\"d\"\ndur=\"10s\"\nbegin=\"1s\"\nvalues=\"M 0 250 C 600 450 650 100 1300 250 L 1300 550 L 0 550 L 0 250;\n                M 0 250 C 600 100 650 450 1300 250 L 1300 550 L 0 550 L 0 250;\n\t\t\t\tM 0 250 C 600 450 650 100 1300 250 L 1300 550 L 0 550 L 0 250\"\nrepeatCount=\"indefinite\"\n        \/>\n\t<\/path>\n\t<path class=\"st1\" d=\"M 0 250 C 600 100 650 450 1300 250 L 1300 550 L 0 550 L 0 250\">\n\t\t<animate\nattributeName=\"d\"\ndur=\"5s\"\nvalues=\"M 0 250 C 600 100 650 450 1300 250 L 1300 550 L 0 550 L 0 250;\n                M 0 250 C 600 450 650 100 1300 250 L 1300 550 L 0 550 L 0 250;\n\t\t\t\tM 0 250 C 600 100 650 450 1300 250 L 1300 550 L 0 550 L 0 250\"\nrepeatCount=\"indefinite\"\n        \/>\n\t<\/path>\n\t<path class=\"st1\" d=\"M 0 250 C 950 350 950 150 1300 250 L 1300 550 L 0 550 L 0 250\">\n\t\t<animate\nattributeName=\"d\"\ndur=\"5s\"\nbegin=\"2s\"\nvalues=\"M 0 250 C 950 350 950 150 1300 250 L 1300 550 L 0 550 L 0 250;\n                M 0 250 C 350 150 350 350 1300 250 L 1300 550 L 0 550 L 0 250;\n\t\t\t\tM 0 250 C 950 350 950 150 1300 250 L 1300 550 L 0 550 L 0 250\"\nrepeatCount=\"indefinite\"\n        \/>\n\t<\/path>\n\t<path class=\"st1\" d=\"M 0 250 C 350 150 350 350 1300 250 L 1300 550 L 0 550 L 0 250\">\n\t\t<animate\nattributeName=\"d\"\ndur=\"5s\"\nvalues=\"M 0 250 C 350 150 350 350 1300 250 L 1300 550 L 0 550 L 0 250;\n                M 0 250 C 950 350 950 150 1300 250 L 1300 550 L 0 550 L 0 250;\n\t\t\t\tM 0 250 C 350 150 350 350 1300 250 L 1300 550 L 0 550 L 0 250\"\nrepeatCount=\"indefinite\"\n        \/>\n\t<\/path>\n<\/svg>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "ceccf1ae-f9cc-4cb3-9e59-f49f317aad19",
+    "5f01d18d-b57e-4efa-b09f-6c4077844df6",
+    "166378005982182dfa",
+    "eabf7cc8-89a1-425c-9903-b255796ba093",
+    "d0b4d784-f8a8-4f60-898e-7154df633b82",
+    "5a00b4f1-8be5-4016-b08e-fb8f68bf873a",
+    "69495abc-5c8e-4cd5-acfa-106c8bb93e40",
+    "174a8597-1440-4f95-bd46-56d146a6d0b5",
+    "35f87c00-720b-43cb-bb0b-d6fc2e6fb563",
+    "30912376-2de7-4cbf-9119-211214962dcc",
+    "e0ef3d83-5022-4b5b-9b37-5561c3b4d25d",
+    "166411723628c5d288",
+    "16641172212c866713",
+    "1663776407801f64b1",
+    "16641287529d8f0e84",
+    "1663779989e5dfe148",
+    "2d81040e-e20f-4bf4-ad6a-07ef583be553",
+    "32493d13-4933-4703-926a-7da9e3f02fcf",
+    "1663866709a749cd01",
+    "7e22e954-e0bb-412c-879f-7a669033e234",
+    "6af32d16-0061-48f1-b812-cc4131ee13ca"
+  ]
+}
