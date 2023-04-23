@@ -1,0 +1,18 @@
+@media screen and (max-width: 606px){
+.w-hidden-tiny{
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 479px){
+.list-social__link{
+  padding: 0px;
+  padding-left: 10px;
+  }
+}
+
+@media screen and (max-width: 381px){
+.nav-top-info{
+  display: none !important;
+  }
+}

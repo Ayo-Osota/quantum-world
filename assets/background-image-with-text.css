@@ -1,0 +1,90 @@
+.background-image-with-text{
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  align-self: center;
+  padding: 0rem calc(4rem / var(--font-body-scale)) 5rem;
+  position: relative;
+  z-index: 1;
+  
+}
+
+.background-image-with-text h2 {
+  color: #002D37;
+  font-size: 4rem;
+  font-weight: 900;
+}
+
+.
+}
+
+.background-image-with-text-content p{
+  color: #333333;
+  font-size: 1.5rem;
+  background-color: orange;
+}
+
+.background-image-with-text a{
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  color: #002D37;
+  border-radius: 0.5rem;
+  width: 100%;
+  margin-top: 20px;
+  padding: 8px 0;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  line-height: 24px;
+  font-weight: 300;
+  text-align: center;
+}
+
+
+
+.background-image-with-text a:hover{
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #025f73;
+  border: 1px solid #025f73;
+}
+
+
+@media screen and (max-width: 749px) {
+.background-image-with-text {
+padding: 30px 0px; 
+}
+ }
+
+/* CUSTOM MEDIA QUERY*/
+@media screen and (max-width: 749px){
+  /* Raffle Section*/
+  .background-image-with-text h2 {
+  font-size: 3rem;
+}
+}
+
+@media screen and (max-width: 500px){
+.background-image-with-text h2 {
+/*   font-size: 2.5r; */
+  line-height: 50px;
+  margin-top: 1rem;
+}
+}
+
+@media screen and (max-width: 421px){
+/* Raffle Section*/
+.background-image-with-text h2 {
+  font-size: 7vw;
+}
+/* Custom Image Text with Bar or Raffle Section */
+.background-image-with-text h2 {
+  margin-top: 1rem;
+  margin-left: 0rem;
+}
+  
+
+}

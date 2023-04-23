@@ -1,0 +1,196 @@
+{{ 'section-contact-form.css' | asset_url | stylesheet_tag }}
+{{ 'custom-raffle.css' | asset_url | stylesheet_tag }}
+{{ 'component-image-with-text.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+    
+<div class="section-rp section-4 no-padding-top wf-section"> 
+  <div class="wrapper side-paddings">
+     <!--  Progress Bar START -->
+      <div class="stepper-wrapper">
+        <div class="stepper-item completed">
+          <a href="/pages/raffle-participant-details">
+            <div class="step-counter">1</div>
+            <div class="step-name"><p>Fill Details</p></div>
+          </a>
+        </div>
+        <div class="stepper-item completed">
+        <a href="/pages/raffle-participant-survey">
+          <div class="step-counter ">2</div>
+          <div class="step-name"><p>Fill Surveys</p></div>
+        </a>
+        </div>
+        <div class="stepper-item">
+        <a href="/pages/raffle-participant-socials">
+          <div class="step-counter active">3</div>
+          <div class="step-name"><p>Follow our social media</p></div>
+        </a>
+        </div>
+        <div class="stepper-item">
+          <div class="step-counter-inactive">4</div>
+          <div class="step-name-inactive"><p>Share page & Drop proof</p></div>
+        </div>
+      </div>
+<!--  Progress Bar END-->
+<!--   <div class="contacts raffle-participant-info"> -->
+    <div class="raffle-participant-info">
+    <div class="social-form-wrapper">
+            <h4 class="raffle-social-heading">Follow us on Social Media</h4>
+<!--     Social Pages START -->
+<div class="raffle-social-icons">
+  <ul>
+    <li class="twitter-icon"><a href="https://twitter.com/QuantmWorld"><img src="https://cdn.shopify.com/s/files/1/0654/0335/5372/files/icon-park-outline_twitter.svg?v=1680500750"/></a></li>
+    <li class="facebook-icon"><a href="https://facebook.com"><img src="https://cdn.shopify.com/s/files/1/0654/0335/5372/files/iconoir_facebook.svg?v=1680500771"/></a></li>
+    <li class="instagram-icon"><a href="https://www.instagram.com/QuantmWorld_/"><img src="https://cdn.shopify.com/s/files/1/0654/0335/5372/files/icon-park-outline_instagram.svg?v=1680500791"/></a></li>
+    <li class="youtube-icon"><a href="https://www.youtube.com/channel/UCaJeyBXNslNoCWKALW5Yljw"><img src="https://cdn.shopify.com/s/files/1/0654/0335/5372/files/icon-park-outline_youtube.svg?v=1680500814"/></a></li>
+  </ul>
+</div>
+<!--  Social Pages END-->
+            <div class="w-form">
+    {%- if section.settings.heading != blank -%}
+      <h2 class="title title-wrapper--no-top-margin {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</h2>
+    {%- else -%}
+      <h2 class="visually-hidden">{{ 'templates.contact.form.title' | t }}</h2>
+    {%- endif -%}
+    {%- form 'contact', id: 'ContactForm', class: 'isolate' -%}
+      {%- if form.posted_successfully? -%}
+<!--         <h2 class="form-status form-status-list form__message" tabindex="-1" autofocus>{% render 'icon-success' %} {{ 'templates.contact.form.post_success' | t }}</h2> -->
+ <h2 class="form-status form-status-list form__message" tabindex="-1" autofocus>{% render 'icon-success' %} Your details has been sent.</h2>
+        {%- elsif form.errors -%}
+        <div class="form__message">
+          <h2 class="form-status caption-large text-body" role="alert" tabindex="-1" autofocus>{% render 'icon-error' %} {{ 'templates.contact.form.error_heading' | t }}</h2>
+        </div>
+        <ul class="form-status-list caption-large" role="list">
+          <li>
+            <a href="#ContactForm-email" class="link">
+              {{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}
+            </a>
+          </li>
+        </ul>
+      {%- endif -%}
+      <div class="">
+      <label for="Contact-Name" class="raffle-label">Drop Prove below</label>
+<!--       <input class="input w-input raffle-input" autocomplete="name" type="text" id="ContactForm-name" name="contact[{{ 'templates.contact.form.name' | t }}]" value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}" placeholder="Joe Name"> -->
+      <div class="raffle-form-container search raffle-social-form r-input raffle-input">
+        <input class="rg-input" autocomplete="name" type="text" id="ContactForm-name" name="contact[{{ 'templates.contact.form.name' | t }}]" value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}" placeholder="Text">
+        <img src="https://cdn.shopify.com/s/files/1/0654/0335/5372/files/upload.svg?v=1680439550" class="raffle-form-icon"/>
+      </div>
+      </div>
+          <div class="contact__button">
+        <button type="submit" class="button raffle-button">
+          Next
+        </button>
+      </div>
+    {%- endform -%}
+            </div>
+          </div>   
+
+  </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "t:sections.social-form.name",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "default": "Social form",
+      "label": "Heading"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "t:sections.all.heading_size.options__1.label"
+        },
+        {
+          "value": "h1",
+          "label": "t:sections.all.heading_size.options__2.label"
+        },
+        {
+          "value": "h0",
+          "label": "t:sections.all.heading_size.options__3.label"
+        }
+      ],
+      "default": "h1",
+      "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "options": [
+        {
+          "value": "accent-1",
+          "label": "t:sections.all.colors.accent_1.label"
+        },
+        {
+          "value": "accent-2",
+          "label": "t:sections.all.colors.accent_2.label"
+        },
+        {
+          "value": "background-1",
+          "label": "t:sections.all.colors.background_1.label"
+        },
+        {
+          "value": "background-2",
+          "label": "t:sections.all.colors.background_2.label"
+        },
+        {
+          "value": "inverse",
+          "label": "t:sections.all.colors.inverse.label"
+        }
+      ],
+      "default": "background-1",
+      "label": "t:sections.all.colors.label"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.social-form.presets.name"
+    }
+  ]
+}
+{% endschema %}
