@@ -421,7 +421,7 @@
         ".custom-raffle-button:hover {background-color: #025f73; border: 1px solid #025f73; cursor: pointer; color: #ffffff;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Image.png",
+        "image": "shopify:\/\/shop_images\/stacked-cloths.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
