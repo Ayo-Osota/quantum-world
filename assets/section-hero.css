@@ -1,0 +1,25 @@
+.banner__text {
+    max-width: 52ch;
+}
+
+.curve {
+    display: none;
+    opacity: 1;
+    position: absolute;
+    left: 0;
+    bottom: -6%;
+}
+
+@media screen and (min-width: 990px) {
+    .curve {
+        display: block;
+    }
+}
+
+.banner__buttons {
+    max-width: 23.4375rem;
+}
+
+.banner__heading {
+    max-width: 18ch;
+}

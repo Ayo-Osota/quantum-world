@@ -312,13 +312,16 @@
 
 .image-with-text__heading {
   word-break: break-word;
-  margin-bottom: 0;
+  margin-bottom: 20px;
+  font-size: 36px;
 }
 
 .image-with-text__text p {
   word-break: break-word;
   margin-top: 0;
   margin-bottom: 1rem;
+  max-width: 44ch;
+  font-size: 22px;
 }
 
 /* check for flexbox gap in older Safari versions */
@@ -326,4 +329,8 @@
   .image-with-text .grid {
     margin-left: 0;
   }
+}
+
+.image-with-text__grid {
+  width: 100%;
 }

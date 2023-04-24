@@ -1,0 +1,80 @@
+.orbit-wrapper {
+    max-width: 474px;
+    aspect-ratio: 1 !important;
+    position: relative;
+    overflow: visible !important;
+}
+
+.orbit {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    opacity: 0.5;
+    border: 0.5px solid rgba(0, 45, 55, 0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: visible;
+    transform: rotate(-100.51deg);
+    animation: rotate-left 5s infinite;
+}
+
+.orbit:nth-child(2) {
+    transform: rotate(-115.1deg);
+    border: none;
+    animation: rotate-right 5s infinite;
+}
+
+.pill {
+    display: flex !important;
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-radius: 100vh;
+    z-index: 2000;
+    background-color: red;
+}
+
+.pill:first-child {
+    background: rgba(0, 129, 158, 0.9);
+    left: -1.53%;
+    top: 51.26%;
+}
+
+.pill:last-child {
+    background: rgba(255, 222, 89, 0.9);
+    left: -0.43%;
+    top: 56.46%;
+}
+
+@keyframes rotate-left {
+    50% {
+        transform: rotate(20deg);
+    }
+
+    100% {
+        transform: rotate(-100.51deg);
+    }
+}
+
+@keyframes rotate-right {
+    50% {
+        transform: rotate(-235deg);
+    }
+
+    100% {
+        transform: rotate(-115.1deg);
+    }
+}
+
+.orbit-img:first-of-type {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.orbit-img:last-of-type {
+    position: absolute;
+    bottom: -2%;
+    right: 0;
+}

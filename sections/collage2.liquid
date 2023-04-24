@@ -3,6 +3,16 @@
 {{ 'component-price.css' | asset_url | stylesheet_tag }}
 {{ 'component-modal-video.css' | asset_url | stylesheet_tag }}
 
+<style>
+  .primary-quantm-btn, .secondary-quantm-btn {
+  width: 80% !important;
+  }
+
+  .progress_text {
+  color: red;
+  }
+</style>
+
 {%- style -%}
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
@@ -41,9 +51,6 @@
 </div>
 
   
-      <div class="color-{{ section.settings.color_scheme }} gradient isolate">
-  <div class="page-width{% if section.settings.heading == blank %} no-heading{% endif %} section-{{ section.id }}-padding">
-
       
 
     <div class="container"><div class="row"> 
@@ -196,9 +203,9 @@
         <div class="progress_box">
           <div class="progress">
             <div class="progress_bar" role="progressbar" aria-valuenow="32" aria-valuemin="0" aria-valuemax="100" style="width: 32%;">
-            <span class="sr-only">32% Complete</span>
             </div>
           </div>
+          <span class="progress_text">32% Complete</span>
         </div>
 
 <div class="customer__notes">
@@ -230,8 +237,6 @@
     </div>
   </div>
 </div>
-
-  </div></div>
 
 
 

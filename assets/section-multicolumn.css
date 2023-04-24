@@ -1,18 +1,15 @@
 article.custom-donor {
   /* background-image: url("https://cdn.shopify.com/s/files/1/0654/0335/5372/files/Group_31_5.png?v=1677005733&width=1500"); */
-/*    background-repeat: no-repeat;
+  /*    background-repeat: no-repeat;
   background-size: 50% 80%;
   position: absolute;
   width: 200%;
   height: 100%;
   background-position: 0 bottom;
   transform-origin: center bottom;  */
-
-  background-image: url('https://cdn.shopify.com/s/files/1/0654/0335/5372/files/testimonialbg_5c2e6acd-f87a-4ef1-b449-80c0ece83c72.svg?v=1678278336'); 
-  background-position: 0 bottom;
-  background-position: center;
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
   background-size: cover;
+  min-height: 64rem;
 }
 
 .multicolumn .title {
@@ -47,10 +44,7 @@ article.custom-donor {
   width: 50%;
 }
 
-.multicolumn-list__item.center
-  .multicolumn-card__image-wrapper:not(
-    .multicolumn-card__image-wrapper--full-width
-  ),
+.multicolumn-list__item.center .multicolumn-card__image-wrapper:not(.multicolumn-card__image-wrapper--full-width),
 .multicolumn-list__item:only-child {
   margin-left: auto;
   margin-right: auto;
@@ -84,11 +78,12 @@ article.custom-donor {
 }
 
 .multicolumn.background-primary .multicolumn-card {
-  background: rgb(var(--color-background))
-    linear-gradient(
-      rgba(var(--color-foreground), 0.04),
-      rgba(var(--color-foreground), 0.04)
-    );
+  background: rgb(var(--color-background)) linear-gradient(rgba(var(--color-foreground), 0.04),
+      rgba(var(--color-foreground), 0.04));
+}
+
+.multicolumn-list__item:nth-child(even) .custom-card {
+  background: linear-gradient(0deg, rgba(0, 129, 158, 0.1), rgba(0, 129, 158, 0.1)), #FFFFFF;
 }
 
 .multicolumn-list h3 {
@@ -106,7 +101,7 @@ article.custom-donor {
   margin-right: 2.5rem;
 }
 
-.multicolumn-card__info > :nth-child(2) {
+.multicolumn-card__info> :nth-child(2) {
   margin-top: 1rem;
 }
 
@@ -117,7 +112,7 @@ article.custom-donor {
 
 .multicolumn-list__item.center .media--adapt img {
   left: 50%;
-/*   transform: translateX(-50%); */
+  /*   transform: translateX(-50%); */
 }
 
 @media screen and (max-width: 749px) {
@@ -133,6 +128,7 @@ article.custom-donor {
 }
 
 @media screen and (min-width: 750px) {
+
   .multicolumn-list.slider,
   .multicolumn-list.grid--4-col-desktop {
     padding: 0;
@@ -154,7 +150,7 @@ article.custom-donor {
 }
 
 .multicolumn-card__info {
-/*   padding: 1rem; */
+  /*   padding: 1rem; */
   padding-top: 1.7rem;
   margin-left: 2.5rem;
   margin-right: 2.5rem;
@@ -171,7 +167,7 @@ article.custom-donor {
   padding-bottom: 0;
 }
 
-.background-none .multicolumn-card__image-wrapper + .multicolumn-card__info {
+.background-none .multicolumn-card__image-wrapper+.multicolumn-card__info {
   padding-top: 2.5rem;
 }
 
@@ -179,17 +175,11 @@ article.custom-donor {
   padding-left: 0.5rem;
 }
 
-.background-none
-  .slider
-  .multicolumn-card__image-wrapper
-  + .multicolumn-card__info {
+.background-none .slider .multicolumn-card__image-wrapper+.multicolumn-card__info {
   padding-left: 1.5rem;
 }
 
-.background-none
-  .multicolumn-list:not(.slider)
-  .center
-  .multicolumn-card__info {
+.background-none .multicolumn-list:not(.slider) .center .multicolumn-card__info {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
 }
@@ -203,7 +193,7 @@ article.custom-donor {
     margin-bottom: 0rem;
   }
 
-/*   .multicolumn-card__info {
+  /*   .multicolumn-card__info {
     padding-left: 2rem;
     padding-rightt: 2rem;
   } */
@@ -216,10 +206,7 @@ article.custom-donor {
   }
 
   .background-none .multicolumn-list .multicolumn-card__info,
-  .background-none
-    .multicolumn-list:not(.slider)
-    .center
-    .multicolumn-card__info {
+  .background-none .multicolumn-list:not(.slider) .center .multicolumn-card__info {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
@@ -230,16 +217,9 @@ article.custom-donor {
   box-sizing: border-box;
 }
 
-.multicolumn-card
-  > .multicolumn-card__image-wrapper--full-width:not(
-    .multicolumn-card-spacing
-  ) {
-  border-top-left-radius: calc(
-    var(--text-boxes-radius) - var(--text-boxes-border-width)
-  );
-  border-top-right-radius: calc(
-    var(--text-boxes-radius) - var(--text-boxes-border-width)
-  );
+.multicolumn-card>.multicolumn-card__image-wrapper--full-width:not(.multicolumn-card-spacing) {
+  border-top-left-radius: calc(var(--text-boxes-radius) - var(--text-boxes-border-width));
+  border-top-right-radius: calc(var(--text-boxes-radius) - var(--text-boxes-border-width));
   overflow: hidden;
 }
 
