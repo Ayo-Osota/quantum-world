@@ -20,10 +20,10 @@
         "template--16718453801196__d5520e75-a9d2-4fef-83b6-f794ccb6c5ae-16823526989c3d745f-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
+            "button_label_1": "Donate",
+            "button_link_1": "shopify:\/\/collections\/donations-pot",
             "button_style_secondary_1": false,
-            "button_label_2": "Button label",
+            "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
           }
