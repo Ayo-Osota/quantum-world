@@ -1,5 +1,52 @@
 {
   "sections": {
+    "d5520e75-a9d2-4fef-83b6-f794ccb6c5ae": {
+      "type": "hero-section",
+      "blocks": {
+        "template--16718453801196__d5520e75-a9d2-4fef-83b6-f794ccb6c5ae-16823526989c3d745f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--16718453801196__d5520e75-a9d2-4fef-83b6-f794ccb6c5ae-16823526989c3d745f-1": {
+          "type": "text",
+          "settings": {
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "text_style": "body"
+          }
+        },
+        "template--16718453801196__d5520e75-a9d2-4fef-83b6-f794ccb6c5ae-16823526989c3d745f-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16718453801196__d5520e75-a9d2-4fef-83b6-f794ccb6c5ae-16823526989c3d745f-0",
+        "template--16718453801196__d5520e75-a9d2-4fef-83b6-f794ccb6c5ae-16823526989c3d745f-1",
+        "template--16718453801196__d5520e75-a9d2-4fef-83b6-f794ccb6c5ae-16823526989c3d745f-2"
+      ],
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "ceccf1ae-f9cc-4cb3-9e59-f49f317aad19": {
       "type": "image-banner",
       "blocks": {
@@ -730,6 +777,7 @@
     }
   },
   "order": [
+    "d5520e75-a9d2-4fef-83b6-f794ccb6c5ae",
     "ceccf1ae-f9cc-4cb3-9e59-f49f317aad19",
     "5f01d18d-b57e-4efa-b09f-6c4077844df6",
     "166378005982182dfa",
