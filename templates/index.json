@@ -49,55 +49,6 @@
         "show_text_below": false
       }
     },
-    "ceccf1ae-f9cc-4cb3-9e59-f49f317aad19": {
-      "type": "image-banner",
-      "blocks": {
-        "template--16677415977196__ceccf1ae-f9cc-4cb3-9e59-f49f317aad19-1676653827d2476f23-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "GIVING TO THE NEEDY IS OUR PRIORITY",
-            "heading_size": "h0"
-          }
-        },
-        "template--16677415977196__ceccf1ae-f9cc-4cb3-9e59-f49f317aad19-1676653827d2476f23-1": {
-          "type": "text",
-          "settings": {
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "text_style": "body"
-          }
-        },
-        "template--16677415977196__ceccf1ae-f9cc-4cb3-9e59-f49f317aad19-1676653827d2476f23-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Donate",
-            "button_link_1": "shopify:\/\/collections\/donations-pot",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16677415977196__ceccf1ae-f9cc-4cb3-9e59-f49f317aad19-1676653827d2476f23-0",
-        "template--16677415977196__ceccf1ae-f9cc-4cb3-9e59-f49f317aad19-1676653827d2476f23-1",
-        "template--16677415977196__ceccf1ae-f9cc-4cb3-9e59-f49f317aad19-1676653827d2476f23-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Group_30_2.png",
-        "image_2": "shopify:\/\/shop_images\/ben-koorengevel-sjuLxUOEMY8-unsplash_2.png",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-left",
-        "show_text_box": false,
-        "desktop_content_alignment": "left",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": false
-      }
-    },
     "5f01d18d-b57e-4efa-b09f-6c4077844df6": {
       "type": "custom-liquid",
       "settings": {
@@ -780,7 +731,6 @@
   },
   "order": [
     "d5520e75-a9d2-4fef-83b6-f794ccb6c5ae",
-    "ceccf1ae-f9cc-4cb3-9e59-f49f317aad19",
     "5f01d18d-b57e-4efa-b09f-6c4077844df6",
     "166378005982182dfa",
     "eabf7cc8-89a1-425c-9903-b255796ba093",
