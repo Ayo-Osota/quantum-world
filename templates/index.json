@@ -35,16 +35,18 @@
         "template--16718453801196__d5520e75-a9d2-4fef-83b6-f794ccb6c5ae-16823526989c3d745f-2"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/Group_30_2.png",
+        "image_2": "shopify:\/\/shop_images\/ben-koorengevel-sjuLxUOEMY8-unsplash_2.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
+        "desktop_content_position": "middle-left",
         "show_text_box": true,
-        "desktop_content_alignment": "center",
+        "desktop_content_alignment": "left",
         "color_scheme": "background-1",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
-        "show_text_below": true
+        "show_text_below": false
       }
     },
     "ceccf1ae-f9cc-4cb3-9e59-f49f317aad19": {
