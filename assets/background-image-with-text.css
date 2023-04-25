@@ -1,4 +1,4 @@
-.background-image-with-text{
+.background-image-with-text {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -8,7 +8,7 @@
   padding: 0rem calc(4rem / var(--font-body-scale)) 5rem;
   position: relative;
   z-index: 1;
-  
+
 }
 
 .background-image-with-text h2 {
@@ -17,16 +17,13 @@
   font-weight: 900;
 }
 
-.
-}
-
-.background-image-with-text-content p{
+.background-image-with-text-content p {
   color: #333333;
   font-size: 1.5rem;
   background-color: orange;
 }
 
-.background-image-with-text a{
+.background-image-with-text a {
   background-color: #ffffff;
   border: 1px solid #ffffff;
   color: #002D37;
@@ -45,46 +42,51 @@
 
 
 
-.background-image-with-text a:hover{
+.background-image-with-text a:hover {
   color: #ffffff;
   cursor: pointer;
   background-color: #025f73;
   border: 1px solid #025f73;
 }
 
+.media>img {
+  position: absolute;
+  bottom: 0 !important;
+}
 
 @media screen and (max-width: 749px) {
-.background-image-with-text {
-padding: 30px 0px; 
+  .background-image-with-text {
+    padding: 30px 0px;
+  }
 }
- }
 
 /* CUSTOM MEDIA QUERY*/
-@media screen and (max-width: 749px){
+@media screen and (max-width: 749px) {
+
   /* Raffle Section*/
   .background-image-with-text h2 {
-  font-size: 3rem;
-}
-}
-
-@media screen and (max-width: 500px){
-.background-image-with-text h2 {
-/*   font-size: 2.5r; */
-  line-height: 50px;
-  margin-top: 1rem;
-}
+    font-size: 3rem;
+  }
 }
 
-@media screen and (max-width: 421px){
-/* Raffle Section*/
-.background-image-with-text h2 {
-  font-size: 7vw;
+@media screen and (max-width: 500px) {
+  .background-image-with-text h2 {
+    /*   font-size: 2.5r; */
+    line-height: 50px;
+    margin-top: 1rem;
+  }
 }
-/* Custom Image Text with Bar or Raffle Section */
-.background-image-with-text h2 {
-  margin-top: 1rem;
-  margin-left: 0rem;
-}
-  
 
+@media screen and (max-width: 421px) {
+
+  /* Raffle Section*/
+  .background-image-with-text h2 {
+    font-size: 7vw;
+  }
+
+  /* Custom Image Text with Bar or Raffle Section */
+  .background-image-with-text h2 {
+    margin-top: 1rem;
+    margin-left: 0rem;
+  }
 }

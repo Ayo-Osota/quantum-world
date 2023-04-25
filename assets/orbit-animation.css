@@ -1,3 +1,7 @@
+.image-with-text__media {
+    overflow: visible !important;
+}
+
 .orbit-wrapper {
     max-width: 474px;
     aspect-ratio: 1 !important;
@@ -7,7 +11,7 @@
 
 .orbit {
     width: 100%;
-    height: 100%;
+    aspect-ratio: 1 !important;
     border-radius: 100%;
     opacity: 0.5;
     border: 0.5px solid rgba(0, 45, 55, 0.9);
