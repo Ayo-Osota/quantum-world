@@ -105,7 +105,6 @@
                   media_width: media_width,
                   lazy_load: false
                 %}
-                {%- when 'variant_picker' -%}
                   <div class="variants-wrapper">
                     {%- unless product.has_only_default_variant -%}
                       {%- for option in product.options_with_values -%}
