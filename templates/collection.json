@@ -620,6 +620,78 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "d87653fb-47eb-4b1e-98fc-695a0daef1c2": {
+      "type": "featured-product",
+      "blocks": {
+        "template--16718454292716__d87653fb-47eb-4b1e-98fc-695a0daef1c2-1682521375ee30fc0b-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "template--16718454292716__d87653fb-47eb-4b1e-98fc-695a0daef1c2-1682521375ee30fc0b-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "template--16718454292716__d87653fb-47eb-4b1e-98fc-695a0daef1c2-1682521375ee30fc0b-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "template--16718454292716__d87653fb-47eb-4b1e-98fc-695a0daef1c2-1682521375ee30fc0b-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--16718454292716__d87653fb-47eb-4b1e-98fc-695a0daef1c2-1682521375ee30fc0b-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "template--16718454292716__d87653fb-47eb-4b1e-98fc-695a0daef1c2-1682521375ee30fc0b-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "template--16718454292716__d87653fb-47eb-4b1e-98fc-695a0daef1c2-1682521375ee30fc0b-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "template--16718454292716__d87653fb-47eb-4b1e-98fc-695a0daef1c2-1682521375ee30fc0b-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "template--16718454292716__d87653fb-47eb-4b1e-98fc-695a0daef1c2-1682521375ee30fc0b-0",
+        "template--16718454292716__d87653fb-47eb-4b1e-98fc-695a0daef1c2-1682521375ee30fc0b-1",
+        "template--16718454292716__d87653fb-47eb-4b1e-98fc-695a0daef1c2-1682521375ee30fc0b-2",
+        "template--16718454292716__d87653fb-47eb-4b1e-98fc-695a0daef1c2-1682521375ee30fc0b-3",
+        "template--16718454292716__d87653fb-47eb-4b1e-98fc-695a0daef1c2-1682521375ee30fc0b-4",
+        "template--16718454292716__d87653fb-47eb-4b1e-98fc-695a0daef1c2-1682521375ee30fc0b-5",
+        "template--16718454292716__d87653fb-47eb-4b1e-98fc-695a0daef1c2-1682521375ee30fc0b-6",
+        "template--16718454292716__d87653fb-47eb-4b1e-98fc-695a0daef1c2-1682521375ee30fc0b-7"
+      ],
+      "settings": {
+        "product": "womens-quantm-fitted-hoodie-3",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -641,6 +713,7 @@
     "dff70948-589c-4798-84ee-1d0c25a18b08",
     "09c353ec-c8e5-4977-9716-e7d4a6cc5a83",
     "4a8eeafe-f6a4-44f0-a0f7-133b65af27c3",
-    "130498a8-e259-4eb6-87b5-4a5bc8845973"
+    "130498a8-e259-4eb6-87b5-4a5bc8845973",
+    "d87653fb-47eb-4b1e-98fc-695a0daef1c2"
   ]
 }
