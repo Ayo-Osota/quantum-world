@@ -54,8 +54,12 @@
         id="MediaGallery-{{ section.id }}"
         role="region"
         {% if section.settings.enable_sticky_info %}
-          class="product__media-gallery"
+          class="product__media-gallery 
+          {% if product.media.size > 1 %} 
+          product__media-gallery product__media-grid
+        {% endif %}"
         {% endif %}
+
         aria-label="{{ 'products.product.media.gallery_viewer' | t }}"
         data-desktop-layout="{{ section.settings.gallery_layout }}"
       >
@@ -105,120 +109,19 @@
                   media_width: media_width,
                   lazy_load: false
                 %}
-                  <div class="variants-wrapper">
-                    {%- unless product.has_only_default_variant -%}
-                      {%- for option in product.options_with_values -%}
-                        {%- unless option.name == 'Color' -%}
-                          <variant-selects
-                            class="no-js-hidden"
-                            data-section="{{ section.id }}"
-                            data-url="{{ product.url }}"
-                            {{ block.shopify_attributes }}
-                          >
-                            <div class="product-form__input product-form__input--dropdown">
-                              <label class="form__label" for="Option-{{ section.id }}-{{ forloop.index0 }}">
-                                {{ option.name }}
-                              </label>
-                              <div class="select">
-                                <select
-                                  id="Option-{{ section.id }}-{{ forloop.index0 }}"
-                                  class="select__select"
-                                  name="options[{{ option.name | escape }}]"
-                                  form="{{ product_form_id }}"
-                                >
-                                  {%- for value in option.values -%}
-                                    <option
-                                      value="{{ value | escape }}"
-                                      {% if option.selected_value == value %}
-                                        selected="selected"
-                                      {% endif %}
-                                    >
-                                      {{ value }}
-                                    </option>
-                                  {%- endfor -%}
-                                </select>
-                                {% render 'icon-caret' %}
-                              </div>
-                            </div>
-    
-                            <script type="application/json">
-                              {{ product.variants | json }}
-                            </script>
-                          </variant-selects>
-    
-                        {%- else -%}
-                          <variant-radios
-                            class="no-js-hidden"
-                            data-section="{{ section.id }}"
-                            data-url="{{ product.url }}"
-                            {{ block.shopify_attributes }}
-                          >
-                            <fieldset class="product-variant js product-form__input">
-                              <div class="">
-                              <legend class="product-info-color form__label">{{ option.name }}: <span class="color-value"> {{ option.selected_value }} <span> </legend>
-                                <div class="color-pills-wrapper">
-                                {%- for value in option.values -%}
-                                  <input
-                                    type="radio"
-                                    id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
-                                    name="{{ option.name }}"
-                                    value="{{ value | escape }}"
-                                    form="{{ product_form_id }}"
-                                    {% if option.selected_value == value %}
-                                      checked
-                                    {% endif %}
-                                  >
-                                  <label
-                                    class="color-pills"
-                                    style="background-color: {{ value }}"
-                                    for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
-                                  >
-                                  </label>
-                                {%- endfor -%}
-                              </div>
-                              </div>
-                            </fieldset>
-    
-                            <script type="application/json">
-                              {{ product.variants | json }}
-                            </script>
-                          </variant-radios>
-                        {%- endunless -%}
-                      {%- endfor -%}
-                    {%- endunless -%}
-    
-                    <noscript class="product-form__noscript-wrapper-{{ section.id }}">
-                      <div class="product-form__input{% if product.has_only_default_variant %} hidden{% endif %}">
-                        <label class="form__label" for="Variants-{{ section.id }}">
-                          {{- 'products.product.product_variants' | t -}}
-                        </label>
-                        <div class="select">
-                          <select
-                            name="id"
-                            id="Variants-{{ section.id }}"
-                            class="select__select"
-                            form="{{ product_form_id }}"
-                          >
-                            {%- for variant in product.variants -%}
-                              <option
-                                {% if variant == product.selected_or_first_available_variant %}
-                                  selected="selected"
-                                {% endif %}
-                                {% if variant.available == false %}
-                                  disabled
-                                {% endif %}
-                                value="{{ variant.id }}"
-                              >
-                                {{ variant.title }}
-                                {%- if variant.available == false %} - {{ 'products.product.sold_out' | t }}{% endif %}
-                                - {{ variant.price | money | strip_html }}
-                              </option>
-                            {%- endfor -%}
-                          </select>
-                          {% render 'icon-caret' %}
+                <div class="color-pills-wrapper media-color-pills-wrapper">
+                  {%- for option in product.options_with_values -%}
+                    {%- if option.name == 'Color' -%}
+                      {%- for value in option.values -%}
+                        <div
+                          class="color-pills"
+                          style="background-color: {{ value }}"
+                          for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
+                        >
                         </div>
-                      </div>
-                    </noscript>
+                      {%- endfor -%}
+                    {%- endif -%}
+                    {%- endfor -%}
                   </div>
               </li>
             {%- endif -%}
@@ -610,7 +513,7 @@
               </share-button>
               <script src="{{ 'share.js' | asset_url }}" defer="defer"></script>
 
-            {%- when 'variant_picker' -%}
+              {%- when 'variant_picker' -%}
                 {%- unless product.has_only_default_variant -%}
                   {%- for option in product.options_with_values -%}
                     {%- unless option.name == 'Color' -%}
@@ -620,7 +523,8 @@
                         data-url="{{ product.url }}"
                         {{ block.shopify_attributes }}
                       >
-                        <div class="product-form__input product-form__input--dropdown">
+                        {%- for option in product.options_with_values -%}
+                        <div class="select-variant product-form__input product-form__input--dropdown">
                           <label class="form__label" for="Option-{{ section.id }}-{{ forloop.index0 }}">
                             {{ option.name }}
                           </label>
@@ -645,6 +549,7 @@
                             {% render 'icon-caret' %}
                           </div>
                         </div>
+                      {%- endfor -%}
 
                         <script type="application/json">
                           {{ product.variants | json }}
@@ -658,7 +563,8 @@
                         data-url="{{ product.url }}"
                         {{ block.shopify_attributes }}
                       >
-                        <fieldset class="product-variant js product-form__input">
+                        {%- for option in product.options_with_values -%}
+                        <fieldset class="pill-variant product-variant js product-form__input">
                           <div class="">
                           <legend class="product-info-color form__label">{{ option.name }}: <span class="color-value"> {{ option.selected_value }} <span> </legend>
                             <div class="color-pills-wrapper">
@@ -674,6 +580,7 @@
                                 {% endif %}
                               >
                               <label
+                                onClick={{location.reload()}}
                                 class="color-pills"
                                 style="background-color: {{ value }}"
                                 for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
@@ -681,8 +588,9 @@
                               </label>
                             {%- endfor -%}
                           </div>
-                          </div>
-                        </fieldset>
+                        </div>
+                      </fieldset>
+                    {%- endfor -%}
 
                         <script type="application/json">
                           {{ product.variants | json }}
