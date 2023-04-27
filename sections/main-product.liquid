@@ -48,6 +48,10 @@
     >
   {%- endif -%}
 
+  <div class="page-hero"><h6>
+    <span class="link-wrapper"><a href="/">Home</a>/<a href="/products">Online store</a>/</span><span class=page-hero-title>{{ product.title | escape }}</span>
+  </h6></div>
+
   <div class="product product--{{ section.settings.media_size }} product--{{ section.settings.gallery_layout }} grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
     <div class="grid__item product__media-wrapper">
       <media-gallery
@@ -115,7 +119,23 @@
                       {%- for value in option.values -%}
                         <div
                           class="color-pills"
-                          style="background-color: {{ value }}"
+                          style="background-color:
+                          {% assign lowercase_value = value | downcase %}
+                                 {%- if lowercase_value == "silver grey" -%} 
+                                 #808080
+                                 {%- elsif lowercase_value == "light steel" -%}
+                                 #b0c4de
+                                 {%- elsif lowercase_value == "charcoal heather" -%}
+                                 #cfc8bf
+                                 {%- elsif lowercase_value == "scarlet" -%}
+                                 #FF2400
+                                 {%- elsif lowercase_value == "royal" -%}
+                                 #4169e1
+                                 {%- elsif lowercase_value == "burnt" -%}
+                                 #6E260E
+                                 {% else %} 
+                                 {{- lowercase_value | remove:" " -}}
+                              {% endif %}"
                           for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
                         >
                         </div>
@@ -581,7 +601,23 @@
                               >
                               <label
                                 class="color-pills"
-                                style="background-color: {{ value }}"
+                                style="background-color:
+                                {% assign lowercase_value = value | downcase %}
+                                 {%- if lowercase_value == "silver grey" -%} 
+                                 #808080
+                                 {%- elsif lowercase_value == "light steel" -%}
+                                 #b0c4de
+                                 {%- elsif lowercase_value == "charcoal heather" -%}
+                                 #cfc8bf
+                                 {%- elsif lowercase_value == "scarlet" -%}
+                                 #FF2400
+                                 {%- elsif lowercase_value == "royal" -%}
+                                 #4169e1
+                                 {%- elsif lowercase_value == "burnt" -%}
+                                 #6E260E
+                                 {% else %} 
+                                 {{- lowercase_value | remove:" " -}}
+                              {% endif %}"
                                 for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
                               >
                               </label>

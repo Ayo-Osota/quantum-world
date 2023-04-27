@@ -43,9 +43,13 @@
 
 .color-pills-wrapper {
     display: flex;
+    flex-wrap: wrap;
     background: #F5F5F5;
     padding: 7px 12px;
+    align-items: center;
+    justify-content: flex-start;
     gap: 3rem;
+    width: 215px;
 }
 
 .media-color-pills-wrapper {
@@ -69,5 +73,13 @@
     display: none !important;
 }
 
+.page-hero a, .page-hero .link-wrapper {
+    color: rgba(0, 45, 55, 0.2);
+    transition: 0.4s;
+}
 
-
+.page-hero-title,
+.page-hero a:hover, 
+.page-hero a:focus {
+    color: rgba(0, 45, 55);
+}
