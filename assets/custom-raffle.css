@@ -656,3 +656,8 @@ padding: 30px 0px;
 }
 
  }
+
+ .section-m {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+ }

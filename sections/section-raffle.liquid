@@ -13,33 +13,33 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
-  
 {%- endstyle -%}
 
+<div class="section-p section-m page-width image-with-text image-with-text--{{ section.settings.content_layout }}">
 
-<div class="section-p section-m image-with-text image-with-text--{{ section.settings.content_layout }}">
- 
-    <div class="page-width section-{{ section.id }}-padding isolate">
+  <!--
+    <div class="section-4 custom-section-4 image-with-text image-with-text--{{ section.settings.content_layout }}">
+  -->
 
-<!--  <div class="section-4 custom-section-4 image-with-text image-with-text--{{ section.settings.content_layout }}"> -->
-
-
-
-  
   <div class="image-with-text__grid grid grid--gapless grid--1-col grid--{% if section.settings.desktop_image_width == 'medium' %}2-col-tablet{% else %}3-col-tablet{% endif %}{% if section.settings.layout == 'text_first' %} image-with-text__grid--reverse{% endif %}">
     <div class="image-with-text__media-item image-with-text__media-item--{{ section.settings.desktop_image_width }} image-with-text__media-item--{{ section.settings.desktop_content_position }} grid__item">
-      <div class="image-with-text__media image-with-text__media--{{ section.settings.height }} gradient color-{{ section.settings.color_scheme }} {% if section.settings.image != blank %}media{% else %}image-with-text__media--placeholder placeholder{% endif %}"
-        {% if section.settings.height == 'adapt' and section.settings.image != blank %} style="padding-bottom: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;"{% endif %}
+      <div
+        class="image-with-text__media image-with-text__media--{{ section.settings.height }} gradient color-{{ section.settings.color_scheme }} {% if section.settings.image != blank %}media{% else %}image-with-text__media--placeholder placeholder{% endif %}"
+        {% if section.settings.height == 'adapt' and section.settings.image != blank %}
+          style="padding-bottom: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;"
+        {% endif %}
       >
         {%- if section.settings.image != blank -%}
           <img
-            srcset="{%- if section.settings.image.width >= 165 -%}{{ section.settings.image | image_url: width: 165 }} 165w,{%- endif -%}
+            srcset="
+              {%- if section.settings.image.width >= 165 -%}{{ section.settings.image | image_url: width: 165 }} 165w,{%- endif -%}
               {%- if section.settings.image.width >= 360 -%}{{ section.settings.image | image_url: width: 360 }} 360w,{%- endif -%}
               {%- if section.settings.image.width >= 535 -%}{{ section.settings.image | image_url: width: 535 }} 535w,{%- endif -%}
               {%- if section.settings.image.width >= 750 -%}{{ section.settings.image | image_url: width: 750 }} 750w,{%- endif -%}
               {%- if section.settings.image.width >= 1070 -%}{{ section.settings.image | image_url: width: 1070 }} 1070w,{%- endif -%}
               {%- if section.settings.image.width >= 1500 -%}{{ section.settings.image | image_url: width: 1500 }} 1500w,{%- endif -%}
-              {{ section.settings.image | image_url }} {{ section.settings.image.width }}w"
+              {{ section.settings.image | image_url }} {{ section.settings.image.width }}w
+            "
             src="{{ section.settings.image | image_url: width: 1500 }}"
             sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
             alt="{{ section.settings.image.alt | escape }}"
@@ -53,101 +53,183 @@
       </div>
     </div>
     <div class="image-with-text__text-item grid__item">
-      <div id="custom-funds-section ImageWithText--{{ section.id }}" class="raffle-image-with-text image-with-text image-with-text__content--{{ section.settings.desktop_content_position }} image-with-text__content--desktop-{{ section.settings.desktop_content_alignment }} image-with-text__content--mobile-{{ section.settings.mobile_content_alignment }} image-with-text__content--{{ section.settings.height }} gradient color-{{ section.settings.color_scheme }} content-container">
+      <div
+        id="custom-funds-section ImageWithText--{{ section.id }}"
+        class="raffle-image-with-text image-with-text image-with-text__content--{{ section.settings.desktop_content_position }} image-with-text__content--desktop-{{ section.settings.desktop_content_alignment }} image-with-text__content--mobile-{{ section.settings.mobile_content_alignment }} image-with-text__content--{{ section.settings.height }} gradient color-{{ section.settings.color_scheme }} content-container"
+      >
         {%- for block in section.blocks -%}
           {% case block.type %}
             {%- when 'heading' -%}
-              <h2 class="custom-raffle-h2 image-with-text__heading {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+              <h2
+                class="custom-raffle-h2 image-with-text__heading {{ block.settings.heading_size }}"
+                {{ block.shopify_attributes }}
+              >
                 {{ block.settings.heading | escape }}
               </h2>
             {%- when 'caption' -%}
-              <p class="image-with-text__text image-with-text__text--caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }} {{ block.settings.text_style }}" {{ block.shopify_attributes }}>{{ block.settings.caption | escape }}</p>
-            {%- when 'text' -%}
-              <div class="raffle-description more-description image-with-text__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
-<!--  Progress Bar START -->
-        <div  class="raffle-caption"><p>Steps to get your raffle Ticket</p></div>
-      <div class="stepper-wrapper">
-        <div class="stepper-item completed active">
-          <a href="/pages/raffle-participant-details" class="raffle-a">
-            <div class="step-counter">1</div>
-            <div class="step-name"><p>Fill Details</p></div>
-          </a>
-        </div>
-        <div class="stepper-item completed">
-          <a href="/pages/raffle-survey-form" class="raffle-a">
-          <div class="step-counter">2</div>
-          <div class="step-name"><p>Fill Surveys</p></div>
-          </a>
-        </div>
-        <div class="stepper-item completed">
-          <a href="/pages/raffle-social-form" class="raffle-a">
-          <div class="step-counter">3</div>
-          <div class="step-name"><p>Follow our social media</p></div>
-          </a>
-        </div>
-        <div class="stepper-item completed">
-          <a href="/pages/" class="raffle-a">
-          <div class="step-counter">4</div>
-          <div class="step-name"><p>Share page  & Drop proof</p></div>
-          </a>
-        </div>
-      </div>
-<!--  Progress Bar END-->
+              <p
+                class="image-with-text__text image-with-text__text--caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }} {{ block.settings.text_style }}"
+                {{ block.shopify_attributes }}
+              >
+                {{ block.settings.caption | escape }}
+              </p>
+            {%- when 'progress_bar' -%}
+              <div
+                class="raffle-description more-description image-with-text__text rte {{ block.settings.text_style }}"
+                {{ block.shopify_attributes }}
+              >
+                {{ block.settings.text }}
+              </div>
+              <!-- Progress Bar START -->
+              <div class="raffle-caption"><p>Steps to get your raffle Ticket</p></div>
+              <div class="stepper-wrapper">
+                {%- if block.settings.progress_1 != blank -%}
+                  <div class="stepper-item completed active">
+                      <div class="step-counter">1</div>
+                      <div class="step-name">
+                        <p>{{ block.settings.progress_1 | escape }}</p>
+                      </div>
+                  </div>
+                {%- endif -%}
+                {%- if block.settings.progress_2 != blank -%}
+                  <div class="stepper-item completed active">
+                      <div class="step-counter">2</div>
+                      <div class="step-name">
+                        <p>{{ block.settings.progress_2 | escape }}</p>
+                      </div>
+                  </div>
+                {%- endif -%}
+                {%- if block.settings.progress_3 != blank -%}
+                  <div class="stepper-item completed active">
+                      <div class="step-counter">3</div>
+                      <div class="step-name">
+                        <p>{{ block.settings.progress_3 | escape }}</p>
+                      </div>
+                  </div>
+                {%- endif -%}
+                {%- if block.settings.progress_4 != blank -%}
+                  <div class="stepper-item completed active">
+                      <div class="step-counter">4</div>
+                      <div class="step-name">
+                        <p>{{ block.settings.progress_4 }}</p>
+                      </div>
+                  </div>
+                {%- endif -%}
+              </div>
+              <!-- Progress Bar END -->
 
-<!--  Countdown START-->
-<script src="https://cdn.logwork.com/widget/countdown.js"></script>
-<a href="https://logwork.com/countdown-y5yt" class="countdown-timer" data-style="columns" data-timezone="Europe/London" data-textcolor="#002d37" data-date="2023-04-09 18:00" data-background="#ffffff" data-digitscolor="#002d37" data-unitscolor="#002d37">.</a>
-
-<!--         <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-<div class="elfsight-app-b9d769d3-ae05-446f-922f-ebc233898d85"></div> -->
-<!--   <div class="timer-display">
-    <div class="timer-block">
-      <span class="timer-block__num js-timer-days">00</span>
-      <span class="timer-block__unit">Days</span>
-    </div>
-    <div class="timer-block">
-      <span class="timer-block__num js-timer-hours">00</span>
-      <span class="timer-block__unit">Hours</span>
-    </div>
-    <div class="timer-block">
-      <span class="timer-block__num js-timer-minutes">00</span>
-      <span class="timer-block__unit">Minutes</span>
-    </div>
-    <div class="timer-block">
-      <span class="timer-block__num js-timer-seconds">00</span>
-      <span class="timer-block__unit">Seconds</span>
-    </div>
-  </div>
-</div> -->
-<!--  Countdown END-->
-<!-- Entries START -->
-        <div class="raffle-entry-outter">
-          <div class="raffle-entries-container">
-          <div class="user-entries">
-            <p>0 my Entry</p>
-          </div>
-          <div class="raffle-entries">
-            <p>32 Entries</p>
-          </div>
-        </div>
-        </div>
-<!-- Entries END -->
+              <!-- Countdown START -->
+              {%- when 'countdown_timer' -%}
+                {% if block.settings.end_date != blank %}
+                  <div class="timer">
+                    <div class="timer-display">
+                      <div class="timer-block">
+                        <span class="timer-block__num js-timer-days">00</span>
+                        <span class="timer-block__unit">Days</span>
+                      </div>
+                      <div class="timer-block">
+                        <span class="timer-block__num js-timer-hours">00</span>
+                        <span class="timer-block__unit">Hours</span>
+                      </div>
+                      <div class="timer-block">
+                        <span class="timer-block__num js-timer-minutes">00</span>
+                        <span class="timer-block__unit">Minutes</span>
+                      </div>
+                      <div class="timer-block">
+                        <span class="timer-block__num js-timer-seconds">00</span>
+                        <span class="timer-block__unit">Seconds</span>
+                      </div>
+                    </div>
+                  </div>
+                  <style>
+                  /* styles for timer */
+                    .timer {
+                      background: #f6fafd;
+                      padding: 10px;
+                      margin: 10px 0;
+                    }
+                    .timer--expired {
+                      display: none;
+                    }
+                    .timer__title {
+                      @extend .paragraph;
+                      text-align: center;
+                    }
+                    .timer-display {
+                      display: -webkit-box;
+                      display: -ms-flexbox;
+                      display: flex;
+                      -ms-flex-wrap: wrap;
+                          flex-wrap: wrap;
+                      -webkit-box-pack: justify;
+                          -ms-flex-pack: justify;
+                              justify-content: space-between;
+                      margin-top: 5px;
+                    }
+                    .timer-block {
+                      position: relative;
+                      width: 25%;
+                      padding: 0 10px;
+                      &:not(:last-child):after {
+                        content: ':';
+                        position: absolute;
+                        right: 0;
+                        top: 3px;
+                      }
+                    }
+                    .timer-block__num,
+                    .timer-block__unit {
+                      display: block;
+                      text-align: center;
+                    }
+                  </style>
+                  <script type="text/javascript">
+                    var second = 1000,
+                        minute = second * 60,
+                        hour = minute * 60,
+                        day = hour * 24;
+                    var countDown = new Date('{{- block.settings.end_date -}}').getTime(),
+                        x = setInterval(function() {
+                        var now = new Date().getTime(),
+                            distance = countDown - now;
+                        document.querySelector('.js-timer-days').innerText = Math.floor(distance / (day)),
+                          document.querySelector('.js-timer-hours').innerText = Math.floor((distance % (day)) / (hour)),
+                        document.querySelector('.js-timer-minutes').innerText = Math.floor((distance % (hour)) / (minute)),
+                        document.querySelector('.js-timer-seconds').innerText = Math.floor((distance % (minute)) / second);
+                      }, second)
+                  </script>
+                {% endif %}
+              <!-- Countdown END -->
+              <!-- Entries START -->
+              {%- when 'entries' -%}
+              <div class="raffle-entry-outter">
+                <div class="raffle-entries-container">
+                  <div class="raffle-entries">
+                    <p>Total Entries : {{block.settings.total_entries}}</p>
+                  </div>
+                </div>
+              </div>
+              <!-- Entries END -->
 
             {%- when 'button' -%}
               {%- if block.settings.button_label != blank -%}
-                <a{% if block.settings.button_link == blank %} role="link" aria-disabled="true"{% else %} href="{{ block.settings.button_link }}"{% endif %} class="main-raffle-button button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}" {{ block.shopify_attributes }}>
+                <a
+                  {% if block.settings.button_link == blank %}
+                    role="link" aria-disabled="true"
+                  {% else %}
+                    href="{{ block.settings.button_link }}"
+                  {% endif %}
+                  class="main-raffle-button button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
+                  {{ block.shopify_attributes }}
+                >
                   {{ block.settings.button_label | escape }}
                 </a>
-              {%- endif -%}            
+              {%- endif -%}
           {%- endcase -%}
-        
         {%- endfor -%}
       </div>
     </div>
   </div>
-
-</div>
-  
 </div>
 
 {% schema %}
@@ -360,7 +442,7 @@
         {
           "type": "text",
           "id": "heading",
-          "default": "Image with text",
+          "default": "New Raffle",
           "label": "t:sections.custom-raffle.blocks.heading.settings.heading.label"
         },
         {
@@ -393,7 +475,7 @@
         {
           "type": "text",
           "id": "caption",
-          "default": "Add a tagline",
+          "default": "Add a tagline/description",
           "label": "t:sections.custom-raffle.blocks.caption.settings.text.label"
         },
         {
@@ -435,13 +517,31 @@
       ]
     },
     {
-      "type": "text",
-      "name": "t:sections.custom-raffle.blocks.text.name",
+      "type": "progress_bar",
+      "name": "Progress bar",
       "limit": 1,
       "settings": [
         {
           "type": "richtext",
-          "id": "text",
+          "id": "progress_1",
+          "default": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+          "label": "t:sections.custom-raffle.blocks.text.settings.text.label"
+        },
+        {
+          "type": "richtext",
+          "id": "progress_2",
+          "default": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+          "label": "t:sections.custom-raffle.blocks.text.settings.text.label"
+        },
+        {
+          "type": "richtext",
+          "id": "progress_3",
+          "default": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+          "label": "t:sections.custom-raffle.blocks.text.settings.text.label"
+        },
+        {
+          "type": "richtext",
+          "id": "progress_4",
           "default": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
           "label": "t:sections.custom-raffle.blocks.text.settings.text.label"
         },
@@ -460,6 +560,33 @@
           ],
           "default": "body",
           "label": "t:sections.custom-raffle.blocks.text.settings.text_style.label"
+        }
+      ]
+    },
+    {
+      "type": "countdown_timer",
+      "name": "Countdown Timer",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "end_date",
+          "default": "00:00 Sep 30, 2024",
+          "label": "Giveaway End Date",
+          "info": "Input the end date of the giveaway event"
+        }
+      ]
+    },
+    {
+      "type": "entries",
+      "name": "Entries",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "total_entries",
+          "default": "00",
+          "label": "Total entries"
         }
       ]
     },
@@ -491,7 +618,13 @@
           "type": "heading"
         },
         {
-          "type": "text"
+          "type": "progress_bar"
+        },
+        {
+          "type": "countdown_timer"
+        },
+        {
+          "type": "entries"
         },
         {
           "type": "button"
