@@ -1,7 +1,7 @@
 {
   "sections": {
-    "main": {
-      "type": "main-page",
+    "raffle": {
+      "type": "section-raffle",
       "custom_css": [
         "h1 {color: #16194F;}",
         "p {color: #000000;}"
@@ -13,6 +13,6 @@
     }
   },
   "order": [
-    "main"
+    "raffle"
   ]
 }
