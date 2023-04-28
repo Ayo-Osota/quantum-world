@@ -21,10 +21,10 @@
         "9aff0a32-a6d1-4689-a23a-4dc089ffded5": {
           "type": "progress_bar",
           "settings": {
-            "progress_1": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "progress_2": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "progress_3": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "progress_4": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "progress_1": "<p>Fill Details<\/p>",
+            "progress_2": "<p>Fill Survey<\/p>",
+            "progress_3": "<p>Follow our social media<\/p>",
+            "progress_4": "<p>Share page  & Drop proof<\/p>",
             "text_style": "body"
           }
         },
