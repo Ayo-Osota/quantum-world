@@ -50,8 +50,8 @@
         "c1b627f2-273e-4ef1-867b-5e105861014d": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "Enter Giveaway",
+            "button_link": "shopify:\/\/pages\/test-giveaway"
           }
         }
       },
