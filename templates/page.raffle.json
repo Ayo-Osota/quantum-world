@@ -2,11 +2,81 @@
   "sections": {
     "raffle": {
       "type": "section-raffle",
+      "blocks": {
+        "8d4ccf52-76c8-405e-8225-1d68bc8cfdef": {
+          "type": "heading",
+          "settings": {
+            "heading": "New Raffle",
+            "heading_size": "h1"
+          }
+        },
+        "c05670dd-a478-448a-82ed-8341f9bfa5eb": {
+          "type": "caption",
+          "settings": {
+            "caption": "Add a tagline\/description",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "9aff0a32-a6d1-4689-a23a-4dc089ffded5": {
+          "type": "progress_bar",
+          "settings": {
+            "progress_1": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "progress_2": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "progress_3": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "progress_4": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "3000b601-8a9b-4cd4-98c5-5a2caf144278": {
+          "type": "countdown_timer",
+          "settings": {
+            "end_date": "00:00 Sep 30, 2024"
+          }
+        },
+        "9e40eef0-5faa-48fd-a370-b83e30c5fa4d": {
+          "type": "entries",
+          "settings": {
+            "total_entries": "00"
+          }
+        },
+        "6fb3e636-de14-4719-827c-e620ce3a5a4a": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read rules and Eligibility",
+            "button_link": ""
+          }
+        },
+        "c1b627f2-273e-4ef1-867b-5e105861014d": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "8d4ccf52-76c8-405e-8225-1d68bc8cfdef",
+        "c05670dd-a478-448a-82ed-8341f9bfa5eb",
+        "9aff0a32-a6d1-4689-a23a-4dc089ffded5",
+        "3000b601-8a9b-4cd4-98c5-5a2caf144278",
+        "9e40eef0-5faa-48fd-a370-b83e30c5fa4d",
+        "6fb3e636-de14-4719-827c-e620ce3a5a4a",
+        "c1b627f2-273e-4ef1-867b-5e105861014d"
+      ],
       "custom_css": [
-        "h1 {color: #16194F;}",
+        "h1 {color: #16194f;}",
         "p {color: #000000;}"
       ],
       "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
         "padding_top": 28,
         "padding_bottom": 28
       }
