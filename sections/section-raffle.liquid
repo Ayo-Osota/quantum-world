@@ -1,6 +1,21 @@
 {{ 'component-image-with-text.css' | asset_url | stylesheet_tag }}
 {{ 'custom-raffle.css' | asset_url | stylesheet_tag }}
 
+<style>
+  .raffle-image-container {
+    background: url({{ 'concentric-circles.svg' | asset_url }}) no-repeat center center;
+    background-size: contain;
+  }
+
+  .image-with-text__grid {
+  position: relative;
+}
+
+.rules-container {
+  background-image: url({{ 'testimony-bg.png' | asset_url }});
+}
+</style>
+
 {%- style -%}
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
@@ -16,15 +31,14 @@
 {%- endstyle -%}
 
 <div class="section-p section-m page-width image-with-text image-with-text--{{ section.settings.content_layout }}">
-
   <!--
     <div class="section-4 custom-section-4 image-with-text image-with-text--{{ section.settings.content_layout }}">
   -->
 
   <div class="image-with-text__grid grid grid--gapless grid--1-col grid--{% if section.settings.desktop_image_width == 'medium' %}2-col-tablet{% else %}3-col-tablet{% endif %}{% if section.settings.layout == 'text_first' %} image-with-text__grid--reverse{% endif %}">
-    <div class="image-with-text__media-item image-with-text__media-item--{{ section.settings.desktop_image_width }} image-with-text__media-item--{{ section.settings.desktop_content_position }} grid__item">
+    <div class="raffle-image-container image-with-text__media-item image-with-text__media-item--{{ section.settings.desktop_image_width }} image-with-text__media-item--{{ section.settings.desktop_content_position }} grid__item">
       <div
-        class="image-with-text__media image-with-text__media--{{ section.settings.height }} gradient color-{{ section.settings.color_scheme }} {% if section.settings.image != blank %}media{% else %}image-with-text__media--placeholder placeholder{% endif %}"
+        class="raffle-image-wrapper image-with-text__media image-with-text__media--{{ section.settings.height }} gradient color-{{ section.settings.color_scheme }} {% if section.settings.image != blank %}media{% else %}image-with-text__media--placeholder placeholder{% endif %}"
         {% if section.settings.height == 'adapt' and section.settings.image != blank %}
           style="padding-bottom: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;"
         {% endif %}
@@ -85,152 +99,175 @@
               <div class="stepper-wrapper">
                 {%- if block.settings.progress_1 != blank -%}
                   <div class="stepper-item completed active">
-                      <div class="step-counter">1</div>
-                      <div class="step-name">
-                        <p>{{ block.settings.progress_1 }}</p>
-                      </div>
+                    <div class="step-counter">1</div>
+                    <div class="step-name">
+                      <p>{{ block.settings.progress_1 }}</p>
+                    </div>
                   </div>
                 {%- endif -%}
                 {%- if block.settings.progress_2 != blank -%}
                   <div class="stepper-item completed active">
-                      <div class="step-counter">2</div>
-                      <div class="step-name">
-                        <p>{{ block.settings.progress_2 }}</p>
-                      </div>
+                    <div class="step-counter">2</div>
+                    <div class="step-name">
+                      <p>{{ block.settings.progress_2 }}</p>
+                    </div>
                   </div>
                 {%- endif -%}
                 {%- if block.settings.progress_3 != blank -%}
                   <div class="stepper-item completed active">
-                      <div class="step-counter">3</div>
-                      <div class="step-name">
-                        <p>{{ block.settings.progress_3 }}</p>
-                      </div>
+                    <div class="step-counter">3</div>
+                    <div class="step-name">
+                      <p>{{ block.settings.progress_3 }}</p>
+                    </div>
                   </div>
                 {%- endif -%}
                 {%- if block.settings.progress_4 != blank -%}
                   <div class="stepper-item completed active">
-                      <div class="step-counter">4</div>
-                      <div class="step-name">
-                        <p>{{ block.settings.progress_4 }}</p>
-                      </div>
+                    <div class="step-counter">4</div>
+                    <div class="step-name">
+                      <p>{{ block.settings.progress_4 }}</p>
+                    </div>
                   </div>
                 {%- endif -%}
               </div>
               <!-- Progress Bar END -->
 
               <!-- Countdown START -->
-              {%- when 'countdown_timer' -%}
-                {% if block.settings.end_date != blank %}
-                  <div class="timer">
-                    <div class="timer-display">
-                      <div class="timer-block">
-                        <span class="timer-block__num js-timer-days">00</span>
-                        <span class="timer-block__unit">Days</span>
-                      </div>
-                      <div class="timer-block">
-                        <span class="timer-block__num js-timer-hours">00</span>
-                        <span class="timer-block__unit">Hours</span>
-                      </div>
-                      <div class="timer-block">
-                        <span class="timer-block__num js-timer-minutes">00</span>
-                        <span class="timer-block__unit">Minutes</span>
-                      </div>
-                      <div class="timer-block">
-                        <span class="timer-block__num js-timer-seconds">00</span>
-                        <span class="timer-block__unit">Seconds</span>
-                      </div>
+            {%- when 'countdown_timer' -%}
+              {% if block.settings.end_date != blank %}
+                <div class="timer">
+                  <div class="timer-display">
+                    <div class="timer-block">
+                      <span class="timer-block__num js-timer-days">00</span>
+                      <span class="timer-block__unit">days</span>
+                    </div>
+                    <span class="timer-block__colon">:</span>
+                    <div class="timer-block">
+                      <span class="timer-block__num js-timer-hours">00</span>
+                      <span class="timer-block__unit">hrs</span>
+                    </div>
+                    <span class="timer-block__colon">:</span>
+                    <div class="timer-block">
+                      <span class="timer-block__num js-timer-minutes">00</span>
+                      <span class="timer-block__unit">min</span>
+                    </div>
+                    <span class="timer-block__colon">:</span>
+                    <div class="timer-block">
+                      <span class="timer-block__num js-timer-seconds">00</span>
+                      <span class="timer-block__unit">secs</span>
                     </div>
                   </div>
-                  <style>
-                  /* styles for timer */
-                    .timer {
-                      background: #f6fafd;
-                      padding: 10px;
-                      margin: 10px 0;
-                    }
-                    .timer--expired {
-                      display: none;
-                    }
-                    .timer__title {
-                      @extend .paragraph;
-                      text-align: center;
-                    }
-                    .timer-display {
-                      display: -webkit-box;
-                      display: -ms-flexbox;
-                      display: flex;
-                      -ms-flex-wrap: wrap;
-                          flex-wrap: wrap;
-                      -webkit-box-pack: justify;
-                          -ms-flex-pack: justify;
-                              justify-content: space-between;
-                      margin-top: 5px;
-                    }
-                    .timer-block {
-                      position: relative;
-                      width: 25%;
-                      padding: 0 10px;
-                      &:not(:last-child):after {
-                        content: ':';
-                        position: absolute;
-                        right: 0;
-                        top: 3px;
-                      }
-                    }
-                    .timer-block__num,
-                    .timer-block__unit {
-                      display: block;
-                      text-align: center;
-                    }
-                  </style>
-                  <script type="text/javascript">
-                    var second = 1000,
-                        minute = second * 60,
-                        hour = minute * 60,
-                        day = hour * 24;
-                    var countDown = new Date('{{- block.settings.end_date -}}').getTime(),
-                        x = setInterval(function() {
-                        var now = new Date().getTime(),
-                            distance = countDown - now;
-                        document.querySelector('.js-timer-days').innerText = Math.floor(distance / (day)),
-                          document.querySelector('.js-timer-hours').innerText = Math.floor((distance % (day)) / (hour)),
-                        document.querySelector('.js-timer-minutes').innerText = Math.floor((distance % (hour)) / (minute)),
-                        document.querySelector('.js-timer-seconds').innerText = Math.floor((distance % (minute)) / second);
-                      }, second)
-                  </script>
-                {% endif %}
+                </div>
+                <script type="text/javascript">
+                  var second = 1000,
+                    minute = second * 60,
+                    hour = minute * 60,
+                    day = hour * 24;
+                  var countDown = new Date('{{- block.settings.end_date -}}').getTime(),
+                    x = setInterval(function () {
+                      var now = new Date().getTime(),
+                        distance = countDown - now;
+                      (document.querySelector('.js-timer-days').innerText = Math.floor(distance / day)),
+                        (document.querySelector('.js-timer-hours').innerText = Math.floor((distance % day) / hour)),
+                        (document.querySelector('.js-timer-minutes').innerText = Math.floor(
+                          (distance % hour) / minute
+                        )),
+                        (document.querySelector('.js-timer-seconds').innerText = Math.floor(
+                          (distance % minute) / second
+                        ));
+                    }, second);
+                </script>
+              {% endif %}
               <!-- Countdown END -->
               <!-- Entries START -->
-              {%- when 'entries' -%}
-              <div class="raffle-entry-outter">
-                <div class="raffle-entries-container">
-                  <div class="raffle-entries">
-                    <p>Total Entries : {{block.settings.total_entries}}</p>
+            {%- when 'entries' -%}
+              {% if block.settings.total_entries != blank %}
+                <div class="raffle-entry-outter">
+                  <div class="raffle-entries-container">
+                    <div class="raffle-entries">
+                      <p>Total Entries : {{ block.settings.total_entries }}</p>
+                    </div>
                   </div>
                 </div>
-              </div>
+              {% endif %}
               <!-- Entries END -->
 
-            {%- when 'button' -%}
-              {%- if block.settings.button_label != blank -%}
-                <a
-                  {% if block.settings.button_link == blank %}
-                    role="link" aria-disabled="true"
-                  {% else %}
-                    href="{{ block.settings.button_link }}"
-                  {% endif %}
-                  class="main-raffle-button button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}"
-                  {{ block.shopify_attributes }}
-                >
-                  {{ block.settings.button_label | escape }}
-                </a>
-              {%- endif -%}
-          {%- endcase -%}
-        {%- endfor -%}
-      </div>
-    </div>
+            {%- when 'buttons' -%}
+              <div
+                class="banner__buttons{% if block.settings.button_label_1 != blank and block.settings.button_label_2 != blank %} banner__buttons--multiple{% endif %}"
+                {{ block.shopify_attributes }}
+              >
+                {%- if block.settings.button_label_1 != blank -%}
+                  <button
+                    {% if block.settings.button_link_1 == blank %}
+                      role="link" aria-disabled="true"
+                    {% else %}
+                      href="{{ block.settings.button_link_1 }}"
+                    {% endif %}
+                    type="button"
+                    class="open-btn button {% if block.settings.button_style_secondary_1 %} raffle-button--secondary{% else %} raffle-button--primary{% endif %}"
+                  >
+                    {{- block.settings.button_label_1 | escape -}}
+                  </button>
+                {%- endif -%}
+
+                {%- if block.settings.button_label_2 != blank -%}
+                  <a
+                    {% if block.settings.button_link_2 == blank %}
+                      role="link" aria-disabled="true"
+                    {% else %}
+                      href="{{ block.settings.button_link_2 }}"
+                    {% endif %}
+                    class="button {% if block.settings.button_style_secondary_2 %} raffle-button--secondary{% else %} raffle-button--primary{% endif %}"
+                  >
+                    {{- block.settings.button_label_2 | escape -}}
+                  </a>
+                {%- endif -%}
+              </div>
+
+            </div>
+          </div>
+          {%- when 'rules_and_eligibity' -%}
+          <div class="rules-container page-width">
+            <button type="button" class="close-modal-button">
+              {% render 'icon-octagon-close' %}
+            </button>
+            <h2 class="rules-header">Rules And Eligibity</h2>
+            <div class="rules-grid">
+              <article>
+                <h3>To be Eligible</h3>
+                <p>{{ block.settings.eligibity }}</p>
+              </article>
+              <article>
+                <h3>Rules</h3>
+                <p>{{ block.settings.rules }}</p>
+              </article>
+            </div>
+          </div>
+          <script>
+            const modalOpenBtn = document.querySelector(".open-btn");
+            const modalCloseBtn = document.querySelector(".close-modal-button");
+            const modal = document.querySelector(".rules-container");
+            
+            const openModal = () => {
+            modal.style.display = "block";
+            console.log("working now");
+            }
+            
+            const closeModal = () => {
+              modal.style.display = "none";
+              console.log("working now");
+              }
+            
+              modalOpenBtn.addEventListener("click", openModal);
+              modalCloseBtn.addEventListener("click", closeModal);
+            </script>
+      {%- endcase -%}
+    {%- endfor -%}
   </div>
 </div>
+
+
 
 {% schema %}
 {
@@ -591,21 +628,64 @@
       ]
     },
     {
-      "type": "button",
-      "name": "t:sections.custom-raffle.blocks.button.name",
-      "limit": 2,
+      "type": "buttons",
+      "name": "t:sections.image-banner.blocks.buttons.name",
+      "limit": 1,
       "settings": [
         {
           "type": "text",
-          "id": "button_label",
+          "id": "button_label_1",
           "default": "Button label",
-          "label": "t:sections.custom-raffle.blocks.button.settings.button_label.label",
-          "info": "t:sections.custom-raffle.blocks.button.settings.button_label.info"
+          "label": "t:sections.image-banner.blocks.buttons.settings.button_label_1.label",
+          "info": "t:sections.image-banner.blocks.buttons.settings.button_label_1.info"
         },
         {
           "type": "url",
-          "id": "button_link",
-          "label": "t:sections.custom-raffle.blocks.button.settings.button_link.label"
+          "id": "button_link_1",
+          "label": "t:sections.image-banner.blocks.buttons.settings.button_link_1.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "button_style_secondary_1",
+          "default": false,
+          "label": "t:sections.image-banner.blocks.buttons.settings.button_style_secondary_1.label"
+        },
+        {
+          "type": "text",
+          "id": "button_label_2",
+          "default": "Button label",
+          "label": "t:sections.image-banner.blocks.buttons.settings.button_label_2.label",
+          "info": "t:sections.image-banner.blocks.buttons.settings.button_label_2.info"
+        },
+        {
+          "type": "url",
+          "id": "button_link_2",
+          "label": "t:sections.image-banner.blocks.buttons.settings.button_link_2.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "button_style_secondary_2",
+          "default": false,
+          "label": "t:sections.image-banner.blocks.buttons.settings.button_style_secondary_2.label"
+        }
+      ]
+    },
+    {
+      "type": "rules_and_eligibity",
+      "name": "Rules and Eligibity",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "eligibity",
+          "default": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+          "label": "Eligibilty"
+        },
+        {
+          "type": "richtext",
+          "id": "rules",
+          "default": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+          "label": "Rules"
         }
       ]
     }
@@ -627,7 +707,10 @@
           "type": "entries"
         },
         {
-          "type": "button"
+          "type": "buttons"
+        },
+        {
+          "type": "rules_and_eligibity"
         }
       ]
     }
