@@ -167,7 +167,7 @@ a.countdown-timer {
 
 .timer-display {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: space-between;
   margin-top: 5px;
 }
@@ -713,7 +713,7 @@ r-input {
 }
 
 .rules-container {
-  padding: 3rem 6.5rem 1.8rem;
+  padding: 3rem 0.5rem 1.8rem;
   background-color: #ffffff;
   position: absolute;
   top: 0;
@@ -759,5 +759,22 @@ r-input {
   .rules-grid {
     grid-auto-flow: column;
     grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 750px) {
+
+  .timer-block__num,
+  .timer-block__colon {
+    font-size: 32px;
+  }
+
+  .banner__buttons--multiple {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .rules-grid article {
+    padding: 1.5rem 2rem;
   }
 }

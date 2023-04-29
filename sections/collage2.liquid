@@ -58,14 +58,22 @@
 
     
     <h2 class="collage2-wrapper-title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</h2>
-    <a href="/collections/donations-pot"><div class="collage2{% if section.settings.mobile_layout == 'collage2' %} collage2--mobile{% endif %}">
+    <div class="collage2{% if section.settings.mobile_layout == 'collage2' %} collage2--mobile{% endif %}">
       {%- for block in section.blocks -%}
         <div class="collage2__item collage2__item--{{ block.type }} collage2__item--{{ section.settings.desktop_layout }}" {{ block.shopify_attributes }}>
           {%- case block.type -%}
             {%- when 'image' -%}
               <div class="collage2-card color-{{ settings.card_color_scheme }}{% if block.settings.image_padding %} collage2-card-spacing{% endif %}">
-                <div class="media media--transparent ratio"{% if block.settings.image != blank %} style="--ratio-percent: {{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100 }}%"{% else %} style="--ratio-percent: 100%"{% endif %}>
+                <div class="donate-wrapper media media--transparent ratio"{% if block.settings.image != blank %} style="--ratio-percent: {{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100 }}%"{% else %} style="--ratio-percent: 100%"{% endif %}>
                   {%- if block.settings.image != blank -%}
+                  {%- if block.settings.donate_text != blank -%}
+                    <div class="donate-text">
+                      <p>{{ block.settings.donate_text }}</p>
+                      <a href="/collections/donations-pot">
+                      {% render "icon-arrow"%}
+                      </a>
+                      </div>
+                      {%- endif -%}
                     <img
                       srcset="{%- if block.settings.image.width >= 550 -%}{{ block.settings.image | image_url: width: 550 }} 550w,{%- endif -%}
                         {%- if block.settings.image.width >= 720 -%}{{ block.settings.image | image_url: width: 720 }} 720w,{%- endif -%}
@@ -103,6 +111,7 @@
               %}
             {%- when 'video' -%}
               <div class="collage2-card color-{{ settings.card_color_scheme }}">
+                
                 <noscript>
                   <a href="{{ block.settings.video_url }}" class="collage2-card__link{% if block.settings.image_padding %} collage2-card-spacing{% endif %}">
                     <div class="media media--transparent ratio"{% if block.settings.cover_image != blank %} style="--ratio-percent: {{ 1 | divided_by: block.settings.cover_image.aspect_ratio | times: 100 }}%"{% else %} style="--ratio-percent: 100%"{% endif %}>
@@ -181,7 +190,7 @@
           {%- endcase -%}
         </div>
       {%- endfor -%}
-    </div></a>
+    </div>
 
 
 
@@ -367,6 +376,12 @@
           "type": "image_picker",
           "id": "image",
           "label": "t:sections.collage2.blocks.image.settings.image.label"
+        },
+        {
+          "type": "text",
+          "id": "donate_text",
+          "label": "Text to display on image hover",
+          "default": "Donate towards shelter"
         },
         {
           "type": "checkbox",

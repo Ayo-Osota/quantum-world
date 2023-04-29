@@ -8136,3 +8136,10 @@ input.search-btn:hover {
  border: 1px solid red;
 } */
 /* *{border: 1px solid red;} */
+
+@media screen and (max-width: 750px) {
+  .custom-image-with-text a,
+  .custom-image-with-text a:last-child {
+    width: 70%;
+  }
+}

@@ -24,10 +24,12 @@
     max-width: 18ch;
 }
 
-.banner__media-half:nth-child(1) {
-    width: 40% !important;
-}
+@media screen and (min-width: 750px) {
+    .banner__media-half:nth-child(1) {
+        width: 40% !important;
+    }
 
-.banner__media-half:nth-child(2) {
-    width: 60% !important;
+    .banner__media-half:nth-child(2) {
+        width: 60% !important;
+    }
 }

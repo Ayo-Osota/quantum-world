@@ -384,3 +384,9 @@
 .banner__heading span {
   font-size: 3.2rem;
 }
+
+@media screen and (max-width: 750px){
+  .banner__heading, .banner__text {
+    display: inline-block;
+  }
+}
