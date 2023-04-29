@@ -778,3 +778,18 @@ r-input {
     padding: 1.5rem 2rem;
   }
 }
+
+.page-hero {
+  margin-top: 7.5rem;
+}
+
+.page-hero a, .page-hero .link-wrapper {
+  color: rgba(0, 45, 55, 0.2);
+  transition: 0.4s;
+}
+
+.page-hero-title,
+.page-hero a:hover, 
+.page-hero a:focus {
+  color: rgba(0, 45, 55);
+}
