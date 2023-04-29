@@ -39,6 +39,17 @@
           "settings": {
             "total_entries": "32+"
           }
+        },
+        "ed59292e-48e6-4299-a7b5-8f55a14c5cc3": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Read rules and Eligibity",
+            "button_link_1": "",
+            "button_style_secondary_1": true,
+            "button_label_2": "Enter Giveaway",
+            "button_link_2": "shopify:\/\/pages\/test-giveaway",
+            "button_style_secondary_2": false
+          }
         }
       },
       "block_order": [
@@ -46,7 +57,8 @@
         "c05670dd-a478-448a-82ed-8341f9bfa5eb",
         "9aff0a32-a6d1-4689-a23a-4dc089ffded5",
         "3000b601-8a9b-4cd4-98c5-5a2caf144278",
-        "9e40eef0-5faa-48fd-a370-b83e30c5fa4d"
+        "9e40eef0-5faa-48fd-a370-b83e30c5fa4d",
+        "ed59292e-48e6-4299-a7b5-8f55a14c5cc3"
       ],
       "custom_css": [
         "h1 {color: #16194f;}",
