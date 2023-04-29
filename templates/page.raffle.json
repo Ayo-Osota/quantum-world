@@ -50,6 +50,13 @@
             "button_link_2": "shopify:\/\/pages\/test-giveaway",
             "button_style_secondary_2": false
           }
+        },
+        "55afa841-9122-4054-b28a-675502e4bf39": {
+          "type": "rules_and_eligibity",
+          "settings": {
+            "eligibity": "<p>* Students<br\/>* Families with children<br\/>* Small Business Owners<br\/>* Single people or couples<br\/>* Other<br\/><br\/>You can pass our eligibility requirements if you feel like you need help from our services. Please Note: This competition is not for people who deemed to already be successful.<br\/>* All winners will have to make a public confirmation to state that they have rightfully received any awards won from our raffles and giveaways<\/p>",
+            "rules": "<p>We will be checking to ensure that all steps have been taken. If steps have not completed [the Entry Requirements] or meet Eligibility regulations, you will be disqualified and we will give the prize to the next runner up.<\/p>"
+          }
         }
       },
       "block_order": [
@@ -58,7 +65,8 @@
         "9aff0a32-a6d1-4689-a23a-4dc089ffded5",
         "3000b601-8a9b-4cd4-98c5-5a2caf144278",
         "9e40eef0-5faa-48fd-a370-b83e30c5fa4d",
-        "ed59292e-48e6-4299-a7b5-8f55a14c5cc3"
+        "ed59292e-48e6-4299-a7b5-8f55a14c5cc3",
+        "55afa841-9122-4054-b28a-675502e4bf39"
       ],
       "custom_css": [
         "h1 {color: #16194f;}",
