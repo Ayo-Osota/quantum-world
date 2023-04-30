@@ -720,7 +720,7 @@ r-input {
   left: 0;
   display: block;
   width: 100%;
-  z-index: 1000;
+  z-index: 2;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom;
