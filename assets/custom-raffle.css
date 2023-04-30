@@ -724,7 +724,14 @@ r-input {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom;
-  display: none;
+  transform: translateY(100%) scale(0.1);
+  opacity: 0;
+  transition: 0.5s ease-in-out;
+}
+
+.active-modal {
+  transform: translateY(0) scale(1);
+  opacity: 1;
 }
 
 .close-modal-button {

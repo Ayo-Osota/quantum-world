@@ -8,12 +8,25 @@
   }
 
   .image-with-text__grid {
-  position: relative;
-}
+    position: relative;
+  }
 
-.rules-container {
-  background-image: url({{ 'testimony-bg.png' | asset_url }});
-}
+  .rules-container {
+    background-image: url({{ 'testimony-bg.png' | asset_url }});
+  }
+
+  #shopify-section-template--16721276764396__raffle {
+    background-image: url({{ 'bottom-left-by-effect.svg' | asset_url }}),
+    url({{ 'top-right-bg-effect.svg' | asset_url }});
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom left, top right;
+    overflow: hidden;
+  }
+
+  .raffle-details {
+    background: none;
+  }
 </style>
 
 {%- style -%}
@@ -31,10 +44,11 @@
 {%- endstyle -%}
 
 <div class="page-width page-hero"><h6>
-  <span class="link-wrapper"><a href="/">Home</a>/<span class=page-hero-title>Raffle</span>
+  <span class="link-wrapper"><a href="/">Home</a>/<span class=page-hero-title>Raffle
+</span>
 </h6></div>
 
-<div class="section-p section-m page-width image-with-text image-with-text--{{ section.settings.content_layout }}">
+<div class="raffle-section section-p section-m page-width image-with-text image-with-text--{{ section.settings.content_layout }}">
   <!--
     <div class="section-4 custom-section-4 image-with-text image-with-text--{{ section.settings.content_layout }}">
   -->
@@ -73,7 +87,7 @@
     <div class="image-with-text__text-item grid__item">
       <div
         id="custom-funds-section ImageWithText--{{ section.id }}"
-        class="raffle-image-with-text image-with-text image-with-text__content--{{ section.settings.desktop_content_position }} image-with-text__content--desktop-{{ section.settings.desktop_content_alignment }} image-with-text__content--mobile-{{ section.settings.mobile_content_alignment }} image-with-text__content--{{ section.settings.height }} gradient color-{{ section.settings.color_scheme }} content-container"
+        class="raffle-details raffle-image-with-text image-with-text image-with-text__content--{{ section.settings.desktop_content_position }} image-with-text__content--desktop-{{ section.settings.desktop_content_alignment }} image-with-text__content--mobile-{{ section.settings.mobile_content_alignment }} image-with-text__content--{{ section.settings.height }} gradient color-{{ section.settings.color_scheme }} content-container"
       >
         {%- for block in section.blocks -%}
           {% case block.type %}
@@ -254,13 +268,11 @@
             const modal = document.querySelector(".rules-container");
             
             const openModal = () => {
-            modal.style.display = "block";
-            console.log("working now");
+            modal.classList.add("active-modal");
             }
             
             const closeModal = () => {
-              modal.style.display = "none";
-              console.log("working now");
+              modal.classList.remove("active-modal");
               }
             
               modalOpenBtn.addEventListener("click", openModal);
