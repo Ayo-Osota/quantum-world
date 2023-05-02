@@ -175,7 +175,7 @@
                     minute = second * 60,
                     hour = minute * 60,
                     day = hour * 24;
-                  var countDown = new Date('{{- block.settings.end_date -}}'.replace(/-/g, "/")).getTime(),
+                  var countDown = new Date('{{- block.settings.end_date -}}').getTime(),
                     x = setInterval(function () {
                       var now = new Date().getTime(),
                         distance = countDown - now;

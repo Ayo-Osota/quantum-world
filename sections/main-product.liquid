@@ -113,36 +113,6 @@
                   media_width: media_width,
                   lazy_load: false
                 %}
-                <div class="color-pills-wrapper media-color-pills-wrapper">
-                  {%- for option in product.options_with_values -%}
-                    {%- if option.name == 'Color' -%}
-                      {%- for value in option.values -%}
-                        <div
-                          class="color-pills"
-                          style="background-color:
-                          {% assign lowercase_value = value | downcase %}
-                                 {%- if lowercase_value == "silver grey" -%} 
-                                 #808080
-                                 {%- elsif lowercase_value == "light steel" -%}
-                                 #b0c4de
-                                 {%- elsif lowercase_value == "charcoal heather" -%}
-                                 #cfc8bf
-                                 {%- elsif lowercase_value == "scarlet" -%}
-                                 #FF2400
-                                 {%- elsif lowercase_value == "royal" -%}
-                                 #4169e1
-                                 {%- elsif lowercase_value == "burnt" -%}
-                                 #6E260E
-                                 {% else %} 
-                                 {{- lowercase_value | remove:" " -}}
-                              {% endif %}"
-                          for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
-                        >
-                        </div>
-                      {%- endfor -%}
-                    {%- endif -%}
-                    {%- endfor -%}
-                  </div>
               </li>
             {%- endif -%}
             {%- for media in product.media -%}
