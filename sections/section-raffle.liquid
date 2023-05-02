@@ -106,14 +106,8 @@
                 {{ block.settings.caption | escape }}
               </p>
             {%- when 'progress_bar' -%}
-              <div
-                class="raffle-description more-description image-with-text__text rte {{ block.settings.text_style }}"
-                {{ block.shopify_attributes }}
-              >
-                {{ block.settings.text }}
-              </div>
               <!-- Progress Bar START -->
-              <div class="raffle-caption"><p>Steps to get your raffle Ticket</p></div>
+              <div class="raffle-caption"><p>{{ block.settings.progress_caption }}</p></div>
               <div class="stepper-wrapper">
                 {%- if block.settings.progress_1 != blank -%}
                   <div class="stepper-item completed active">
@@ -181,7 +175,7 @@
                     minute = second * 60,
                     hour = minute * 60,
                     day = hour * 24;
-                  var countDown = new Date('{{- block.settings.end_date -}}').getTime(),
+                  var countDown = new Date('{{- block.settings.end_date -}}'.replace(/-/g, "/")).getTime(),
                     x = setInterval(function () {
                       var now = new Date().getTime(),
                         distance = countDown - now;
@@ -575,27 +569,33 @@
       "limit": 1,
       "settings": [
         {
+          "type": "text",
+          "id": "progress_caption",
+          "default": "Steps to get your raffle Ticket",
+          "label": "t:sections.custom-raffle.blocks.caption.settings.text.label"
+        },
+        {
           "type": "richtext",
           "id": "progress_1",
-          "default": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+          "default": "<p>Step 1</p>",
           "label": "t:sections.custom-raffle.blocks.text.settings.text.label"
         },
         {
           "type": "richtext",
           "id": "progress_2",
-          "default": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+          "default": "<p>Step 2</p>",
           "label": "t:sections.custom-raffle.blocks.text.settings.text.label"
         },
         {
           "type": "richtext",
           "id": "progress_3",
-          "default": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+          "default": "<p>Step 3</p>",
           "label": "t:sections.custom-raffle.blocks.text.settings.text.label"
         },
         {
           "type": "richtext",
           "id": "progress_4",
-          "default": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+          "default": "<p>Step 4</p>",
           "label": "t:sections.custom-raffle.blocks.text.settings.text.label"
         },
         {

@@ -448,7 +448,7 @@
                   </label>
                 -->
 
-                <quantity-input class="quantity">
+                <quantity-input class="custom-quantity">
                   <button class="quantity__button no-js-hidden" name="minus" type="button">
                     <span class="visually-hidden">
                       {{- 'products.product.quantity.decrease' | t: product: product.title | escape -}}
@@ -544,11 +544,11 @@
                         {{ block.shopify_attributes }}
                       >
                         {%- for option in product.options_with_values -%}
-                        <div class="select-variant product-form__input product-form__input--dropdown">
+                        <div class="custom-select-variant product-form__input product-form__input--dropdown">
                           <label class="form__label" for="Option-{{ section.id }}-{{ forloop.index0 }}">
-                            {{ option.name }}
+                            {{ option.name }}:
                           </label>
-                          <div class="select">
+                          <div class="custom-select">
                             <select
                               id="Option-{{ section.id }}-{{ forloop.index0 }}"
                               class="select__select"
@@ -566,7 +566,7 @@
                                 </option>
                               {%- endfor -%}
                             </select>
-                            {% render 'icon-caret' %}
+                            {% render 'icon-select-caret' %}
                           </div>
                         </div>
                       {%- endfor -%}

@@ -39,6 +39,11 @@
   .search__button .icon {
     height: 1.8rem;
   }
+
+  .section-4-search {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
 </style>
 
 {%- liquid
@@ -75,7 +80,7 @@
   }
 {%- endstyle -%}
 
-<div class="section-4 wf-section template-search{% unless search.performed and search.results_count > 0 %} template-search--empty{% endunless %} section-{{ section.id }}-padding">
+<div class="section-4-search section-4 wf-section template-search{% unless search.performed and search.results_count > 0 %} template-search--empty{% endunless %} section-{{ section.id }}-padding">
   <div class="search-content template-search__header page-width center">
 <!--     {%- if search.performed -%}
       <h1 class="h2">{{ 'templates.search.title' | t }}</h1>

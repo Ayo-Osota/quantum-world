@@ -22,11 +22,7 @@
     grid-auto-flow: column;
     grid-template-rows: repeat(3, 1fr) !important;
     grid-template-columns: 1fr !important;
-}
-
-.product__media-item, .product__media-item * {
-    /* width: 100% !important;
-    max-width: 100% !important; */
+    margin-left: 10px;
 }
 
 .product__media-item.is-active {
@@ -69,7 +65,7 @@
     text-transform: capitalize;
 }
 
-.pill-variant:nth-child(2), .select-variant:nth-child(1){
+.pill-variant:nth-child(2), .custom-select-variant:nth-child(1){
     display: none !important;
 }
 
@@ -82,4 +78,84 @@
 .page-hero a:hover, 
 .page-hero a:focus {
     color: rgba(0, 45, 55);
+}
+
+@media screen and (max-width: 750px) {
+    .product__media-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-auto-flow: row;
+    }
+
+    .slider-mobile-gutter {
+        grid-column: 1;
+    }
+
+    .product__media-list {
+        display: flex;
+    }
+
+    .product-info-title {
+        padding-top: 2rem;
+    }
+}
+
+.custom-select-variant {
+    display: flex;
+    align-items: center;
+    gap: 1px;
+    padding: 0 1rem;
+    border: 1.5px solid #F5F5F5 !important;
+    max-width: 22rem;
+}
+
+.custom-select {
+    max-width: 25rem;
+    height: 100%;
+    border-style: none;
+    border-radius: 24px;
+    background-color: transparent;
+    display: flex;
+    position: relative;
+    width: 100%;
+    border: 1.5px solid #F5F5F5;
+}
+
+.custom-select .icon-caret {
+    height: 0.6rem;
+    pointer-events: none;
+    position: absolute;
+    top: calc(50% - 0.2rem);
+    right: calc(var(--inputs-border-width) + 1.5rem);
+}
+
+.custom-select-variant .form__label {
+    margin-bottom: 0;
+    color: rgba(51, 51, 51, 0.5);
+}
+
+.custom-select .select__select {
+    padding-left: 0.2rem;
+    text-transform: capitalize;
+}
+
+.custom-select option {
+    text-transform: capitalize;
+}
+
+.custom-quantity {
+    color: rgba(var(--color-foreground));
+    position: relative;
+    width: calc(8rem / var(--font-body-scale) + var(--inputs-border-width) * 2);
+    display: flex;
+    border: 1px solid #F5F5F5;
+    border-radius: var(--inputs-radius);
+    border: 1px solid #F5F5F5;
+    min-height: calc((var(--inputs-border-width) * 2) + 3rem);
+}
+
+@media screen and (min-width: 750px) {
+    .thumbnail-list {
+        margin-left: 10px;
+    }
 }

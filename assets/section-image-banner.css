@@ -323,6 +323,8 @@
 @media screen and (max-width: 749px) {
   .banner--stacked .banner__box {
     width: 100%;
+    display: flex;
+    flex-direction: column;
   }
 }
 

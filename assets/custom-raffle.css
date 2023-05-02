@@ -800,3 +800,14 @@ r-input {
 .page-hero a:focus {
   color: rgba(0, 45, 55);
 }
+
+@media screen and (max-width: 750px) {
+  .step-name p {
+    font-size: 1rem;
+    padding: 0 0.5rem;
+  }
+
+  .stepper-wrapper {
+    margin-left: 0;
+  }
+}

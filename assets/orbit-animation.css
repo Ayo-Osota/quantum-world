@@ -84,11 +84,15 @@
         padding-top: 0 !important;
     }
 
+    .orbit-wrapper {
+        margin: 0 auto;
+    }
+
     .orbit, .orbit-img {
-        width: 78%;
+        width: 70%;
         left: 50%;
         top: 50%;
-        margin-left: -39%;
-        margin-top: -39%;
+        margin-left: -35%;
+        margin-top: -35%;
     }
 }

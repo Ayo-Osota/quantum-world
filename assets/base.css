@@ -2952,3 +2952,12 @@ details-disclosure>details {
 .font-body-bold {
   font-weight: var(--font-body-weight-bold);
 }
+
+.sale-badge {
+  background-color: rgba(236, 24, 24, 0.7);
+} 
+
+.badge {
+  border-radius: 0 !important;
+  border: none !important;
+}
