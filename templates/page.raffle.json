@@ -21,6 +21,7 @@
         "9aff0a32-a6d1-4689-a23a-4dc089ffded5": {
           "type": "progress_bar",
           "settings": {
+            "progress_caption": "Steps to get your raffle Ticket",
             "progress_1": "<p>Fill Details<\/p>",
             "progress_2": "<p>Fill Survey<\/p>",
             "progress_3": "<p>Follow our social media<\/p>",
@@ -31,7 +32,7 @@
         "3000b601-8a9b-4cd4-98c5-5a2caf144278": {
           "type": "countdown_timer",
           "settings": {
-            "end_date": "00:00 July 21, 2023"
+            "end_date": "2023\/08\/12 16:00"
           }
         },
         "9e40eef0-5faa-48fd-a370-b83e30c5fa4d": {
