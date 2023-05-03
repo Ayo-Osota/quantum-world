@@ -55,8 +55,8 @@
         "55afa841-9122-4054-b28a-675502e4bf39": {
           "type": "rules_and_eligibity",
           "settings": {
-            "eligibity": "<p>* Students<br\/>* Families with children<br\/>* Small Business Owners<br\/>* Single people or couples<br\/>* Other<br\/><br\/>You can pass our eligibility requirements if you feel like you need help from our services. Please Note: This competition is not for people who deemed to already be successful.<br\/>* All winners will have to make a public confirmation to state that they have rightfully received any awards won from our raffles and giveaways<\/p>",
-            "rules": "<p>We will be checking to ensure that all steps have been taken. If steps have not completed [the Entry Requirements] or meet Eligibility regulations, you will be disqualified and we will give the prize to the next runner up.<\/p>"
+            "eligibity": "<p>* Students<br\/>* Families with children<br\/>* Small Business Owners<br\/>* Single people or couples<br\/>* Other<br\/><br\/>You can pass our eligibility requirements if you feel like you need help from our services. Please Note: This competition is not for people who are deemed to already be successful.<\/p><p><br\/>* All winners will have to make a public confirmation to state that they have rightfully received any awards won from our raffles and giveaways<\/p>",
+            "rules": "<p>We will be checking to ensure that all steps have been taken. If steps have not completed the Entry Requirement or meet Eligibility regulations, you will be disqualified and we will give the prize to the next runner-up.<\/p>"
           }
         }
       },
