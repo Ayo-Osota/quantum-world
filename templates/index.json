@@ -309,7 +309,7 @@
       ],
       "settings": {
         "heading": "PROVIDE OPPORTUNITIES FOR THE COMMUNITY",
-        "caption": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<\/p>",
+        "caption": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "target_amount": "£100,000",
         "amount_raised": "£50,000",
         "amount_remaining": "£80,000",
