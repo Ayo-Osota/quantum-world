@@ -6,14 +6,14 @@
         "8d4ccf52-76c8-405e-8225-1d68bc8cfdef": {
           "type": "heading",
           "settings": {
-            "heading": "QuantmWorld Official #1 Christmas FREE Raffle 2022",
+            "heading": "QuantmWorld Official Father's Day Free Raffle 2023",
             "heading_size": "h1"
           }
         },
         "c05670dd-a478-448a-82ed-8341f9bfa5eb": {
           "type": "caption",
           "settings": {
-            "caption": "We would be giving out the sum of ₦50,000 TO 3 lucky winner",
+            "caption": "We would be giving out the sum of ₦50,000 TO 10 lucky winners",
             "text_style": "subtitle",
             "text_size": "medium"
           }
@@ -21,18 +21,18 @@
         "9aff0a32-a6d1-4689-a23a-4dc089ffded5": {
           "type": "progress_bar",
           "settings": {
-            "progress_caption": "Steps to get your Raffle Ticket",
-            "progress_1": "<p>Fill Details<\/p>",
-            "progress_2": "<p>Fill Survey<\/p>",
-            "progress_3": "<p>Follow our social media<\/p>",
-            "progress_4": "<p>Share page  & Drop proof<\/p>",
+            "progress_caption": "Follow These Steps To Enter:",
+            "progress_1": "<p>Read Entry Rules<\/p>",
+            "progress_2": "<p>Enter Giveaway<\/p>",
+            "progress_3": "<p>Follow Us On Social Media<\/p>",
+            "progress_4": "<p>Share Page &  Provide Proof of Winning<\/p>",
             "text_style": "body"
           }
         },
         "3000b601-8a9b-4cd4-98c5-5a2caf144278": {
           "type": "countdown_timer",
           "settings": {
-            "end_date": "2023\/07\/12 16:00"
+            "end_date": "2023\/06\/18 00:00"
           }
         },
         "9e40eef0-5faa-48fd-a370-b83e30c5fa4d": {
