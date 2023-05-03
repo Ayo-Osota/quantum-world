@@ -175,7 +175,7 @@
         "template--16718454030572__d59b5e0c-af2f-49a0-947d-25d50f43f36d-1683140745ba197e67-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Harnessing Technology",
             "heading_size": "h1"
           }
         },
@@ -214,7 +214,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/material-symbols_share.svg",
             "title": "Spread the word",
-            "text": "<p>Spread awareness of Quantm World to your family and friends.<\/p>",
+            "text": "<p>We are also welcome to you spreading awareness to QuantmWorld by reading, liking and sharing our posts with family members and friends. With these actions we will be able to cater our platform accordingly to the general public by posting more content that our audience wish to see.<\/p>",
             "link_label": "Share now",
             "link": ""
           }
@@ -224,7 +224,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Vector_1.svg",
             "title": "Shop from our store",
-            "text": "<p>The profit realize from our store is used to support the needy.<\/p>",
+            "text": "<p>Everyone who visits QuantmWorld has access to great products at their fingertips. We use a portion of our profits to fund our raffles and giveaways.<\/p>",
             "link_label": "Shop now",
             "link": "shopify:\/\/collections\/all"
           }
@@ -234,7 +234,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/bxs_donate-heart.svg",
             "title": "Donate",
-            "text": "<p>Make a donation to support those who are struggling during the current global crisis<\/p>",
+            "text": "<p>We rely heavily on donations and with your contribution we can add value in places that lack support. The current global crisis is affecting the economy at large, we sell products and collect donations to aid people scale through these difficult times.<\/p>",
             "link_label": "Donate now",
             "link": "shopify:\/\/collections\/all"
           }
