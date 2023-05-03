@@ -216,7 +216,7 @@
             "title": "Spread the word",
             "text": "<p>Spread awareness by reading, liking and sharing our posts with family members and friends.<\/p>",
             "link_label": "Share now",
-            "link": ""
+            "link": "shopify:\/\/pages\/contact-us"
           }
         },
         "template--16698323534060__6df25ee7-f8bf-4d1b-8753-2b09b7a3fc69-168002060909a9b563-1": {
@@ -236,7 +236,7 @@
             "title": "Donate",
             "text": "<p>We rely heavily on donations and with your contribution we can add value in places that lack support.<\/p>",
             "link_label": "Donate now",
-            "link": "shopify:\/\/collections\/all"
+            "link": "shopify:\/\/collections\/donations-pot"
           }
         }
       },
