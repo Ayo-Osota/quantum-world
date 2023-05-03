@@ -202,6 +202,7 @@
   width: fit-content !important;
   left: 50% !important;
   transform: translateX(-50%);
+  padding: 0.5rem;
 }
 
 .donate-text p,
@@ -212,8 +213,20 @@
   line-height: 24px;
 }
 
+
 .collage2__item:first-child .donate-text p {
   font-size: 2.5rem;
+}
+
+
+@media screen and (max-width: 990px) {
+  .donate-text p {
+    font-size: 1rem;
+  }
+
+  .collage2__item:first-child .donate-text p {
+    font-size: 2rem;
+  }
 }
 
 .donate-text a {
@@ -236,8 +249,7 @@
   transition: all 0.5s ease-in-out;
 }
 
-@media screen and (min-width: 450px) {
-  .donate-text p {
-    white-space: nowrap;
-  }
+.donate-text p {
+  white-space: nowrap;
 }
+
