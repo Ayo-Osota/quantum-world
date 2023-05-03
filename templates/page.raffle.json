@@ -21,7 +21,7 @@
         "9aff0a32-a6d1-4689-a23a-4dc089ffded5": {
           "type": "progress_bar",
           "settings": {
-            "progress_caption": "Steps to get your raffle Ticket",
+            "progress_caption": "Steps to get your Raffle Ticket",
             "progress_1": "<p>Fill Details<\/p>",
             "progress_2": "<p>Fill Survey<\/p>",
             "progress_3": "<p>Follow our social media<\/p>",
