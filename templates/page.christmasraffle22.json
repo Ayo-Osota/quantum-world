@@ -20,13 +20,13 @@
         "template--16238543405292__69062cf9-6e99-414c-b04c-151aac250b66-16713645741fb85754-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Olotu Samuel<\/strong> - 50,000N<\/p><p><\/p><p><\/p>"
+            "text": "<p><strong>Owojori Boluwatife<\/strong> - 50,000N<\/p><p><strong>Babatunde Ifeoluwa<\/strong> - 50,000N<\/p><p><strong>Awofiranye Ahmeed Opeyemi<\/strong> - 20,000N<\/p><p><\/p>"
           }
         },
         "206f62a7-8d71-4f40-b19a-2aae22ea60c8": {
           "type": "text",
           "settings": {
-            "text": "<p>We have sent you an email requesting your payment information.<\/p>"
+            "text": "<p>We have sent you emails requesting your payment information.<\/p>"
           }
         }
       },
@@ -50,7 +50,7 @@
         "2e2574cb-3b0a-41f9-b7d4-248979c72f2e": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/0FED35C2-F73B-4B20-9FD2-14BA7E239106.gif",
+            "image": "shopify:\/\/shop_images\/Red_White_and_Green_Modern_Christmas_Raffle_Ticket.gif",
             "image_padding": false
           }
         }
@@ -71,7 +71,7 @@
     "7248b83c-593e-4ce2-b8a7-a994e0cd6f78": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div id=\"66916-6hk3cq2i\" class=\"sw_container\"><script type=\"text\/javascript\" src=\"https:\/\/sweepwidget.com\/w\/j\/w_init.js\"><\/script><\/div>",
+        "custom_liquid": "<div id=\"63011-hpvyz6r4\" class=\"sw_container\"><script type=\"text\/javascript\" src=\"https:\/\/sweepwidget.com\/w\/j\/w_init.js\"><\/script><\/div>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52

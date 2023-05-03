@@ -95,6 +95,7 @@
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
+    "favicon": "shopify:\/\/shop_images\/LOGO_39ee9063-bd60-4dae-87c9-c88173decc6b.png",
     "currency_code_enabled": true,
     "cart_type": "notification",
     "show_vendor": false,
@@ -112,7 +113,7 @@
           "logo": "shopify:\/\/shop_images\/LOGO.png",
           "logo_width": 200,
           "logo_position": "middle-left",
-          "menu": "menu2",
+          "menu": "main-menu-1",
           "menu_type_desktop": "dropdown",
           "show_line_separator": true,
           "enable_sticky_header": true,
@@ -137,19 +138,11 @@
               "heading": "Info",
               "menu": "footer"
             }
-          },
-          "footer-2": {
-            "type": "text",
-            "settings": {
-              "heading": "Our mission",
-              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
-            }
           }
         },
         "block_order": [
           "footer-0",
-          "footer-1",
-          "footer-2"
+          "footer-1"
         ],
         "settings": {
           "color_scheme": "background-1",

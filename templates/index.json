@@ -13,7 +13,7 @@
         "template--16718453801196__d5520e75-a9d2-4fef-83b6-f794ccb6c5ae-16823526989c3d745f-1": {
           "type": "text",
           "settings": {
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "text": "Quantm World is all about giving back  to the Community.  We as an organisation  are committed in making sure everyone gets the help they need,  And this has made giving out to the community at large a great importance to us.",
             "text_style": "body"
           }
         },
@@ -49,6 +49,56 @@
         "show_text_below": false
       }
     },
+    "61a3013d-0b51-4801-8c73-706b72daaeea": {
+      "type": "hero-section",
+      "disabled": true,
+      "blocks": {
+        "a275433c-9458-4b13-8f1a-fbb5a8dd11a4": {
+          "type": "heading",
+          "settings": {
+            "heading": "GIVING TO THE NEEDY IS OUR PRIORITY",
+            "heading_size": "h1"
+          }
+        },
+        "3643e136-c55f-4eb8-a70f-94ae96f6fb66": {
+          "type": "text",
+          "settings": {
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "text_style": "body"
+          }
+        },
+        "59e5d57b-0030-4228-9337-9e11efc35ba1": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Donate",
+            "button_link_1": "shopify:\/\/collections\/donations-pot",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "a275433c-9458-4b13-8f1a-fbb5a8dd11a4",
+        "3643e136-c55f-4eb8-a70f-94ae96f6fb66",
+        "59e5d57b-0030-4228-9337-9e11efc35ba1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Group_30_2.png",
+        "image_2": "shopify:\/\/shop_images\/ben-koorengevel-sjuLxUOEMY8-unsplash_2.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
     "5f01d18d-b57e-4efa-b09f-6c4077844df6": {
       "type": "custom-liquid",
       "settings": {
@@ -64,7 +114,7 @@
         "template--16677415977196__eabf7cc8-89a1-425c-9903-b255796ba093-1676719281a42e950a-0": {
           "type": "heading",
           "settings": {
-            "heading": "CHRISTMAS RAFFLE",
+            "heading": "QUANTM RAFFLE",
             "heading_size": "h1"
           }
         },
@@ -126,7 +176,7 @@
         "template--16677415977196__d0b4d784-f8a8-4f60-898e-7154df633b82-1676991786bb166d75-1": {
           "type": "text",
           "settings": {
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "text": "Our sole aim is to establish a safe place where everyone is welcome to bring in new ideas,we are always open in making sure every opinion counts.",
             "text_style": "body"
           }
         },
@@ -173,7 +223,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/mdi_donation-outline.svg",
             "title": "Donation",
-            "text": "<p>Lorem ipsum dolor sit amet. Id voluptatum omnis <\/p>",
+            "text": "<p>Quantm World is all about giving back to the community. Your support goes a long way. Together we can both make a change and make the world a better place.<\/p>",
             "link_label": "",
             "link": "shopify:\/\/collections\/donations-pot"
           }
@@ -183,7 +233,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Group.svg",
             "title": "Fundraising",
-            "text": "<p>Lorem ipsum dolor sit amet. Id voluptatum omnis <\/p>",
+            "text": "<p>we are always open to a helping hand, your donations and support matters to us, to help in the growth and promotion of Quantm World agenda which is to help the people and community.<\/p>",
             "link_label": "",
             "link": "shopify:\/\/collections\/donations-pot"
           }
@@ -193,7 +243,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/emojione-monotone_money-bag.svg",
             "title": "Support",
-            "text": "<p>Lorem ipsum dolor sit amet. Id voluptatum omnis <\/p>",
+            "text": "<p>We are open to your ideas in improvement and development of Quantm World. Your ideas and suggestions matters .<\/p>",
             "link_label": "",
             "link": "shopify:\/\/collections\/donations-pot"
           }
@@ -327,19 +377,45 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Rectangle_101_1.png",
-            "title": "Qwantm world",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<\/p>",
-            "link_label": "- Tony Elizabeth",
-            "link": ""
+            "title": "Christmas Giveaway Winner",
+            "text": "<p>Finally I’m going to have a great Christmas after getting the sum of ₦50,000 Naira from the raffle. I wasn’t expecting it, until I signed up for the raffle after a friend asked me to and got the payment into my account that same day. I just want to give thanks to Quantm world and they should keep up the good deed.<\/p>",
+            "link_label": "- Ifeoluwa",
+            "link": "shopify:\/\/pages\/christmas-free-raffle-2022"
           }
         },
         "template--16677415977196__35f87c00-720b-43cb-bb0b-d6fc2e6fb563-1676989904329cf5c6-1": {
           "type": "column",
-          "disabled": true,
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
+            "title": "Quantm world",
+            "text": "<p>I just received the sum of ₦20,000 Naira as the runner up of the Quantm World giveaway. I want to say a very big thank you to them and to let everyone know to keep following and supporting them as they are legit and reliable.<\/p>",
+            "link_label": "- Ahmed",
+            "link": ""
+          }
+        },
+        "aba1924d-5bf7-4a92-9af2-9257d0d46f77": {
+          "type": "column",
+          "settings": {
+            "title": "Quantm world",
+            "text": "<p>Thank you so much Quantm World I got an alert of ₦50,000 Naira this afternoon, they are very legit.<\/p>",
+            "link_label": "- Bolu",
+            "link": ""
+          }
+        },
+        "f5a1a5fa-23e9-47c7-89c4-eae012686553": {
+          "type": "column",
+          "settings": {
+            "title": "Valentines Day Giveaway",
+            "text": "<p>Morning guys I just want to say a very big thank you to Quantm World for the ₦50,000 Naira they sent last night. They are legit and don’t stop supporting them.<\/p>",
+            "link_label": "- Olotu",
+            "link": ""
+          }
+        },
+        "e6f4434f-a8be-409c-84bd-0e6e838ddf0a": {
+          "type": "column",
+          "settings": {
+            "title": "Mother’s Day Giveaway",
+            "text": "<p>I want to use this moment to say thank you very much. You guys are legit.<\/p>",
+            "link_label": "- Ayotunde",
             "link": ""
           }
         },
@@ -357,13 +433,16 @@
       "block_order": [
         "template--16677415977196__35f87c00-720b-43cb-bb0b-d6fc2e6fb563-1676989904329cf5c6-0",
         "template--16677415977196__35f87c00-720b-43cb-bb0b-d6fc2e6fb563-1676989904329cf5c6-1",
+        "aba1924d-5bf7-4a92-9af2-9257d0d46f77",
+        "f5a1a5fa-23e9-47c7-89c4-eae012686553",
+        "e6f4434f-a8be-409c-84bd-0e6e838ddf0a",
         "template--16677415977196__35f87c00-720b-43cb-bb0b-d6fc2e6fb563-1676989904329cf5c6-2"
       ],
       "custom_css": [
 
       ],
       "settings": {
-        "title": "Listen to what our Donor says about Quantm world",
+        "title": "WHAT DOES THE COMMUNITY HAVE TO SAY ABOUT QUANTM WORLD",
         "heading_size": "h1",
         "image_width": "half",
         "image_ratio": "adapt",
@@ -392,7 +471,7 @@
         "template--16677415977196__30912376-2de7-4cbf-9119-211214962dcc-167805833481ba1e61-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<\/p>",
+            "text": "<p>We at Quantmworld also diversify in various aspects to help the community, we offer the sale of our products to help in generating income for the growth and development of people worldwide.<\/p>",
             "text_style": "body"
           }
         },
@@ -440,7 +519,7 @@
         "template--16677415977196__e0ef3d83-5022-4b5b-9b37-5561c3b4d25d-167698805216b5ec5b-1": {
           "type": "text",
           "settings": {
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "text": "This innovative idea ensure all profits made from the sale will as well be giving back to the community.",
             "text_style": "body"
           }
         },
@@ -534,26 +613,6 @@
         "padding_bottom": 36
       }
     },
-    "1663776407801f64b1": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": "<div class=\"section-1 video-section wf-section\">\n      <div class=\"wrapper\">\n        <div data-w-id=\"3c65db2d-dfc4-c6e7-82f4-ccf13df0f1d5\" style=\"opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\" class=\"intro wide no-margin\">\n          <div class=\"title white\">About Us<\/div>\n          <h2 class=\"headingh2\">Our Journey<\/h2>\n          <p>Thinking about the world today. Focusing on diversity and our community. We want to build recognition for people from different backgrounds. Please Click below to find out more.<\/p><a href=\"\/pages\/about-us\" aria-current=\"page\" class=\"button w-button w--current\">ABOUT<\/a>\n        <\/div>\n      <\/div>\n\n      \n\n    <\/div>",
-        "color_scheme": "background-1",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "16641287529d8f0e84": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": "<div id=\"More-About\" class=\"section-2 wf-section\">\n    <div class=\"wrapper\">\n        <div class=\"intro-2\">\n          <div class=\"title\">What You Can Do<\/div>\n          <h2>Give Us a&nbsp;Helping Hand<\/h2>\n        <\/div>\n    <\/div>\n<\/div>",
-        "color_scheme": "background-1",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "1663779989e5dfe148": {
       "type": "custom-liquid",
       "disabled": true,
@@ -562,109 +621,6 @@
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 0
-      }
-    },
-    "2d81040e-e20f-4bf4-ad6a-07ef583be553": {
-      "type": "custom-image-banner-with-header",
-      "disabled": true,
-      "blocks": {
-        "template--16677415977196__2d81040e-e20f-4bf4-ad6a-07ef583be553-167689020862276095-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "We are all about inspiring, development and growth of the people.",
-            "heading_size": "h1"
-          }
-        },
-        "template--16677415977196__2d81040e-e20f-4bf4-ad6a-07ef583be553-167689020862276095-1": {
-          "type": "text",
-          "settings": {
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "text_style": "body"
-          }
-        },
-        "template--16677415977196__2d81040e-e20f-4bf4-ad6a-07ef583be553-167689020862276095-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16677415977196__2d81040e-e20f-4bf4-ad6a-07ef583be553-167689020862276095-0",
-        "template--16677415977196__2d81040e-e20f-4bf4-ad6a-07ef583be553-167689020862276095-1",
-        "template--16677415977196__2d81040e-e20f-4bf4-ad6a-07ef583be553-167689020862276095-2"
-      ],
-      "custom_css": [
-        "h2 {font-family: arial; font-weight: 900;}"
-      ],
-      "settings": {
-        "title": "Multicolumn",
-        "image": "shopify:\/\/shop_images\/Background_2.png",
-        "image_2": "shopify:\/\/shop_images\/Group_32.png",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-left",
-        "show_text_box": false,
-        "desktop_content_alignment": "left",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
-      }
-    },
-    "32493d13-4933-4703-926a-7da9e3f02fcf": {
-      "type": "custom-image-banner-with-header",
-      "disabled": true,
-      "blocks": {
-        "template--16677415977196__32493d13-4933-4703-926a-7da9e3f02fcf-167699029026e674e0-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Quantm world",
-            "heading_size": "h1"
-          }
-        },
-        "template--16677415977196__32493d13-4933-4703-926a-7da9e3f02fcf-167699029026e674e0-1": {
-          "type": "text",
-          "settings": {
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "text_style": "body"
-          }
-        },
-        "a7138ef1-a824-4aa6-a9cc-ee7e8700ff2c": {
-          "type": "text",
-          "settings": {
-            "text": "- Tony Elizabeth",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "template--16677415977196__32493d13-4933-4703-926a-7da9e3f02fcf-167699029026e674e0-0",
-        "template--16677415977196__32493d13-4933-4703-926a-7da9e3f02fcf-167699029026e674e0-1",
-        "a7138ef1-a824-4aa6-a9cc-ee7e8700ff2c"
-      ],
-      "custom_css": [
-
-      ],
-      "settings": {
-        "title": "Listen to what our Donor says about Quantm world",
-        "image": "shopify:\/\/shop_images\/Group_31_5.png",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "left",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
       }
     },
     "1663866709a749cd01": {
@@ -700,30 +656,11 @@
         "padding_top": 0,
         "padding_bottom": 52
       }
-    },
-    "7e22e954-e0bb-412c-879f-7a669033e234": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": "<div style=\"height: 350px; overflow: hidden;\" >\n<svg viewBox=\"0 0 500 150\" preserveAspectRatio=\"none\" style=\"height: 100%; width: 100%;\"><path d=\"M0.00,49.98 C149.98,150.00 356.91,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z\" style=\"stroke: none; fill:#FEE988 ;\">\n<\/path><\/svg>\n\n<\/div>",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "6af32d16-0061-48f1-b812-cc4131ee13ca": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" version=\"1.1\" id=\"Calque_1\" x=\"0px\"\ny=\"0px\" viewBox=\"0 0 1300 550\" style=\"enable-background:new 0 0 1300 550;\" xml:space=\"preserve\">\n<style type=\"text\/css\">\n\t.st1{opacity:0.6;fill:rgba(255, 222, 89, 0.9);enable-background:new;}\n<\/style>\n    <path class=\"st1\" d=\"M 0 250 C 600 450 650 100 1300 250 L 1300 550 L 0 550 L 0 250\">\n\t\t<animate\nattributeName=\"d\"\ndur=\"10s\"\nbegin=\"1s\"\nvalues=\"M 0 250 C 600 450 650 100 1300 250 L 1300 550 L 0 550 L 0 250;\n                M 0 250 C 600 100 650 450 1300 250 L 1300 550 L 0 550 L 0 250;\n\t\t\t\tM 0 250 C 600 450 650 100 1300 250 L 1300 550 L 0 550 L 0 250\"\nrepeatCount=\"indefinite\"\n        \/>\n\t<\/path>\n\t<path class=\"st1\" d=\"M 0 250 C 600 100 650 450 1300 250 L 1300 550 L 0 550 L 0 250\">\n\t\t<animate\nattributeName=\"d\"\ndur=\"5s\"\nvalues=\"M 0 250 C 600 100 650 450 1300 250 L 1300 550 L 0 550 L 0 250;\n                M 0 250 C 600 450 650 100 1300 250 L 1300 550 L 0 550 L 0 250;\n\t\t\t\tM 0 250 C 600 100 650 450 1300 250 L 1300 550 L 0 550 L 0 250\"\nrepeatCount=\"indefinite\"\n        \/>\n\t<\/path>\n\t<path class=\"st1\" d=\"M 0 250 C 950 350 950 150 1300 250 L 1300 550 L 0 550 L 0 250\">\n\t\t<animate\nattributeName=\"d\"\ndur=\"5s\"\nbegin=\"2s\"\nvalues=\"M 0 250 C 950 350 950 150 1300 250 L 1300 550 L 0 550 L 0 250;\n                M 0 250 C 350 150 350 350 1300 250 L 1300 550 L 0 550 L 0 250;\n\t\t\t\tM 0 250 C 950 350 950 150 1300 250 L 1300 550 L 0 550 L 0 250\"\nrepeatCount=\"indefinite\"\n        \/>\n\t<\/path>\n\t<path class=\"st1\" d=\"M 0 250 C 350 150 350 350 1300 250 L 1300 550 L 0 550 L 0 250\">\n\t\t<animate\nattributeName=\"d\"\ndur=\"5s\"\nvalues=\"M 0 250 C 350 150 350 350 1300 250 L 1300 550 L 0 550 L 0 250;\n                M 0 250 C 950 350 950 150 1300 250 L 1300 550 L 0 550 L 0 250;\n\t\t\t\tM 0 250 C 350 150 350 350 1300 250 L 1300 550 L 0 550 L 0 250\"\nrepeatCount=\"indefinite\"\n        \/>\n\t<\/path>\n<\/svg>",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
     "d5520e75-a9d2-4fef-83b6-f794ccb6c5ae",
+    "61a3013d-0b51-4801-8c73-706b72daaeea",
     "5f01d18d-b57e-4efa-b09f-6c4077844df6",
     "eabf7cc8-89a1-425c-9903-b255796ba093",
     "d0b4d784-f8a8-4f60-898e-7154df633b82",
@@ -735,13 +672,7 @@
     "e0ef3d83-5022-4b5b-9b37-5561c3b4d25d",
     "166411723628c5d288",
     "16641172212c866713",
-    "1663776407801f64b1",
-    "16641287529d8f0e84",
     "1663779989e5dfe148",
-    "2d81040e-e20f-4bf4-ad6a-07ef583be553",
-    "32493d13-4933-4703-926a-7da9e3f02fcf",
-    "1663866709a749cd01",
-    "7e22e954-e0bb-412c-879f-7a669033e234",
-    "6af32d16-0061-48f1-b812-cc4131ee13ca"
+    "1663866709a749cd01"
   ]
 }
