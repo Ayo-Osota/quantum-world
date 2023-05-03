@@ -392,6 +392,15 @@
             "link": ""
           }
         },
+        "aba1924d-5bf7-4a92-9af2-9257d0d46f77": {
+          "type": "column",
+          "settings": {
+            "title": "Quantm world",
+            "text": "<p>Thank you so much Quantm World I got an alert of 50,000 Naira this afternoon ,they are very legit.<\/p>",
+            "link_label": "- Bolu",
+            "link": ""
+          }
+        },
         "template--16677415977196__35f87c00-720b-43cb-bb0b-d6fc2e6fb563-1676989904329cf5c6-2": {
           "type": "column",
           "disabled": true,
@@ -406,6 +415,7 @@
       "block_order": [
         "template--16677415977196__35f87c00-720b-43cb-bb0b-d6fc2e6fb563-1676989904329cf5c6-0",
         "template--16677415977196__35f87c00-720b-43cb-bb0b-d6fc2e6fb563-1676989904329cf5c6-1",
+        "aba1924d-5bf7-4a92-9af2-9257d0d46f77",
         "template--16677415977196__35f87c00-720b-43cb-bb0b-d6fc2e6fb563-1676989904329cf5c6-2"
       ],
       "custom_css": [
