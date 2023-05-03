@@ -13,7 +13,7 @@
         "template--16718453801196__d5520e75-a9d2-4fef-83b6-f794ccb6c5ae-16823526989c3d745f-1": {
           "type": "text",
           "settings": {
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "text": "Quantm World is all about giving back  to the Community.  We as an organisation  are committed in making sure everyone gets the help they need,  And this has made giving out to the community at large a great importance to us.",
             "text_style": "body"
           }
         },
@@ -33,6 +33,55 @@
         "template--16718453801196__d5520e75-a9d2-4fef-83b6-f794ccb6c5ae-16823526989c3d745f-0",
         "template--16718453801196__d5520e75-a9d2-4fef-83b6-f794ccb6c5ae-16823526989c3d745f-1",
         "template--16718453801196__d5520e75-a9d2-4fef-83b6-f794ccb6c5ae-16823526989c3d745f-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Group_30_2.png",
+        "image_2": "shopify:\/\/shop_images\/ben-koorengevel-sjuLxUOEMY8-unsplash_2.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "61a3013d-0b51-4801-8c73-706b72daaeea": {
+      "type": "hero-section",
+      "blocks": {
+        "a275433c-9458-4b13-8f1a-fbb5a8dd11a4": {
+          "type": "heading",
+          "settings": {
+            "heading": "GIVING TO THE NEEDY IS OUR PRIORITY",
+            "heading_size": "h1"
+          }
+        },
+        "3643e136-c55f-4eb8-a70f-94ae96f6fb66": {
+          "type": "text",
+          "settings": {
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "text_style": "body"
+          }
+        },
+        "59e5d57b-0030-4228-9337-9e11efc35ba1": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Donate",
+            "button_link_1": "shopify:\/\/collections\/donations-pot",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "a275433c-9458-4b13-8f1a-fbb5a8dd11a4",
+        "3643e136-c55f-4eb8-a70f-94ae96f6fb66",
+        "59e5d57b-0030-4228-9337-9e11efc35ba1"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Group_30_2.png",
@@ -126,7 +175,7 @@
         "template--16677415977196__d0b4d784-f8a8-4f60-898e-7154df633b82-1676991786bb166d75-1": {
           "type": "text",
           "settings": {
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "text": "Our sole aim is to establish a safe place where everyone is welcome to bring in new ideas,we are always open in making sure every opinion counts.",
             "text_style": "body"
           }
         },
@@ -173,7 +222,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/mdi_donation-outline.svg",
             "title": "Donation",
-            "text": "<p>Lorem ipsum dolor sit amet. Id voluptatum omnis <\/p>",
+            "text": "<p>Quantm World is all about giving back to the community. Your support goes a long way. Together we can both make a change and make the world a better place.<\/p>",
             "link_label": "",
             "link": "shopify:\/\/collections\/donations-pot"
           }
@@ -193,7 +242,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/emojione-monotone_money-bag.svg",
             "title": "Support",
-            "text": "<p>Lorem ipsum dolor sit amet. Id voluptatum omnis <\/p>",
+            "text": "<p>We are open to your ideas in improvement and development of Quantm World.<\/p>",
             "link_label": "",
             "link": "shopify:\/\/collections\/donations-pot"
           }
@@ -328,8 +377,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Rectangle_101_1.png",
             "title": "Qwantm world",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<\/p>",
-            "link_label": "- Tony Elizabeth",
+            "text": "<p>Finally I’m going to have a great Christmas after getting the sum of 50,000 Naira from the raffle. I wasn’t expecting it ,until I signed up for the raffle after a friend asked me to and got the payment into my account that same day. I just want to give thanks to Quantm world and they should keep up the good deed.<\/p>",
+            "link_label": "- ifeoluwa",
             "link": ""
           }
         },
@@ -392,7 +441,7 @@
         "template--16677415977196__30912376-2de7-4cbf-9119-211214962dcc-167805833481ba1e61-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<\/p>",
+            "text": "<p>We at Quantmworld also diversify in various aspects to help the community, we offer the sale of our products to help in generating income for the growth and development of people worldwide.<\/p>",
             "text_style": "body"
           }
         },
@@ -440,7 +489,7 @@
         "template--16677415977196__e0ef3d83-5022-4b5b-9b37-5561c3b4d25d-167698805216b5ec5b-1": {
           "type": "text",
           "settings": {
-            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "text": "This innovative idea ensure all profits made from the sale will as well be giving back to the community.",
             "text_style": "body"
           }
         },
@@ -724,6 +773,7 @@
   },
   "order": [
     "d5520e75-a9d2-4fef-83b6-f794ccb6c5ae",
+    "61a3013d-0b51-4801-8c73-706b72daaeea",
     "5f01d18d-b57e-4efa-b09f-6c4077844df6",
     "eabf7cc8-89a1-425c-9903-b255796ba093",
     "d0b4d784-f8a8-4f60-898e-7154df633b82",
