@@ -377,10 +377,10 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Rectangle_101_1.png",
-            "title": "Quantm  world",
+            "title": "Christmas Giveaway Winner",
             "text": "<p>Finally I’m going to have a great Christmas after getting the sum of 50,000 Naira from the raffle. I wasn’t expecting it ,until I signed up for the raffle after a friend asked me to and got the payment into my account that same day. I just want to give thanks to Quantm world and they should keep up the good deed.<\/p>",
-            "link_label": "- ifeoluwa",
-            "link": ""
+            "link_label": "- Ifeoluwa",
+            "link": "shopify:\/\/pages\/christmas-free-raffle-2022"
           }
         },
         "template--16677415977196__35f87c00-720b-43cb-bb0b-d6fc2e6fb563-1676989904329cf5c6-1": {
@@ -412,7 +412,7 @@
 
       ],
       "settings": {
-        "title": "Listen to what our Donor says about Quantm world",
+        "title": "WHAT DOES THE COMMUNIY HAVE TO SAY ABOUT QUANTM WORLD",
         "heading_size": "h1",
         "image_width": "half",
         "image_ratio": "adapt",
