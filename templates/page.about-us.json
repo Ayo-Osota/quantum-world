@@ -1,98 +1,5 @@
 {
   "sections": {
-    "6df25ee7-f8bf-4d1b-8753-2b09b7a3fc69": {
-      "type": "text-multicolumn",
-      "blocks": {
-        "template--16698323534060__6df25ee7-f8bf-4d1b-8753-2b09b7a3fc69-168002060909a9b563-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/material-symbols_share.svg",
-            "title": "Spread the word",
-            "text": "<p>Spread awareness of Quantm World to your family and friends.<\/p>",
-            "link_label": "Share now",
-            "link": ""
-          }
-        },
-        "template--16698323534060__6df25ee7-f8bf-4d1b-8753-2b09b7a3fc69-168002060909a9b563-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Vector_1.svg",
-            "title": "Shop from our store",
-            "text": "<p>The profit realize from our store is used to support the needy.<\/p>",
-            "link_label": "Shop now",
-            "link": "shopify:\/\/collections\/all"
-          }
-        },
-        "template--16698323534060__6df25ee7-f8bf-4d1b-8753-2b09b7a3fc69-168002060909a9b563-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/bxs_donate-heart.svg",
-            "title": "Donate",
-            "text": "<p>Make a donation to support those who are struggling during the current global crisis<\/p>",
-            "link_label": "Donate now",
-            "link": "shopify:\/\/collections\/all"
-          }
-        }
-      },
-      "block_order": [
-        "template--16698323534060__6df25ee7-f8bf-4d1b-8753-2b09b7a3fc69-168002060909a9b563-0",
-        "template--16698323534060__6df25ee7-f8bf-4d1b-8753-2b09b7a3fc69-168002060909a9b563-1",
-        "template--16698323534060__6df25ee7-f8bf-4d1b-8753-2b09b7a3fc69-168002060909a9b563-2"
-      ],
-      "settings": {
-        "title": "together we can create",
-        "heading_size": "h0",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "primary",
-        "button_label": "Help Quantmworld make a positive impact by spreading the word, engaging with our content, purchasing products, donating, or providing public assistance. Join us and give us a helping hand!",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "0aa93e5b-adc3-48c5-b18d-05f54a18b2e7": {
-      "type": "custom-image-banner",
-      "blocks": {
-        "template--16677416042732__0aa93e5b-adc3-48c5-b18d-05f54a18b2e7-1677917607dee004f7-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Our Vision",
-            "heading_size": "h1"
-          }
-        },
-        "template--16677416042732__0aa93e5b-adc3-48c5-b18d-05f54a18b2e7-1677917607dee004f7-1": {
-          "type": "text",
-          "settings": {
-            "text": "Our vision at QuantmWorld is to expand our reach globally and facilitate the achievement of goals. We aim to build homes, hospitals, and schools for our community and provide scholarships and tuition funding to those who lack the opportunity to change their lives. Additionally, we support struggling small businesses to make a name for themselves amidst high living costs.",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "template--16677416042732__0aa93e5b-adc3-48c5-b18d-05f54a18b2e7-1677917607dee004f7-0",
-        "template--16677416042732__0aa93e5b-adc3-48c5-b18d-05f54a18b2e7-1677917607dee004f7-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Group_33_1.png",
-        "image_2": "shopify:\/\/shop_images\/Group_34.png",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "left",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
-      }
-    },
     "297a7825-b771-4227-8445-c502277255f8": {
       "type": "custom-image-with-text",
       "blocks": {
@@ -299,6 +206,99 @@
         "padding_bottom": 36
       }
     },
+    "6df25ee7-f8bf-4d1b-8753-2b09b7a3fc69": {
+      "type": "text-multicolumn",
+      "blocks": {
+        "template--16698323534060__6df25ee7-f8bf-4d1b-8753-2b09b7a3fc69-168002060909a9b563-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/material-symbols_share.svg",
+            "title": "Spread the word",
+            "text": "<p>Spread awareness of Quantm World to your family and friends.<\/p>",
+            "link_label": "Share now",
+            "link": ""
+          }
+        },
+        "template--16698323534060__6df25ee7-f8bf-4d1b-8753-2b09b7a3fc69-168002060909a9b563-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vector_1.svg",
+            "title": "Shop from our store",
+            "text": "<p>The profit realize from our store is used to support the needy.<\/p>",
+            "link_label": "Shop now",
+            "link": "shopify:\/\/collections\/all"
+          }
+        },
+        "template--16698323534060__6df25ee7-f8bf-4d1b-8753-2b09b7a3fc69-168002060909a9b563-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bxs_donate-heart.svg",
+            "title": "Donate",
+            "text": "<p>Make a donation to support those who are struggling during the current global crisis<\/p>",
+            "link_label": "Donate now",
+            "link": "shopify:\/\/collections\/all"
+          }
+        }
+      },
+      "block_order": [
+        "template--16698323534060__6df25ee7-f8bf-4d1b-8753-2b09b7a3fc69-168002060909a9b563-0",
+        "template--16698323534060__6df25ee7-f8bf-4d1b-8753-2b09b7a3fc69-168002060909a9b563-1",
+        "template--16698323534060__6df25ee7-f8bf-4d1b-8753-2b09b7a3fc69-168002060909a9b563-2"
+      ],
+      "settings": {
+        "title": "together we can create",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "Help Quantmworld make a positive impact by spreading the word, engaging with our content, purchasing products, donating, or providing public assistance. Join us and give us a helping hand!",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "0aa93e5b-adc3-48c5-b18d-05f54a18b2e7": {
+      "type": "custom-image-banner",
+      "blocks": {
+        "template--16677416042732__0aa93e5b-adc3-48c5-b18d-05f54a18b2e7-1677917607dee004f7-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Vision",
+            "heading_size": "h1"
+          }
+        },
+        "template--16677416042732__0aa93e5b-adc3-48c5-b18d-05f54a18b2e7-1677917607dee004f7-1": {
+          "type": "text",
+          "settings": {
+            "text": "Our vision is to see that QuantmWorld becomes a great avenue where goals are being achieved and to also expand our reach in making sure everyone around the globe get to partake in what the platform is all about and to also develop our environment. We at QuantmWorld, have a big vision for helping people. We want to build homes, hospitals and schools for our community. We also will start with scholarships and tuition funding to give those who do not have the opportunity a real chance to make a change in their life. We also want to give to small businesses that are trying to make a name for themselves but are struggling due to the high costs of living.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--16677416042732__0aa93e5b-adc3-48c5-b18d-05f54a18b2e7-1677917607dee004f7-0",
+        "template--16677416042732__0aa93e5b-adc3-48c5-b18d-05f54a18b2e7-1677917607dee004f7-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Group_33_1.png",
+        "image_2": "shopify:\/\/shop_images\/Group_34.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
     "1663866709a749cd01": {
       "type": "newsletter",
       "blocks": {
@@ -335,13 +335,13 @@
     }
   },
   "order": [
-    "6df25ee7-f8bf-4d1b-8753-2b09b7a3fc69",
-    "0aa93e5b-adc3-48c5-b18d-05f54a18b2e7",
     "297a7825-b771-4227-8445-c502277255f8",
     "5cee6eb5-2fc8-41d0-aca9-596557a04442",
     "4450a1da-8e34-499d-b363-295d2f03c490",
     "1657aa12-4e60-44f9-ad44-3e3fdf97dc02",
     "d59b5e0c-af2f-49a0-947d-25d50f43f36d",
+    "6df25ee7-f8bf-4d1b-8753-2b09b7a3fc69",
+    "0aa93e5b-adc3-48c5-b18d-05f54a18b2e7",
     "1663866709a749cd01"
   ]
 }
