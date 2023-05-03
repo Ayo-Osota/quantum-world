@@ -401,6 +401,24 @@
             "link": ""
           }
         },
+        "f5a1a5fa-23e9-47c7-89c4-eae012686553": {
+          "type": "column",
+          "settings": {
+            "title": "Valentines Day giveaway",
+            "text": "<p>Morning guys I just want to say a very big thank you to Quantm World for the 50,000 Naira they sent last night . They are legit and don’t stop supporting them.<\/p>",
+            "link_label": "- Olotu",
+            "link": ""
+          }
+        },
+        "e6f4434f-a8be-409c-84bd-0e6e838ddf0a": {
+          "type": "column",
+          "settings": {
+            "title": "Mother’s Day giveaway",
+            "text": "<p>I want to use this moment to say thank you very much . You guys are legit .<\/p>",
+            "link_label": "- Ayotunde",
+            "link": ""
+          }
+        },
         "template--16677415977196__35f87c00-720b-43cb-bb0b-d6fc2e6fb563-1676989904329cf5c6-2": {
           "type": "column",
           "disabled": true,
@@ -416,6 +434,8 @@
         "template--16677415977196__35f87c00-720b-43cb-bb0b-d6fc2e6fb563-1676989904329cf5c6-0",
         "template--16677415977196__35f87c00-720b-43cb-bb0b-d6fc2e6fb563-1676989904329cf5c6-1",
         "aba1924d-5bf7-4a92-9af2-9257d0d46f77",
+        "f5a1a5fa-23e9-47c7-89c4-eae012686553",
+        "e6f4434f-a8be-409c-84bd-0e6e838ddf0a",
         "template--16677415977196__35f87c00-720b-43cb-bb0b-d6fc2e6fb563-1676989904329cf5c6-2"
       ],
       "custom_css": [
