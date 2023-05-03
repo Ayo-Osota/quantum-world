@@ -49,7 +49,6 @@
         <div class="col-12 col-md-6">
 
     
-    <h2 class="collage2-wrapper-title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</h2>
     <div class="collage2{% if section.settings.mobile_layout == 'collage2' %} collage2--mobile{% endif %}">
       {%- for block in section.blocks -%}
         <div class="collage2__item collage2__item--{{ block.type }} collage2__item--{{ section.settings.desktop_layout }}" {{ block.shopify_attributes }}>
@@ -196,8 +195,9 @@
 <!--       <div id="ImageWithText--template--16677415977196__174a8597-1440-4f95-bd46-56d146a6d0b5" class="custom-image-with-text image-with-text__content image-with-text__content--top image-with-text__content--desktop-left image-with-text__content--mobile-left image-with-text__content--adapt gradient color-background-1 content-container"> -->
       <div class="quantm custom-image-with-text2 image-with-text__content--top image-with-text__content--desktop-left image-with-text__content--mobile-left image-with-text__content--adapt gradient color-background-1 content-container">
         
-        <h2 class="quantmheading">PROVIDE CLOTH FOR THE NEEDY</h2>
-        <div class="description more-description image-with-text__text rte body"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
+        <h2 class="quantmheading">{{ section.settings.heading | escape }}</h2>
+        <div class="description more-description image-with-text__text rte body">
+          <p>{{ section.settings.caption | escape }}</p></div>
 
         
 
@@ -211,17 +211,17 @@
 
 <div class="customer__notes">
   <div class="note">
-    <h2 class="customer__noteh2">£20,000</h2>
+    <h2 class="customer__noteh2">{{ section.settings.target_amount | escape }}</h2>
     <p class="customer__notesp">Target amount</p>
     </div>
     
     <div class="note">
-    <h2 class="customer__noteh2">£20,000</h2>
+    <h2 class="customer__noteh2">{{ section.settings.amount_raised | escape }}</h2>
     <p class="customer__notesp">Amount Raised</p>
     </div>
     
     <div class="note">
-    <h2 class="customer__noteh2">£20,000</h2>
+    <h2 class="customer__noteh2">{{ section.settings.amount_remaining | escape }}</h2>
     <p class="customer__notesp">Amount Remaining</p>
   </div>
 </div>
@@ -250,8 +250,32 @@
     {
       "type": "text",
       "id": "heading",
-      "default": "Multimedia collage2",
+      "default": "PROVIDE CLOTH FOR THE NEEDY",
       "label": "t:sections.collage2.settings.heading.label"
+    },
+    {
+      "type": "richtext",
+      "id": "caption",
+      "default": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>",
+      "label": "Subheading"
+    },
+    {
+      "type": "text",
+      "id": "target_amount",
+      "default": "£100,000",
+      "label": "Target amount"
+    },
+    {
+      "type": "text",
+      "id": "amount_raised",
+      "default": "£20,000",
+      "label": "Amount raised"
+    },
+    {
+      "type": "text",
+      "id": "amount_remaining",
+      "default": "£80,000",
+      "label": "Amount remaining"
     },
     {
       "type": "select",
