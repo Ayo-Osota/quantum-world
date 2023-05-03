@@ -71,6 +71,11 @@
             </a>
           </div>
           <div class="footer-nav">
+
+{% for link in linklists.main-menu.footer-policies %}
+  <!-- menu content -->
+{% endfor %}
+
             <a href="{{ routes.root_url }}" aria-current="page" class="footer-link w--current">Home</a>
             <a href="/pages/about-us" class="footer-link">About</a>
             <a href="/collections/all" class="footer-link">Catalog</a>
