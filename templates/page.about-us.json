@@ -461,6 +461,51 @@
         "padding_bottom": 36
       }
     },
+    "d59b5e0c-af2f-49a0-947d-25d50f43f36d": {
+      "type": "custom-image-with-span",
+      "blocks": {
+        "0465583c-db36-4dfc-8d49-67c40bc62e20": {
+          "type": "caption",
+          "settings": {
+            "caption": "Why We Do This",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "template--16718454030572__d59b5e0c-af2f-49a0-947d-25d50f43f36d-1683140745ba197e67-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "template--16718454030572__d59b5e0c-af2f-49a0-947d-25d50f43f36d-1683140745ba197e67-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Looking at the world today and how technology has played a major role in the grown and well-being of the people, we as a team came together to play our part in making sure people’s voices are heard and their needs are being met. We want to make a good impact through our platform and support as much as we can.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "0465583c-db36-4dfc-8d49-67c40bc62e20",
+        "template--16718454030572__d59b5e0c-af2f-49a0-947d-25d50f43f36d-1683140745ba197e67-0",
+        "template--16718454030572__d59b5e0c-af2f-49a0-947d-25d50f43f36d-1683140745ba197e67-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/pic_1_1.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "1663866709a749cd01": {
       "type": "newsletter",
       "blocks": {
@@ -507,6 +552,7 @@
     "5cee6eb5-2fc8-41d0-aca9-596557a04442",
     "4450a1da-8e34-499d-b363-295d2f03c490",
     "1657aa12-4e60-44f9-ad44-3e3fdf97dc02",
+    "d59b5e0c-af2f-49a0-947d-25d50f43f36d",
     "1663866709a749cd01"
   ]
 }
