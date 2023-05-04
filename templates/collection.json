@@ -94,14 +94,14 @@
         "template--16698323173612__15b176f0-5e90-4573-9213-77c34ac16022-1679069837c93e58e1-0": {
           "type": "heading",
           "settings": {
-            "heading": "GET 25% DISCOUNT TODAY",
+            "heading": "QuantmWorld Shop",
             "heading_size": "h1"
           }
         },
         "template--16698323173612__15b176f0-5e90-4573-9213-77c34ac16022-1679069837c93e58e1-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<\/p>",
+            "text": "<p>we have various products which matches your style and of great quality.<\/p>",
             "text_style": "body"
           }
         },
@@ -152,7 +152,7 @@
         "template--16698323173612__80ba0a16-7655-4583-9eb6-5fb81b531f4f-1679074643e40f6ea9-2": {
           "type": "button",
           "settings": {
-            "button_label": "Learn more",
+            "button_label": "Donate Now",
             "button_link": ""
           }
         },
@@ -173,7 +173,7 @@
         "7be0613d-3ce6-41f0-8e3f-59c0d4c68ba1": {
           "type": "button",
           "settings": {
-            "button_label": "Learn more",
+            "button_label": "Donate Now",
             "button_link": ""
           }
         }
