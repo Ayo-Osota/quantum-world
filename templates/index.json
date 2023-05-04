@@ -274,6 +274,36 @@
     "35f87c00-720b-43cb-bb0b-d6fc2e6fb563": {
       "type": "custom-donor",
       "blocks": {
+        "template--16677415977196__35f87c00-720b-43cb-bb0b-d6fc2e6fb563-1676989904329cf5c6-2": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "Father's Day Giveaway 2023",
+            "text": "<p>Speech<\/p>",
+            "link_label": "",
+            "link": "shopify:\/\/pages\/ay-raffle"
+          }
+        },
+        "e6f4434f-a8be-409c-84bd-0e6e838ddf0a": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-05-04_at_14.31.33.png",
+            "title": "Mother’s Day Giveaway 2023",
+            "text": "<p>I want to use this moment to say thank you very much. You guys are legit.<\/p>",
+            "link_label": "- Ayotunde",
+            "link": "shopify:\/\/pages\/quantmworld-official-mother-s-day-free-raffle-2023"
+          }
+        },
+        "f5a1a5fa-23e9-47c7-89c4-eae012686553": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2023-05-04_at_14.30.35.png",
+            "title": "Valentines Day Giveaway Christmas Giveaway Winner 2023",
+            "text": "<p>Morning guys I just want to say a very big thank you to Quantm World for the ₦50,000 Naira they sent last night. They are legit and don’t stop supporting them.<\/p>",
+            "link_label": "- Olotu",
+            "link": "shopify:\/\/pages\/quantmworld-official-valentine-s-free-raffle-2023"
+          }
+        },
         "template--16677415977196__35f87c00-720b-43cb-bb0b-d6fc2e6fb563-1676989904329cf5c6-0": {
           "type": "column",
           "settings": {
@@ -303,45 +333,15 @@
             "link_label": "- Bolu",
             "link": "shopify:\/\/pages\/christmas-free-raffle-2022"
           }
-        },
-        "f5a1a5fa-23e9-47c7-89c4-eae012686553": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_2023-05-04_at_14.30.35.png",
-            "title": "Valentines Day Giveaway Christmas Giveaway Winner 2023",
-            "text": "<p>Morning guys I just want to say a very big thank you to Quantm World for the ₦50,000 Naira they sent last night. They are legit and don’t stop supporting them.<\/p>",
-            "link_label": "- Olotu",
-            "link": "shopify:\/\/pages\/quantmworld-official-valentine-s-free-raffle-2023"
-          }
-        },
-        "e6f4434f-a8be-409c-84bd-0e6e838ddf0a": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Screenshot_2023-05-04_at_14.31.33.png",
-            "title": "Mother’s Day Giveaway 2023",
-            "text": "<p>I want to use this moment to say thank you very much. You guys are legit.<\/p>",
-            "link_label": "- Ayotunde",
-            "link": "shopify:\/\/pages\/quantmworld-official-mother-s-day-free-raffle-2023"
-          }
-        },
-        "template--16677415977196__35f87c00-720b-43cb-bb0b-d6fc2e6fb563-1676989904329cf5c6-2": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "title": "Father's Day Giveaway 2023",
-            "text": "<p>Speech<\/p>",
-            "link_label": "",
-            "link": "shopify:\/\/pages\/ay-raffle"
-          }
         }
       },
       "block_order": [
+        "template--16677415977196__35f87c00-720b-43cb-bb0b-d6fc2e6fb563-1676989904329cf5c6-2",
+        "e6f4434f-a8be-409c-84bd-0e6e838ddf0a",
+        "f5a1a5fa-23e9-47c7-89c4-eae012686553",
         "template--16677415977196__35f87c00-720b-43cb-bb0b-d6fc2e6fb563-1676989904329cf5c6-0",
         "template--16677415977196__35f87c00-720b-43cb-bb0b-d6fc2e6fb563-1676989904329cf5c6-1",
-        "aba1924d-5bf7-4a92-9af2-9257d0d46f77",
-        "f5a1a5fa-23e9-47c7-89c4-eae012686553",
-        "e6f4434f-a8be-409c-84bd-0e6e838ddf0a",
-        "template--16677415977196__35f87c00-720b-43cb-bb0b-d6fc2e6fb563-1676989904329cf5c6-2"
+        "aba1924d-5bf7-4a92-9af2-9257d0d46f77"
       ],
       "custom_css": [
 
