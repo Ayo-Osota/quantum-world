@@ -35,7 +35,7 @@ slider-component.slider-component-full-width {
   padding-bottom: 0;
 }
 
-@media screen and (max-width: 749px) {
+@media screen and (max-width: 990px) {
   .slider.slider--mobile {
     position: relative;
     flex-wrap: inherit;
@@ -351,7 +351,7 @@ slider-component.slider-component-full-width {
   }
 }
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 990px) {
   .slider--mobile + .slider-buttons:not(.feedback-slider-buttons) {
     display: none;
   }
@@ -396,11 +396,4 @@ slider-component.slider-component-full-width {
 
 .slider-button--prev:not([disabled]):hover .icon {
   transform: rotate(90deg) scale(1.1);
-}
-
-@media screen and (min-width: 750px) and (max-width: 989px) {
-  .multicolumn-slider-mobile-gutter {
-    margin: 0 auto;
-    max-width: 38rem;
-  }
 }
