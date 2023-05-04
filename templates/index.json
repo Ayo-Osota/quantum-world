@@ -358,7 +358,7 @@
         "button_link": "shopify:\/\/pages\/ay-raffle",
         "color_scheme": "background-1",
         "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 60,
         "padding_bottom": 60
       }
