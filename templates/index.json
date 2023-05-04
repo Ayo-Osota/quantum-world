@@ -278,7 +278,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Screenshot_2023-05-04_at_14.27.23.png",
-            "title": "Christmas Giveaway Winner",
+            "title": "Christmas Giveaway Winner 2022",
             "text": "<p>Finally I’m going to have a great Christmas after getting the sum of ₦50,000 Naira from the raffle. I wasn’t expecting it, until I signed up for the raffle after a friend asked me to and got the payment into my account that same day. I just want to give thanks to Quantm world and they should keep up the good deed.<\/p>",
             "link_label": "- Ifeoluwa",
             "link": "shopify:\/\/pages\/christmas-free-raffle-2022"
@@ -288,10 +288,10 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Screenshot_2023-05-04_at_14.29.45.png",
-            "title": "Christmas Giveaway Winner",
+            "title": "Christmas Giveaway Winner Christmas Giveaway Winner 2022",
             "text": "<p>I just received the sum of ₦20,000 Naira as the runner up of the Quantm World giveaway. I want to say a very big thank you to them and to let everyone know to keep following and supporting them as they are legit and reliable.<\/p>",
             "link_label": "- Ahmed",
-            "link": ""
+            "link": "shopify:\/\/pages\/christmas-free-raffle-2022"
           }
         },
         "aba1924d-5bf7-4a92-9af2-9257d0d46f77": {
@@ -301,37 +301,37 @@
             "title": "Christmas Giveaway Winner",
             "text": "<p>Thank you so much Quantm World I got an alert of ₦50,000 Naira this afternoon, they are very legit.<\/p>",
             "link_label": "- Bolu",
-            "link": ""
+            "link": "shopify:\/\/pages\/christmas-free-raffle-2022"
           }
         },
         "f5a1a5fa-23e9-47c7-89c4-eae012686553": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Screenshot_2023-05-04_at_14.30.35.png",
-            "title": "Valentines Day Giveaway",
+            "title": "Valentines Day Giveaway Christmas Giveaway Winner 2023",
             "text": "<p>Morning guys I just want to say a very big thank you to Quantm World for the ₦50,000 Naira they sent last night. They are legit and don’t stop supporting them.<\/p>",
             "link_label": "- Olotu",
-            "link": ""
+            "link": "shopify:\/\/pages\/quantmworld-official-valentine-s-free-raffle-2023"
           }
         },
         "e6f4434f-a8be-409c-84bd-0e6e838ddf0a": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Screenshot_2023-05-04_at_14.31.33.png",
-            "title": "Mother’s Day Giveaway",
+            "title": "Mother’s Day Giveaway 2023",
             "text": "<p>I want to use this moment to say thank you very much. You guys are legit.<\/p>",
             "link_label": "- Ayotunde",
-            "link": ""
+            "link": "shopify:\/\/pages\/quantmworld-official-mother-s-day-free-raffle-2023"
           }
         },
         "template--16677415977196__35f87c00-720b-43cb-bb0b-d6fc2e6fb563-1676989904329cf5c6-2": {
           "type": "column",
           "disabled": true,
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Father's Day Giveaway 2023",
+            "text": "<p>Speech<\/p>",
             "link_label": "",
-            "link": ""
+            "link": "shopify:\/\/pages\/ay-raffle"
           }
         }
       },
