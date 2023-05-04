@@ -13,7 +13,7 @@
         "template--16718453801196__d5520e75-a9d2-4fef-83b6-f794ccb6c5ae-16823526989c3d745f-1": {
           "type": "text",
           "settings": {
-            "text": "Quantm World is all about giving back  to the Community.  We as an organisation  are committed in making sure everyone gets the help they need,  And this has made giving out to the community at large a great importance to us.",
+            "text": "QuantmWorld is all about giving back  to the Community.  We as an organisation  are committed in making sure everyone gets the help they need,  And this has made giving out to the community at large a great importance to us.",
             "text_style": "body"
           }
         },
@@ -173,7 +173,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/mdi_donation-outline.svg",
             "title": "Donation",
-            "text": "<p>Quantm World is all about giving back to the community. Your support goes a long way. Together we can both make a change and make the world a better place.<\/p>",
+            "text": "<p>QuantmWorld is all about giving back to the community. Your support goes a long way. Together we can both make a change and make the world a better place.<\/p>",
             "link_label": "",
             "link": "shopify:\/\/collections\/donations-pot"
           }
@@ -259,7 +259,7 @@
       ],
       "settings": {
         "heading": "PROVIDE OPPORTUNITIES FOR THE COMMUNITY",
-        "caption": "Quantm World believes in supporting talents from all over the world,together we can all make a difference by your contributions and Dedication.",
+        "caption": "QuantmWorld believes in supporting talents from all over the world,together we can all make a difference by your contributions and Dedication.",
         "target_amount": "£100,000",
         "amount_raised": "£50,000",
         "amount_remaining": "£80,000",
@@ -349,7 +349,7 @@
       "settings": {
         "title": "WHAT DOES THE COMMUNITY HAVE TO SAY ABOUT QUANTM WORLD",
         "heading_size": "h1",
-        "image_width": "half",
+        "image_width": "third",
         "image_ratio": "adapt",
         "columns_desktop": 1,
         "column_alignment": "left",
