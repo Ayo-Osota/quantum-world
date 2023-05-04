@@ -50,11 +50,34 @@
         "color_scheme": "background-1",
         "mobile_content_alignment": "left",
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 0
+      }
+    },
+    "0a1bf515-98f1-403e-b37e-b5790ce0a7fd": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16718454030572__0a1bf515-98f1-403e-b37e-b5790ce0a7fd-16832096778817f830-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We are committed on embarking on this journey, not just by ourselves but with every great person out there and together we can both achieve our aim. With technology thriving so fast in our current world, with our platform we have created a safe space where people can get products of their choice which can further more help as an advantage in development of this platform and a major boost in helping the community.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16718454030572__0a1bf515-98f1-403e-b37e-b5790ce0a7fd-16832096778817f830-1"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": false,
+        "padding_top": 0,
+        "padding_bottom": 40
       }
     },
     "5cee6eb5-2fc8-41d0-aca9-596557a04442": {
       "type": "custom-image-with-text",
+      "disabled": true,
       "blocks": {
         "cb1d8bca-79f2-402f-abf1-3075acf64f18": {
           "type": "caption",
@@ -67,7 +90,7 @@
         "template--16718454030572__5cee6eb5-2fc8-41d0-aca9-596557a04442-168313945847af6f99-1": {
           "type": "text",
           "settings": {
-            "text": "<p>We are committed on embarking on this journey , not just by ourselves but with every great person out there and together we can both achieve our aim. With technology thriving so fast in our current world, with our platform we have created a safe space where people can get products of their choice which can further more help as an advantage in development of this platform and a major boost in helping the community.<\/p>",
+            "text": "<p>We are committed on embarking on this journey, not just by ourselves but with every great person out there and together we can both achieve our aim. With technology thriving so fast in our current world, with our platform we have created a safe space where people can get products of their choice which can further more help as an advantage in development of this platform and a major boost in helping the community.<\/p>",
             "text_style": "body"
           }
         }
@@ -354,6 +377,7 @@
   },
   "order": [
     "297a7825-b771-4227-8445-c502277255f8",
+    "0a1bf515-98f1-403e-b37e-b5790ce0a7fd",
     "5cee6eb5-2fc8-41d0-aca9-596557a04442",
     "4450a1da-8e34-499d-b363-295d2f03c490",
     "1657aa12-4e60-44f9-ad44-3e3fdf97dc02",
