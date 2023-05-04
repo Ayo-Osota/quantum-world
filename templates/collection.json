@@ -145,7 +145,7 @@
         "template--16698323173612__80ba0a16-7655-4583-9eb6-5fb81b531f4f-1679074643e40f6ea9-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<\/p>",
+            "text": "",
             "text_style": "body"
           }
         },
@@ -166,7 +166,7 @@
         "d33eef59-1306-478d-bb26-f833f8b90df7": {
           "type": "text",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<\/p>",
+            "text": "<p> Partial purchase from the sale of our product will be used to fund our charity.<\/p>",
             "text_style": "body"
           }
         },
