@@ -10,6 +10,14 @@
             "heading_size": "h1"
           }
         },
+        "ff3c6c8b-ca74-49af-b511-53d966aacd62": {
+          "type": "caption",
+          "settings": {
+            "caption": "About Us",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
         "template--16718454030572__297a7825-b771-4227-8445-c502277255f8-168313945847af6f99-1": {
           "type": "text",
           "settings": {
@@ -27,6 +35,7 @@
       },
       "block_order": [
         "template--16718454030572__297a7825-b771-4227-8445-c502277255f8-168313945847af6f99-0",
+        "ff3c6c8b-ca74-49af-b511-53d966aacd62",
         "template--16718454030572__297a7825-b771-4227-8445-c502277255f8-168313945847af6f99-1",
         "template--16718454030572__297a7825-b771-4227-8445-c502277255f8-168313945847af6f99-2"
       ],
@@ -47,6 +56,14 @@
     "5cee6eb5-2fc8-41d0-aca9-596557a04442": {
       "type": "custom-image-with-text",
       "blocks": {
+        "cb1d8bca-79f2-402f-abf1-3075acf64f18": {
+          "type": "caption",
+          "settings": {
+            "caption": "More About Us",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
         "template--16718454030572__5cee6eb5-2fc8-41d0-aca9-596557a04442-168313945847af6f99-1": {
           "type": "text",
           "settings": {
@@ -56,13 +73,14 @@
         }
       },
       "block_order": [
+        "cb1d8bca-79f2-402f-abf1-3075acf64f18",
         "template--16718454030572__5cee6eb5-2fc8-41d0-aca9-596557a04442-168313945847af6f99-1"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Creative_team-cuate_1.png",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "text_first",
+        "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
