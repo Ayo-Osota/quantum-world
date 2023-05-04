@@ -321,59 +321,6 @@
         "padding_bottom": 36
       }
     },
-    "174a8597-1440-4f95-bd46-56d146a6d0b5": {
-      "type": "custom-image-text-with-bar",
-      "disabled": true,
-      "blocks": {
-        "template--16677415977196__174a8597-1440-4f95-bd46-56d146a6d0b5-1677083335507461a3-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "PROVIDE CLOTH FOR THE NEEDY",
-            "heading_size": "h1"
-          }
-        },
-        "template--16677415977196__174a8597-1440-4f95-bd46-56d146a6d0b5-1677083335507461a3-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--16677415977196__174a8597-1440-4f95-bd46-56d146a6d0b5-1677083335507461a3-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Donate",
-            "button_link": "shopify:\/\/pages\/about-us"
-          }
-        },
-        "799bfaf0-c766-4aa7-928f-b026a08fc2cc": {
-          "type": "button",
-          "settings": {
-            "button_label": "Share",
-            "button_link": "shopify:\/\/pages\/about-us"
-          }
-        }
-      },
-      "block_order": [
-        "template--16677415977196__174a8597-1440-4f95-bd46-56d146a6d0b5-1677083335507461a3-0",
-        "template--16677415977196__174a8597-1440-4f95-bd46-56d146a6d0b5-1677083335507461a3-1",
-        "template--16677415977196__174a8597-1440-4f95-bd46-56d146a6d0b5-1677083335507461a3-2",
-        "799bfaf0-c766-4aa7-928f-b026a08fc2cc"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Image_1.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 20,
-        "padding_bottom": 20
-      }
-    },
     "35f87c00-720b-43cb-bb0b-d6fc2e6fb563": {
       "type": "custom-donor",
       "blocks": {
@@ -670,7 +617,6 @@
     "d0b4d784-f8a8-4f60-898e-7154df633b82",
     "5a00b4f1-8be5-4016-b08e-fb8f68bf873a",
     "69495abc-5c8e-4cd5-acfa-106c8bb93e40",
-    "174a8597-1440-4f95-bd46-56d146a6d0b5",
     "35f87c00-720b-43cb-bb0b-d6fc2e6fb563",
     "30912376-2de7-4cbf-9119-211214962dcc",
     "e0ef3d83-5022-4b5b-9b37-5561c3b4d25d",
