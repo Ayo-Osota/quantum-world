@@ -174,7 +174,21 @@
     },
     "content_for_index": [
 
-    ]
+    ],
+    "blocks": {
+      "3720565183479497137": {
+        "type": "shopify:\/\/apps\/globo-product-options-variant\/blocks\/app-embed-block\/fdc9fad5-1a0f-4bd4-9c8a-1af6a6eef6b8",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "17368511000352060744": {
+        "type": "shopify:\/\/apps\/goaffpro-affiliate-marketing\/blocks\/goaffpro-embedded-pixel\/2f4d802b-86c2-47e4-8096-ae1aa3efbab2",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
   },
   "presets": {
     "Default": {
