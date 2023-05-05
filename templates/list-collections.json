@@ -1,1 +1,139 @@
-{"sections":{"main":{"type":"main-list-collections","disabled":true,"settings":{"title":"All Collections","sort":"alphabetical","image_ratio":"square","columns_desktop":3,"columns_mobile":"2"}},"b754e42b-e1ef-4ed3-b35f-24061711850a":{"type":"collection-list","blocks":{"template--16238543372524__b754e42b-e1ef-4ed3-b35f-24061711850a-1666618975a0b7acce-0":{"type":"featured_collection","settings":{"collection":"donations-pot"}},"template--16238543372524__b754e42b-e1ef-4ed3-b35f-24061711850a-1666618975a0b7acce-1":{"type":"featured_collection","settings":{"collection":"jumpers-and-hoodies"}},"template--16238543372524__b754e42b-e1ef-4ed3-b35f-24061711850a-1666618975a0b7acce-2":{"type":"featured_collection","settings":{"collection":"clothes-shoes-and-much-more"}}},"block_order":["template--16238543372524__b754e42b-e1ef-4ed3-b35f-24061711850a-1666618975a0b7acce-0","template--16238543372524__b754e42b-e1ef-4ed3-b35f-24061711850a-1666618975a0b7acce-1","template--16238543372524__b754e42b-e1ef-4ed3-b35f-24061711850a-1666618975a0b7acce-2"],"settings":{"title":"All Products","heading_size":"h1","image_ratio":"square","columns_desktop":3,"color_scheme":"background-1","show_view_all":false,"columns_mobile":"1","swipe_on_mobile":true,"padding_top":36,"padding_bottom":36}}},"order":["main","b754e42b-e1ef-4ed3-b35f-24061711850a"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-list-collections",
+      "disabled": true,
+      "settings": {
+        "title": "All Collections",
+        "sort": "alphabetical",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "columns_mobile": "2"
+      }
+    },
+    "a2419f91-705c-4ca1-b123-6e55766d6dbf": {
+      "type": "plane-image-with-text",
+      "blocks": {
+        "template--16718454423788__a2419f91-705c-4ca1-b123-6e55766d6dbf-16833005904afcda86-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "WE SELL MERCHANDISE TO CONTINUALLY SUPPORT OUR AGENDA",
+            "heading_size": "h1"
+          }
+        },
+        "template--16718454423788__a2419f91-705c-4ca1-b123-6e55766d6dbf-16833005904afcda86-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We at Quantmworld also diversify in various aspects to help the community, we offer the sale of our products to help in generating income for the growth and development of people worldwide.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16718454423788__a2419f91-705c-4ca1-b123-6e55766d6dbf-16833005904afcda86-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16718454423788__a2419f91-705c-4ca1-b123-6e55766d6dbf-16833005904afcda86-0",
+        "template--16718454423788__a2419f91-705c-4ca1-b123-6e55766d6dbf-16833005904afcda86-1",
+        "template--16718454423788__a2419f91-705c-4ca1-b123-6e55766d6dbf-16833005904afcda86-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/stacked-cloths.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "f22adc71-e0c2-41d8-808a-23f80e07de6a": {
+      "type": "search-shop",
+      "blocks": {
+        "template--16718454423788__f22adc71-e0c2-41d8-808a-23f80e07de6a-1683300504d9aa7b2f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "template--16718454423788__f22adc71-e0c2-41d8-808a-23f80e07de6a-1683300504d9aa7b2f-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "template--16718454423788__f22adc71-e0c2-41d8-808a-23f80e07de6a-1683300504d9aa7b2f-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--16718454423788__f22adc71-e0c2-41d8-808a-23f80e07de6a-1683300504d9aa7b2f-0",
+        "template--16718454423788__f22adc71-e0c2-41d8-808a-23f80e07de6a-1683300504d9aa7b2f-1",
+        "template--16718454423788__f22adc71-e0c2-41d8-808a-23f80e07de6a-1683300504d9aa7b2f-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "b754e42b-e1ef-4ed3-b35f-24061711850a": {
+      "type": "collection-list",
+      "blocks": {
+        "template--16238543372524__b754e42b-e1ef-4ed3-b35f-24061711850a-1666618975a0b7acce-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "donations-pot"
+          }
+        },
+        "template--16238543372524__b754e42b-e1ef-4ed3-b35f-24061711850a-1666618975a0b7acce-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "jumpers-and-hoodies"
+          }
+        },
+        "template--16238543372524__b754e42b-e1ef-4ed3-b35f-24061711850a-1666618975a0b7acce-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "clothes-shoes-and-much-more"
+          }
+        }
+      },
+      "block_order": [
+        "template--16238543372524__b754e42b-e1ef-4ed3-b35f-24061711850a-1666618975a0b7acce-0",
+        "template--16238543372524__b754e42b-e1ef-4ed3-b35f-24061711850a-1666618975a0b7acce-1",
+        "template--16238543372524__b754e42b-e1ef-4ed3-b35f-24061711850a-1666618975a0b7acce-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "a2419f91-705c-4ca1-b123-6e55766d6dbf",
+    "f22adc71-e0c2-41d8-808a-23f80e07de6a",
+    "b754e42b-e1ef-4ed3-b35f-24061711850a"
+  ]
+}
