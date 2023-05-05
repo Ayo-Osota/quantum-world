@@ -281,7 +281,7 @@
             "title": "Father's Day Giveaway 2023",
             "text": "<p>Speech<\/p>",
             "link_label": "",
-            "link": "shopify:\/\/pages\/ay-raffle"
+            "link": "shopify:\/\/pages\/raffle"
           }
         },
         "e6f4434f-a8be-409c-84bd-0e6e838ddf0a": {
@@ -355,7 +355,7 @@
         "column_alignment": "left",
         "background_style": "primary",
         "button_label": "Enter Raffle or Giveaways",
-        "button_link": "shopify:\/\/pages\/ay-raffle",
+        "button_link": "shopify:\/\/pages\/raffle",
         "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
