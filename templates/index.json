@@ -258,7 +258,7 @@
         "e037e1f7-43e1-4afc-9ac9-095ddb36fbe5"
       ],
       "settings": {
-        "heading": "PROVIDE OPPORTUNITIES FOR THE COMMUNITY",
+        "heading": "PROVIDING OPPORTUNITIES FOR THE COMMUNITY",
         "caption": "QuantmWorld believes in supporting talents from all over the world,together we can all make a difference by your contributions and Dedication.",
         "target_amount": "£100,000",
         "amount_raised": "£50,000",
@@ -383,7 +383,7 @@
         "template--16677415977196__30912376-2de7-4cbf-9119-211214962dcc-167805833481ba1e61-2": {
           "type": "button",
           "settings": {
-            "button_label": "View our online store",
+            "button_label": "View Our Online Store",
             "button_link": "shopify:\/\/collections\/all"
           }
         }
