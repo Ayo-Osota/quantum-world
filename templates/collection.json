@@ -154,7 +154,7 @@
           "type": "button",
           "settings": {
             "button_label": "Donate Now",
-            "button_link": ""
+            "button_link": "shopify:\/\/collections\/donations-pot"
           }
         },
         "1751cc64-7ffc-4c65-9bc8-bec6205801ea": {
@@ -174,7 +174,7 @@
         "7be0613d-3ce6-41f0-8e3f-59c0d4c68ba1": {
           "type": "button",
           "settings": {
-            "button_label": "Donate Now",
+            "button_label": "View Store Below",
             "button_link": ""
           }
         }
