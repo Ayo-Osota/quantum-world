@@ -19,14 +19,16 @@
         },
         "template--16238543405292__69062cf9-6e99-414c-b04c-151aac250b66-16713645741fb85754-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
-            "text": "<p><strong>Ayotunde Adetayo<\/strong>  - 50,000N<\/p>"
+            "text": "<p><strong>WINNER ONE<\/strong>  - 20,000N<\/p><p><strong>WINNER TWO<\/strong>  - 20,000N<\/p>"
           }
         },
         "206f62a7-8d71-4f40-b19a-2aae22ea60c8": {
           "type": "text",
+          "disabled": true,
           "settings": {
-            "text": "<p>We have sent thr winner an email requesting your payment information.<\/p>"
+            "text": "<p>We have sent the winner an email requesting your payment information.<\/p>"
           }
         }
       },
@@ -59,7 +61,7 @@
         "2e2574cb-3b0a-41f9-b7d4-248979c72f2e"
       ],
       "settings": {
-        "heading": "CLOSED",
+        "heading": "OPEN",
         "heading_size": "h1",
         "desktop_layout": "left",
         "mobile_layout": "collage",
@@ -71,7 +73,7 @@
     "7248b83c-593e-4ce2-b8a7-a994e0cd6f78": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div id=\"67983-jw3alsi5\" class=\"sw_container\"><script type=\"text\/javascript\" src=\"https:\/\/sweepwidget.com\/w\/j\/w_init.js\"><\/script><\/div>",
+        "custom_liquid": "<div id=\"69841-sdh4jt9f\" class=\"sw_container\"><script type=\"text\/javascript\" src=\"https:\/\/sweepwidget.com\/w\/j\/w_init.js\"><\/script><\/div>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
