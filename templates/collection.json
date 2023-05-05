@@ -60,6 +60,7 @@
     },
     "c04ca2d8-f835-43b7-8ded-daad273dbe8e": {
       "type": "featured-collection",
+      "disabled": true,
       "custom_css": [
 
       ],
@@ -75,7 +76,7 @@
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
-        "enable_desktop_slider": false,
+        "enable_desktop_slider": true,
         "color_scheme": "background-1",
         "image_ratio": "adapt",
         "show_secondary_image": false,
@@ -138,7 +139,7 @@
         "template--16698323173612__80ba0a16-7655-4583-9eb6-5fb81b531f4f-1679074643e40f6ea9-0": {
           "type": "heading",
           "settings": {
-            "heading": "Add Donation Box to your Cart",
+            "heading": "Add Donation Box To Your Cart",
             "heading_size": "h1"
           }
         },
@@ -159,7 +160,7 @@
         "1751cc64-7ffc-4c65-9bc8-bec6205801ea": {
           "type": "heading",
           "settings": {
-            "heading": "Shop to give to less priviledge",
+            "heading": "Shop To Make A Difference",
             "heading_size": "h1"
           }
         },
