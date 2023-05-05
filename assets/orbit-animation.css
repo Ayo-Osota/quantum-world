@@ -4,7 +4,7 @@
 
 .orbit-wrapper {
     max-width: 474px;
-    aspect-ratio: 1 !important;
+    padding-top: 100%;
     position: relative;
     overflow: visible !important;
     position: relative;
@@ -12,7 +12,7 @@
 
 .orbit {
     width: 100%;
-    aspect-ratio: 1 !important;
+    height: 70%;
     border-radius: 100%;
     opacity: 0.5;
     border: 0.5px solid rgba(0, 45, 55, 0.9);
@@ -95,4 +95,29 @@
         margin-left: -35%;
         margin-top: -35%;
     }
+
+    .orbit-shop-header {
+        margin-bottom: 0 !important;
+    }
+
+    .orbit-custom-image-with-text {
+        padding-top: 0 !important;
+    }
+    
 }
+
+@media screen and (min-width: 518px) {
+    .orbit {
+        max-width: 330px;
+        max-height: 330px;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    .orbit {
+        max-width: 474px;
+        max-height: 474px;
+        height: 100%;
+    }
+}
+
