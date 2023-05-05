@@ -297,103 +297,8 @@
         "padding_bottom": 36
       }
     },
-    "4e9c25a7-0968-4583-bd0b-91d80921fd3d": {
-      "type": "collection-list",
-      "disabled": true,
-      "blocks": {
-        "template--16238543241452__4e9c25a7-0968-4583-bd0b-91d80921fd3d-1667669824cc71a3a9-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "jumpers-and-hoodies"
-          }
-        },
-        "c14d65ae-59ed-4ad1-9a0f-136568b6516a": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "clothes-shoes-and-much-more"
-          }
-        },
-        "template--16238543241452__4e9c25a7-0968-4583-bd0b-91d80921fd3d-1667669824cc71a3a9-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "hats-caps-bandana-and-head-warmers"
-          }
-        },
-        "template--16238543241452__4e9c25a7-0968-4583-bd0b-91d80921fd3d-1667669824cc71a3a9-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "backpacks"
-          }
-        },
-        "810d2730-e992-4800-b142-b7c21d4e68e0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "electronics"
-          }
-        },
-        "9a1c57bd-4ee3-4f4a-878b-efbfbeeaf1e8": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "donations-pot"
-          }
-        }
-      },
-      "block_order": [
-        "template--16238543241452__4e9c25a7-0968-4583-bd0b-91d80921fd3d-1667669824cc71a3a9-1",
-        "c14d65ae-59ed-4ad1-9a0f-136568b6516a",
-        "template--16238543241452__4e9c25a7-0968-4583-bd0b-91d80921fd3d-1667669824cc71a3a9-2",
-        "template--16238543241452__4e9c25a7-0968-4583-bd0b-91d80921fd3d-1667669824cc71a3a9-0",
-        "810d2730-e992-4800-b142-b7c21d4e68e0",
-        "9a1c57bd-4ee3-4f4a-878b-efbfbeeaf1e8"
-      ],
-      "settings": {
-        "title": "ALL PRODUCTS",
-        "heading_size": "h2",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "color_scheme": "background-1",
-        "show_view_all": true,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "product-grid": {
-      "type": "main-collection-product-grid",
-      "disabled": true,
-      "custom_css": [
-        ".quick-add {position: relative; grid-row-start: 4; margin: 0 0 1rem; z-index: 1; display: none;}"
-      ],
-      "settings": {
-        "products_per_page": 24,
-        "columns_desktop": 4,
-        "heading_size": "h1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": true,
-        "enable_quick_add": true,
-        "enable_filtering": false,
-        "filter_type": "horizontal",
-        "enable_sorting": false,
-        "columns_mobile": "1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "banner": {
-      "type": "main-collection-banner",
-      "disabled": true,
-      "settings": {
-        "show_collection_description": true,
-        "show_collection_image": false,
-        "color_scheme": "background-1"
-      }
-    },
     "cceac6d1-5fad-4e7c-a01a-5dd625dfddc7": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "title": "Donation",
         "heading_size": "h1",
@@ -421,7 +326,6 @@
     },
     "98c1270e-894a-44be-ab59-59566a4dd7c3": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "title": "Backpacks",
         "heading_size": "h1",
@@ -449,7 +353,6 @@
     },
     "d107633f-a1b3-44e4-882c-b487bd8ed838": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "title": "Sweaters, Jumpers and Hoodies",
         "heading_size": "h1",
@@ -477,7 +380,6 @@
     },
     "614b24d6-d7a8-4cf7-9bf8-5d58615102e1": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "title": "QuantmWorld T-Shirts",
         "heading_size": "h1",
@@ -505,7 +407,6 @@
     },
     "dff70948-589c-4798-84ee-1d0c25a18b08": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "title": "Hats, Caps, Bandana and Head Warmers",
         "heading_size": "h1",
@@ -533,7 +434,6 @@
     },
     "09c353ec-c8e5-4977-9716-e7d4a6cc5a83": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "title": "Accessories & Gadgets",
         "heading_size": "h1",
@@ -561,7 +461,6 @@
     },
     "4a8eeafe-f6a4-44f0-a0f7-133b65af27c3": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "title": "Backpacks",
         "heading_size": "h1",
@@ -620,6 +519,38 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "disabled": true,
+      "custom_css": [
+        ".quick-add {position: relative; grid-row-start: 4; margin: 0 0 1rem; z-index: 1; display: none;}"
+      ],
+      "settings": {
+        "products_per_page": 24,
+        "columns_desktop": 4,
+        "heading_size": "h1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": true,
+        "enable_filtering": false,
+        "filter_type": "horizontal",
+        "enable_sorting": false,
+        "columns_mobile": "1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "background-1"
+      }
     }
   },
   "order": [
@@ -631,9 +562,6 @@
     "0638c645-0357-4c45-980a-cf62b5760570",
     "bcb7cca6-59d4-44d9-9d65-a261f4e65f93",
     "3ec1fd68-c391-46b5-9202-347ec233471c",
-    "4e9c25a7-0968-4583-bd0b-91d80921fd3d",
-    "product-grid",
-    "banner",
     "cceac6d1-5fad-4e7c-a01a-5dd625dfddc7",
     "98c1270e-894a-44be-ab59-59566a4dd7c3",
     "d107633f-a1b3-44e4-882c-b487bd8ed838",
@@ -641,6 +569,8 @@
     "dff70948-589c-4798-84ee-1d0c25a18b08",
     "09c353ec-c8e5-4977-9716-e7d4a6cc5a83",
     "4a8eeafe-f6a4-44f0-a0f7-133b65af27c3",
-    "130498a8-e259-4eb6-87b5-4a5bc8845973"
+    "130498a8-e259-4eb6-87b5-4a5bc8845973",
+    "product-grid",
+    "banner"
   ]
 }
