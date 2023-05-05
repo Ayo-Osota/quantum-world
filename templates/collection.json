@@ -138,14 +138,14 @@
         "template--16698323173612__80ba0a16-7655-4583-9eb6-5fb81b531f4f-1679074643e40f6ea9-0": {
           "type": "heading",
           "settings": {
-            "heading": "Add Donation Box To Your Cart",
+            "heading": "Add Donation Box to your Cart",
             "heading_size": "h1"
           }
         },
         "template--16698323173612__80ba0a16-7655-4583-9eb6-5fb81b531f4f-1679074643e40f6ea9-1": {
           "type": "text",
           "settings": {
-            "text": "<p>every contribution matters.<\/p>",
+            "text": "",
             "text_style": "body"
           }
         },
@@ -159,7 +159,7 @@
         "1751cc64-7ffc-4c65-9bc8-bec6205801ea": {
           "type": "heading",
           "settings": {
-            "heading": "Shop To Give To Less Priviledge",
+            "heading": "Shop to give to less priviledge",
             "heading_size": "h1"
           }
         },
@@ -492,7 +492,7 @@
         "template--16677415682284__130498a8-e259-4eb6-87b5-4a5bc8845973-1678803315e88d24e6-0": {
           "type": "heading",
           "settings": {
-            "heading": "Subscribe to our emails",
+            "heading": "Subscribe To Our Newsletter For",
             "heading_size": "h1"
           }
         },
