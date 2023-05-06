@@ -27,21 +27,11 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
-    },
-    "422a7dd0-70c5-43bc-9d76-50c22820de1c": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<div class=\"sharethis-inline-follow-buttons\"><\/div>",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
     "main",
     "form",
-    "1664111828c31edb6e",
-    "422a7dd0-70c5-43bc-9d76-50c22820de1c"
+    "1664111828c31edb6e"
   ]
 }
