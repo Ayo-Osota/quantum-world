@@ -8086,12 +8086,12 @@ input.search-btn:hover {
   height: 10px;
   width: 10px;
   border-radius: 50%;
-  left: calc(32% - 32px);
+  left: calc(1% - 32px);
 }
 
 @media screen and (max-width: 750px) {
   .progress_bar:after {
-    left: calc(32% - 50px);
+    left: calc(1% - 50px);
   }
 }
 
