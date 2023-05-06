@@ -86,9 +86,32 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "9d27a236-22a2-40d9-8096-628274620fbb": {
+      "type": "pina-instagram",
+      "settings": {
+        "title": "Follow Us and Share On Instagram",
+        "show_profile": true,
+        "timeline": "own",
+        "small": "4",
+        "medium": "4",
+        "large": "5",
+        "gutter": "2",
+        "count": "10",
+        "hashtags": "quantmworld",
+        "container_class": "page-width",
+        "margin_top": "",
+        "margin_left": "",
+        "margin_bottom": "",
+        "margin_right": "",
+        "desktop_width": "",
+        "mobile_width": "",
+        "tablet_width": ""
+      }
     }
   },
   "order": [
-    "raffle"
+    "raffle",
+    "9d27a236-22a2-40d9-8096-628274620fbb"
   ]
 }
