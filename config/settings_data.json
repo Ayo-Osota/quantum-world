@@ -170,10 +170,15 @@
         "settings": {
           "color_scheme": "background-1"
         }
+      },
+      "pina-instagram": {
+        "type": "pina-instagram",
+        "settings": {
+        }
       }
     },
     "content_for_index": [
-
+      "pina-instagram"
     ],
     "blocks": {
       "17368511000352060744": {
