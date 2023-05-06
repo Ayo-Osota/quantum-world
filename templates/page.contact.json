@@ -1,1 +1,47 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{"padding_top":36,"padding_bottom":36}},"form":{"type":"contact-form","settings":{"heading":"","heading_size":"h1","color_scheme":"background-1","padding_top":0,"padding_bottom":0}},"1664111828c31edb6e":{"type":"custom-liquid","disabled":true,"settings":{"custom_liquid":"<div class=\"section-2 haze wf-section\">\n      <div class=\"wrapper\">\n        <div class=\"intro\">\n          <div class=\"title\">@QuantmWorld<\/div>\n          <h2 class=\"no-margin-bottom\">We're on Instagram!<\/h2>\n        <\/div>\n        <div data-w-id=\"6e1d3527-5090-7380-17f7-30bf0f5a58b4\" class=\"instagram\" style=\"opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\">\n          <a href=\"https:\/\/instagram.com\" target=\"_blank\" class=\"instagram-link w-inline-block\"><img src=\"https:\/\/d2n3notmdf08g1.cloudfront.net\/common\/icons\/fundraise-hero-icon-3.png\" alt=\"\" class=\"full-width\"><\/a>\n          <a href=\"https:\/\/instagram.com\" target=\"_blank\" class=\"instagram-link w-inline-block\"><img src=\"https:\/\/d2n3notmdf08g1.cloudfront.net\/common\/icons\/fundraise-hero-icon-3.png\" alt=\"\" class=\"full-width\"><\/a>\n          <a href=\"https:\/\/instagram.com\" target=\"_blank\" class=\"instagram-link w-inline-block\"><img src=\"https:\/\/d2n3notmdf08g1.cloudfront.net\/common\/icons\/fundraise-hero-icon-3.png\" alt=\"\" class=\"full-width\"><\/a>\n          <a href=\"https:\/\/instagram.com\" target=\"_blank\" class=\"instagram-link w-inline-block\"><img src=\"https:\/\/d2n3notmdf08g1.cloudfront.net\/common\/icons\/fundraise-hero-icon-3.png\" alt=\"\" class=\"full-width\"><\/a>\n          <a href=\"https:\/\/instagram.com\" target=\"_blank\" class=\"instagram-link w-inline-block\"><img src=\"https:\/\/d2n3notmdf08g1.cloudfront.net\/common\/icons\/fundraise-hero-icon-3.png\" alt=\"\" class=\"full-width\"><\/a>\n          <a href=\"https:\/\/instagram.com\" target=\"_blank\" class=\"instagram-link w-inline-block\"><img src=\"https:\/\/d2n3notmdf08g1.cloudfront.net\/common\/icons\/fundraise-hero-icon-3.png\" alt=\"\" class=\"full-width\"><\/a>\n        <\/div>\n        <a href=\"https:\/\/www.instagram.com\/QuantmWorld\/\" target=\"_blank\" class=\"button w-button\">See More Photos<\/a>\n\n<br><br>\n      <\/div>\n    <\/div>","color_scheme":"background-1","padding_top":0,"padding_bottom":0}}},"order":["main","form","1664111828c31edb6e"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "1664111828c31edb6e": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "<div class=\"section-2 haze wf-section\">\n      <div class=\"wrapper\">\n        <div class=\"intro\">\n          <div class=\"title\">@QuantmWorld<\/div>\n          <h2 class=\"no-margin-bottom\">We're on Instagram!<\/h2>\n        <\/div>\n        <div data-w-id=\"6e1d3527-5090-7380-17f7-30bf0f5a58b4\" class=\"instagram\" style=\"opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;\">\n          <a href=\"https:\/\/instagram.com\" target=\"_blank\" class=\"instagram-link w-inline-block\"><img src=\"https:\/\/d2n3notmdf08g1.cloudfront.net\/common\/icons\/fundraise-hero-icon-3.png\" alt=\"\" class=\"full-width\"><\/a>\n          <a href=\"https:\/\/instagram.com\" target=\"_blank\" class=\"instagram-link w-inline-block\"><img src=\"https:\/\/d2n3notmdf08g1.cloudfront.net\/common\/icons\/fundraise-hero-icon-3.png\" alt=\"\" class=\"full-width\"><\/a>\n          <a href=\"https:\/\/instagram.com\" target=\"_blank\" class=\"instagram-link w-inline-block\"><img src=\"https:\/\/d2n3notmdf08g1.cloudfront.net\/common\/icons\/fundraise-hero-icon-3.png\" alt=\"\" class=\"full-width\"><\/a>\n          <a href=\"https:\/\/instagram.com\" target=\"_blank\" class=\"instagram-link w-inline-block\"><img src=\"https:\/\/d2n3notmdf08g1.cloudfront.net\/common\/icons\/fundraise-hero-icon-3.png\" alt=\"\" class=\"full-width\"><\/a>\n          <a href=\"https:\/\/instagram.com\" target=\"_blank\" class=\"instagram-link w-inline-block\"><img src=\"https:\/\/d2n3notmdf08g1.cloudfront.net\/common\/icons\/fundraise-hero-icon-3.png\" alt=\"\" class=\"full-width\"><\/a>\n          <a href=\"https:\/\/instagram.com\" target=\"_blank\" class=\"instagram-link w-inline-block\"><img src=\"https:\/\/d2n3notmdf08g1.cloudfront.net\/common\/icons\/fundraise-hero-icon-3.png\" alt=\"\" class=\"full-width\"><\/a>\n        <\/div>\n        <a href=\"https:\/\/www.instagram.com\/QuantmWorld\/\" target=\"_blank\" class=\"button w-button\">See More Photos<\/a>\n\n<br><br>\n      <\/div>\n    <\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "422a7dd0-70c5-43bc-9d76-50c22820de1c": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"sharethis-inline-follow-buttons\"><\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "form",
+    "1664111828c31edb6e",
+    "422a7dd0-70c5-43bc-9d76-50c22820de1c"
+  ]
+}
