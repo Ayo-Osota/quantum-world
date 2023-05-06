@@ -27,11 +27,59 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "fad1d135-3a0d-4c76-9c9d-188af2cb2b03": {
+      "type": "pina-instagram",
+      "settings": {
+        "title": "Follow Us On Instagram",
+        "show_profile": true,
+        "timeline": "own",
+        "small": "2",
+        "medium": "3",
+        "large": "4",
+        "gutter": "2",
+        "count": "8",
+        "hashtags": "",
+        "container_class": "page-width",
+        "margin_top": "",
+        "margin_left": "",
+        "margin_bottom": "",
+        "margin_right": "",
+        "desktop_width": "",
+        "mobile_width": "",
+        "tablet_width": ""
+      }
+    },
+    "168337264010268eb2": {
+      "type": "apps",
+      "blocks": {
+        "ebe0f2fa-f256-48f9-97cc-80853646dc79": {
+          "type": "shopify:\/\/apps\/tweefy-twitter-feed\/blocks\/feed-block\/40c43230-c27e-47ea-9ff4-e628336a1db3",
+          "settings": {
+            "twitter_handle": "",
+            "tweet_limit": 5,
+            "top_margin": 24,
+            "bottom_margin": 24,
+            "theme": "light",
+            "no_header": false,
+            "no_footer": false,
+            "no_borders": false
+          }
+        }
+      },
+      "block_order": [
+        "ebe0f2fa-f256-48f9-97cc-80853646dc79"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
     "form",
-    "1664111828c31edb6e"
+    "1664111828c31edb6e",
+    "fad1d135-3a0d-4c76-9c9d-188af2cb2b03",
+    "168337264010268eb2"
   ]
 }
