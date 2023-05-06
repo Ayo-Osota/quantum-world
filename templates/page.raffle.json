@@ -108,10 +108,35 @@
         "mobile_width": "",
         "tablet_width": ""
       }
+    },
+    "1683371349cb922da3": {
+      "type": "apps",
+      "blocks": {
+        "dd2c54ef-47ef-4090-a187-a827f3ad6431": {
+          "type": "shopify:\/\/apps\/tweefy-twitter-feed\/blocks\/feed-block\/40c43230-c27e-47ea-9ff4-e628336a1db3",
+          "settings": {
+            "twitter_handle": "quantmworld",
+            "tweet_limit": 5,
+            "top_margin": 24,
+            "bottom_margin": 24,
+            "theme": "light",
+            "no_header": false,
+            "no_footer": false,
+            "no_borders": false
+          }
+        }
+      },
+      "block_order": [
+        "dd2c54ef-47ef-4090-a187-a827f3ad6431"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "raffle",
-    "9d27a236-22a2-40d9-8096-628274620fbb"
+    "9d27a236-22a2-40d9-8096-628274620fbb",
+    "1683371349cb922da3"
   ]
 }
