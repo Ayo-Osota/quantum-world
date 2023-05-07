@@ -625,7 +625,8 @@
     </div>
 
 
-  <ul class="menu">
+                <nav class="menu-drawer__navigation">
+                  <ul class="menu-drawer__menu has-submenu list-menu" role="list">
   {% for link in section.settings.sub-menu.links %}
     <li class="menu-link">
       <a href="{{ link.url }}">{{ link.title }}</a>
@@ -652,6 +653,7 @@
     </li>
   {% endfor %}
 </ul>
+                </nav>
 
 
 
