@@ -625,38 +625,43 @@
     </div>
 
 
-            <div id="menu-drawer" class="gradient menu-drawer motion-reduce" tabindex="-1">
-            <div class="menu-drawer__inner-container">
-                <nav class="menu-drawer__navigation">
-                  <ul class="menu-drawer__menu has-submenu list-menu" role="list">
-  {% for link in section.settings.sub-menu.links %}
-    <li class="menu-link">
-      <a href="{{ link.url }}">{{ link.title }}</a>
+<nav role="navigation">
+  <ul>
+    {%- for link in linklists.sub-menu.links -%}
+      <li>
+        <a href="{{ link.url }}" {% if link.active %}aria-current="page"{% endif %}>
+          {{ link.title }}
+        </a>
 
-      {% if link.links.size > 0 %}
-        <ul class="menu dropdown-child">
-          {% for child_link in link.links %}
-            <li class="menu-link">
-              <a href="{{ child_link.url }}">{{ child_link.title }}</a>
+        {%- if link.links != blank -%}
+          <ul>
+            {%- for child_link in link.links -%}
+              <li>
+                <a href="{{ child_link.url }}" {% if child_link.active %}aria-current="page"{% endif %}>
+                  {{ child_link.title }}
+                </a>
 
-              {% if child_link.links.size > 0 %}
-                <ul class="menu dropdown-grandchild">
-                  {% for grandchild_link in child_link.links %}
-                    <li class="menu-link">
-                      <a href="{{ grandchild_link.url }}">{{ grandchild_link.title }}</a>
-                    </li>
-                  {% endfor %}
-                </ul>
-              {% endif %}
-            </li>
-          {% endfor %}
-        </ul>
-      {% endif %}
-    </li>
-  {% endfor %}
-</ul>
-                </nav>
-            </div></div>
+                {%- if child_link.links != blank -%}
+                  <ul>
+                    {%- for grandchild_link in child_link.links -%}
+                      <li>
+                        <a href="{{ grandchild_link.url }}" {% if grandchild_link.active %}aria-current="page"{% endif %}>
+                          {{ grandchild_link.title }}
+                        </a>
+                      </li>
+                    {%- endfor -%}
+                  </ul>
+                {%- endif -%}
+
+              </li>
+            {%- endfor -%}
+          </ul>
+        {%- endif -%}
+
+      </li>
+    {%- endfor -%}
+  </ul>
+</nav>
 
 
 
