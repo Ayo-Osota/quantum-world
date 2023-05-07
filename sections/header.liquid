@@ -630,7 +630,10 @@
     
   </header>
 
-               <nav class="menu-drawer__navigation">
+          <div id="menu-drawer" class="gradient menu-drawer motion-reduce" tabindex="-1">
+            <div class="menu-drawer__inner-container">
+              <div class="menu-drawer__navigation-container">
+                <nav class="menu-drawer__navigation">
                   <ul class="menu-drawer__menu has-submenu list-menu" role="list">
                     {%- for link in linklists.storemenu.links -%}
                       <li>
@@ -693,6 +696,10 @@
                     {%- endfor -%}
                   </ul>
                 </nav>
+                
+              </div>
+            </div>
+          </div>
   
 </{% if section.settings.enable_sticky_header %}sticky-header{% else %}div{% endif %}>
 
