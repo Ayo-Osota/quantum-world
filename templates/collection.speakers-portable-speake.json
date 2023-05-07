@@ -61,16 +61,16 @@
     "2bb55fb4-554c-4c94-ae7d-7edf48739f4b": {
       "type": "featured-collection",
       "settings": {
-        "title": "Maternity",
+        "title": "Speakers, Portable Speakers, Bluetooth Speakers, Speaker Cases",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "maternity",
-        "products_to_show": 4,
-        "columns_desktop": 4,
+        "collection": "speakers-portable-speakers-bluetooth-speakers-speaker-cases",
+        "products_to_show": 12,
+        "columns_desktop": 5,
         "full_width": false,
-        "show_view_all": true,
+        "show_view_all": false,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
         "color_scheme": "background-1",
@@ -85,201 +85,15 @@
         "padding_bottom": 36
       }
     },
-    "a632cd7f-0707-4e7d-a027-52651debc0d9": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all-products",
-        "products_to_show": 12,
-        "columns_desktop": 5,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": true,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "15b176f0-5e90-4573-9213-77c34ac16022": {
-      "type": "background-image-with-text",
-      "disabled": true,
-      "blocks": {
-        "template--16698323173612__15b176f0-5e90-4573-9213-77c34ac16022-1679069837c93e58e1-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "QuantmWorld Shop",
-            "heading_size": "h1"
-          }
-        },
-        "template--16698323173612__15b176f0-5e90-4573-9213-77c34ac16022-1679069837c93e58e1-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>We have various products which matches your style and of great quality.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--16698323173612__15b176f0-5e90-4573-9213-77c34ac16022-1679069837c93e58e1-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Shop now",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--16698323173612__15b176f0-5e90-4573-9213-77c34ac16022-1679069837c93e58e1-0",
-        "template--16698323173612__15b176f0-5e90-4573-9213-77c34ac16022-1679069837c93e58e1-1",
-        "template--16698323173612__15b176f0-5e90-4573-9213-77c34ac16022-1679069837c93e58e1-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/unsplash__3Q3tsJ01nc.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "padding_top": 28,
-        "padding_bottom": 4
-      }
-    },
-    "80ba0a16-7655-4583-9eb6-5fb81b531f4f": {
-      "type": "grid-card",
-      "disabled": true,
-      "blocks": {
-        "template--16698323173612__80ba0a16-7655-4583-9eb6-5fb81b531f4f-1679074643e40f6ea9-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Add Donation Box To Your Cart",
-            "heading_size": "h1"
-          }
-        },
-        "template--16698323173612__80ba0a16-7655-4583-9eb6-5fb81b531f4f-1679074643e40f6ea9-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Every movement counts towards a better life.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--16698323173612__80ba0a16-7655-4583-9eb6-5fb81b531f4f-1679074643e40f6ea9-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Donate Now",
-            "button_link": "shopify:\/\/collections\/donations-pot"
-          }
-        },
-        "1751cc64-7ffc-4c65-9bc8-bec6205801ea": {
-          "type": "heading",
-          "settings": {
-            "heading": "Shop To Make A Difference",
-            "heading_size": "h1"
-          }
-        },
-        "d33eef59-1306-478d-bb26-f833f8b90df7": {
-          "type": "text",
-          "settings": {
-            "text": "<p> Partial purchase from the sale of our product will be used to fund our charity.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "7be0613d-3ce6-41f0-8e3f-59c0d4c68ba1": {
-          "type": "button",
-          "settings": {
-            "button_label": "View Store Below",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--16698323173612__80ba0a16-7655-4583-9eb6-5fb81b531f4f-1679074643e40f6ea9-0",
-        "template--16698323173612__80ba0a16-7655-4583-9eb6-5fb81b531f4f-1679074643e40f6ea9-1",
-        "template--16698323173612__80ba0a16-7655-4583-9eb6-5fb81b531f4f-1679074643e40f6ea9-2",
-        "1751cc64-7ffc-4c65-9bc8-bec6205801ea",
-        "d33eef59-1306-478d-bb26-f833f8b90df7",
-        "7be0613d-3ce6-41f0-8e3f-59c0d4c68ba1"
-      ],
-      "custom_css": [
-
-      ],
-      "settings": {
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 16,
-        "padding_bottom": 36
-      }
-    },
-    "0638c645-0357-4c45-980a-cf62b5760570": {
-      "type": "banner-collage",
-      "disabled": true,
-      "blocks": {
-        "913b3f2d-4ae1-4ea3-8d16-5fa7c565f6d7": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/discount.png",
-            "image_padding": false
-          }
-        },
-        "afa281f0-87b1-4ba6-b507-cf125469781f": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Rectangle_114_3.png",
-            "image_padding": false
-          }
-        },
-        "47b609c6-1fdb-48b1-a884-370e63960d1a": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Rectangle_114.png",
-            "image_padding": false
-          }
-        }
-      },
-      "block_order": [
-        "913b3f2d-4ae1-4ea3-8d16-5fa7c565f6d7",
-        "afa281f0-87b1-4ba6-b507-cf125469781f",
-        "47b609c6-1fdb-48b1-a884-370e63960d1a"
-      ],
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "collage2",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "bcb7cca6-59d4-44d9-9d65-a261f4e65f93": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
-        "title": "Men",
+        "title": "Speakers, Portable Speakers, Bluetooth Speakers, Speaker Cases",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "men",
+        "collection": "speakers-portable-speakers-bluetooth-speakers-speaker-cases",
         "products_to_show": 12,
         "columns_desktop": 5,
         "full_width": false,
@@ -294,202 +108,6 @@
         "enable_quick_add": false,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "3ec1fd68-c391-46b5-9202-347ec233471c": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "Women",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "women",
-        "products_to_show": 12,
-        "columns_desktop": 5,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "cceac6d1-5fad-4e7c-a01a-5dd625dfddc7": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "Donation",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "donations-pot",
-        "products_to_show": 12,
-        "columns_desktop": 5,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "d107633f-a1b3-44e4-882c-b487bd8ed838": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "Sweaters, Jumpers and Hoodies",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "jumpers-and-hoodies",
-        "products_to_show": 12,
-        "columns_desktop": 5,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "614b24d6-d7a8-4cf7-9bf8-5d58615102e1": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "QuantmWorld T-Shirts",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "clothes-shoes-and-much-more",
-        "products_to_show": 12,
-        "columns_desktop": 5,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "dff70948-589c-4798-84ee-1d0c25a18b08": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "Hats, Caps, Bandana and Head Warmers",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "hats-caps-bandana-and-head-warmers",
-        "products_to_show": 12,
-        "columns_desktop": 5,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "09c353ec-c8e5-4977-9716-e7d4a6cc5a83": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "Accessories & Gadgets",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "electronics",
-        "products_to_show": 12,
-        "columns_desktop": 5,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "4a8eeafe-f6a4-44f0-a0f7-133b65af27c3": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "Backpacks",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "backpacks",
-        "products_to_show": 12,
-        "columns_desktop": 5,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -565,18 +183,7 @@
     "2b5810cf-c2da-481d-a6db-3a0fdfd08a94",
     "b82065e1-a9e6-4147-9a83-a8843d3d3012",
     "2bb55fb4-554c-4c94-ae7d-7edf48739f4b",
-    "a632cd7f-0707-4e7d-a027-52651debc0d9",
-    "15b176f0-5e90-4573-9213-77c34ac16022",
-    "80ba0a16-7655-4583-9eb6-5fb81b531f4f",
-    "0638c645-0357-4c45-980a-cf62b5760570",
     "bcb7cca6-59d4-44d9-9d65-a261f4e65f93",
-    "3ec1fd68-c391-46b5-9202-347ec233471c",
-    "cceac6d1-5fad-4e7c-a01a-5dd625dfddc7",
-    "d107633f-a1b3-44e4-882c-b487bd8ed838",
-    "614b24d6-d7a8-4cf7-9bf8-5d58615102e1",
-    "dff70948-589c-4798-84ee-1d0c25a18b08",
-    "09c353ec-c8e5-4977-9716-e7d4a6cc5a83",
-    "4a8eeafe-f6a4-44f0-a0f7-133b65af27c3",
     "130498a8-e259-4eb6-87b5-4a5bc8845973",
     "product-grid",
     "banner"
