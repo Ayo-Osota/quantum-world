@@ -58,56 +58,32 @@
         "padding_bottom": 52
       }
     },
-    "2bb55fb4-554c-4c94-ae7d-7edf48739f4b": {
-      "type": "featured-collection",
+    "banner": {
+      "type": "main-collection-banner",
       "settings": {
-        "title": "Speakers, Portable Speakers, Bluetooth Speakers, Speaker Cases",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "speakers-portable-speakers-bluetooth-speakers-speaker-cases",
-        "products_to_show": 12,
-        "columns_desktop": 5,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "background-1"
       }
     },
-    "bcb7cca6-59d4-44d9-9d65-a261f4e65f93": {
-      "type": "featured-collection",
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "custom_css": [
+        ".quick-add {position: relative; grid-row-start: 4; margin: 0 0 1rem; z-index: 1; display: none;}"
+      ],
       "settings": {
-        "title": "Speakers, Portable Speakers, Bluetooth Speakers, Speaker Cases",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "speakers-portable-speakers-bluetooth-speakers-speaker-cases",
-        "products_to_show": 12,
+        "products_per_page": 24,
         "columns_desktop": 5,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
+        "heading_size": "h1",
+        "image_ratio": "square",
         "show_secondary_image": true,
         "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
+        "show_rating": true,
+        "enable_quick_add": true,
+        "enable_filtering": false,
+        "filter_type": "horizontal",
+        "enable_sorting": false,
+        "columns_mobile": "1",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -145,47 +121,13 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
-    },
-    "product-grid": {
-      "type": "main-collection-product-grid",
-      "disabled": true,
-      "custom_css": [
-        ".quick-add {position: relative; grid-row-start: 4; margin: 0 0 1rem; z-index: 1; display: none;}"
-      ],
-      "settings": {
-        "products_per_page": 24,
-        "columns_desktop": 4,
-        "heading_size": "h1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": true,
-        "enable_quick_add": true,
-        "enable_filtering": false,
-        "filter_type": "horizontal",
-        "enable_sorting": false,
-        "columns_mobile": "1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "banner": {
-      "type": "main-collection-banner",
-      "disabled": true,
-      "settings": {
-        "show_collection_description": true,
-        "show_collection_image": false,
-        "color_scheme": "background-1"
-      }
     }
   },
   "order": [
     "2b5810cf-c2da-481d-a6db-3a0fdfd08a94",
     "b82065e1-a9e6-4147-9a83-a8843d3d3012",
-    "2bb55fb4-554c-4c94-ae7d-7edf48739f4b",
-    "bcb7cca6-59d4-44d9-9d65-a261f4e65f93",
-    "130498a8-e259-4eb6-87b5-4a5bc8845973",
+    "banner",
     "product-grid",
-    "banner"
+    "130498a8-e259-4eb6-87b5-4a5bc8845973"
   ]
 }
