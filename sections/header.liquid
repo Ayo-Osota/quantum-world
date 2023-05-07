@@ -625,7 +625,12 @@
     </div>
 
 
-<div class="header header--middle-left page-width header--has-menu">
+
+
+    
+  </header>
+
+  <div class="header header--middle-left page-width header--has-menu">
   <nav class="header__inline-menu">
                         <ul class="list-menu list-menu--inline" role="list">
   {% for link in linklists.storemenu.links %}
@@ -656,9 +661,7 @@
 </ul>
   </nav>
 </div>
-
-    
-  </header>
+  
 </{% if section.settings.enable_sticky_header %}sticky-header{% else %}div{% endif %}>
 
 {%- if settings.cart_type == "notification" -%}
