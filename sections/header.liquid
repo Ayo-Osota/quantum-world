@@ -625,8 +625,8 @@
     </div>
 
 
-                    <ul class="menu">
-  {% for link in section.menu.storemenu %}
+                                        <ul class="menu">
+  {% for link in section.settings.menu.links %}
     <li class="menu-link">
       <a href="{{ link.url }}">{{ link.title }}</a>
 
@@ -652,8 +652,6 @@
     </li>
   {% endfor %}
 </ul>
-
-                    
     
   </header>
 </{% if section.settings.enable_sticky_header %}sticky-header{% else %}div{% endif %}>
