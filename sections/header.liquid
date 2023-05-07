@@ -628,7 +628,7 @@
 
   <ul class="sub-menu">
   {% for link in section.settings.sub-menu.links %}
-    <li>
+    <li class="sub-menu-list">
       <a class="header__menu-item header__menu-item list-menu__item link link--text focus-inset" href="{{ link.url }}">{{ link.title }}</a>
 
       {% if link.links.size > 0 %}
