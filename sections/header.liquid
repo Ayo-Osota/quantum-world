@@ -658,37 +658,6 @@
     
   </header>
 
-  <div class="header header--middle-left page-width header--has-menu">
-  <nav class="header__inline-menu">
-                        <ul class="list-menu list-menu--inline" role="list">
-  {% for link in linklists.storemenu.links %}
-    <li>
-      <a class="header__menu-item header__menu-item list-menu__item link link--text focus-inset" href="{{ link.url }}">{{ link.title }}</a>
-
-      {% if link.links.size > 0 %}
-        <ul class="menu dropdown-child">
-          {% for child_link in link.links %}
-            <li >
-              <a class="header__menu-item header__menu-item list-menu__item link link--text focus-inset" href="{{ child_link.url }}"><span>{{ child_link.title }}</span></a>
-
-              {% if child_link.links.size > 0 %}
-                <ul class="menu dropdown-grandchild">
-                  {% for grandchild_link in child_link.links %}
-                    <li>
-                      <a class="header__menu-item header__menu-item list-menu__item link link--text focus-inset" href="{{ grandchild_link.url }}">{{ grandchild_link.title }}</a>
-                    </li>
-                  {% endfor %}
-                </ul>
-              {% endif %}
-            </li>
-          {% endfor %}
-        </ul>
-      {% endif %}
-    </li>
-  {% endfor %}
-</ul>
-  </nav>
-</div>
   
 </{% if section.settings.enable_sticky_header %}sticky-header{% else %}div{% endif %}>
 
