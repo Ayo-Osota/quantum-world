@@ -58,8 +58,36 @@
         "padding_bottom": 52
       }
     },
+    "2bb55fb4-554c-4c94-ae7d-7edf48739f4b": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Maternity",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "maternity",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "a632cd7f-0707-4e7d-a027-52651debc0d9": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -87,6 +115,7 @@
     },
     "15b176f0-5e90-4573-9213-77c34ac16022": {
       "type": "background-image-with-text",
+      "disabled": true,
       "blocks": {
         "template--16698323173612__15b176f0-5e90-4573-9213-77c34ac16022-1679069837c93e58e1-0": {
           "type": "heading",
@@ -131,6 +160,7 @@
     },
     "80ba0a16-7655-4583-9eb6-5fb81b531f4f": {
       "type": "grid-card",
+      "disabled": true,
       "blocks": {
         "template--16698323173612__80ba0a16-7655-4583-9eb6-5fb81b531f4f-1679074643e40f6ea9-0": {
           "type": "heading",
@@ -242,6 +272,7 @@
     },
     "bcb7cca6-59d4-44d9-9d65-a261f4e65f93": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Men",
         "heading_size": "h1",
@@ -269,6 +300,7 @@
     },
     "3ec1fd68-c391-46b5-9202-347ec233471c": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Women",
         "heading_size": "h1",
@@ -296,6 +328,7 @@
     },
     "cceac6d1-5fad-4e7c-a01a-5dd625dfddc7": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Donation",
         "heading_size": "h1",
@@ -323,6 +356,7 @@
     },
     "d107633f-a1b3-44e4-882c-b487bd8ed838": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Sweaters, Jumpers and Hoodies",
         "heading_size": "h1",
@@ -350,6 +384,7 @@
     },
     "614b24d6-d7a8-4cf7-9bf8-5d58615102e1": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "QuantmWorld T-Shirts",
         "heading_size": "h1",
@@ -377,6 +412,7 @@
     },
     "dff70948-589c-4798-84ee-1d0c25a18b08": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Hats, Caps, Bandana and Head Warmers",
         "heading_size": "h1",
@@ -404,6 +440,7 @@
     },
     "09c353ec-c8e5-4977-9716-e7d4a6cc5a83": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Accessories & Gadgets",
         "heading_size": "h1",
@@ -431,6 +468,7 @@
     },
     "4a8eeafe-f6a4-44f0-a0f7-133b65af27c3": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Backpacks",
         "heading_size": "h1",
@@ -526,6 +564,7 @@
   "order": [
     "2b5810cf-c2da-481d-a6db-3a0fdfd08a94",
     "b82065e1-a9e6-4147-9a83-a8843d3d3012",
+    "2bb55fb4-554c-4c94-ae7d-7edf48739f4b",
     "a632cd7f-0707-4e7d-a027-52651debc0d9",
     "15b176f0-5e90-4573-9213-77c34ac16022",
     "80ba0a16-7655-4583-9eb6-5fb81b531f4f",
