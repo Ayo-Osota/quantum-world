@@ -629,8 +629,8 @@
   <nav class="header__inline-menu">
                         <ul class="list-menu list-menu--inline" role="list">
   {% for link in linklists.storemenu.links %}
-    <li class="menu-link">
-      <a href="{{ link.url }}">{{ link.title }}</a>
+    <li>
+      <a class="header__menu-item header__menu-item list-menu__item link link--text focus-inset" href="{{ link.url }}">{{ link.title }}</a>
 
       {% if link.links.size > 0 %}
         <ul class="menu dropdown-child">
