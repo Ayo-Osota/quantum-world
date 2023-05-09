@@ -7970,7 +7970,7 @@ input.search-btn:hover {
   padding-bottom: 2rem;
 }
 
-.product-info-title{
+.product-info-title h1 {
 
   line-height: 30px;
 }
