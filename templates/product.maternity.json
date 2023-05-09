@@ -86,16 +86,6 @@
           "settings": {
           }
         },
-        "collapsible-row-1": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Shipping & Returns",
-            "icon": "none",
-            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<\/p>",
-            "page": ""
-          }
-        },
         "share": {
           "type": "share",
           "settings": {
@@ -136,7 +126,6 @@
         "buy_buttons",
         "6bee2c37-3d7a-413d-a7d8-f8f536b69246",
         "description",
-        "collapsible-row-1",
         "share",
         "1af1f551-2fab-4620-a345-6c721c975472",
         "6303d790-655e-4ba8-94a1-c23984787e1e",
