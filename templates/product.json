@@ -44,7 +44,7 @@
           "settings": {
             "heading": "CARE INSTRUCTIONS",
             "icon": "none",
-            "content": "<p><strong>Product Information:<\/strong><\/p><p>Fabric Name: Polyester <br\/>Main Fabric Composition: Polyester Fiber (polyester) <br\/>Function: Support Waist, Abdomen <br\/>Suitable Seasons: Summer, WIinter, Spring, Autumn <br\/>Thickness: Thin Section<\/p>",
+            "content": "<p><strong>Product Information:<\/strong><\/p>",
             "page": ""
           }
         },
@@ -54,7 +54,7 @@
           "settings": {
             "heading": "Show Specifications",
             "icon": "none",
-            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<\/p>",
+            "content": "<p> <\/p>",
             "page": ""
           }
         },
@@ -63,7 +63,7 @@
           "settings": {
             "heading": "Dimensions",
             "icon": "none",
-            "content": "<p><strong>Size Information:<\/strong> <br\/>Size: M, L, XL, XXL <\/p>",
+            "content": "<p><strong>Size Information:<\/strong> <br\/> <\/p>",
             "page": ""
           }
         },
