@@ -87,6 +87,23 @@
         "padding_bottom": 28
       }
     },
+    "4a8efe98-f401-48ca-946c-4813f2a1ee25": {
+      "type": "video",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "heading": "QuantmWorld Previous Winners",
+        "heading_size": "h1",
+        "cover_image": "shopify:\/\/shop_images\/498BE627-81DE-41D9-8ED9-65F3B3D08653.png",
+        "video_url": "https:\/\/youtu.be\/h5_UbvfriD8",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "9d27a236-22a2-40d9-8096-628274620fbb": {
       "type": "pina-instagram",
       "settings": {
@@ -115,7 +132,7 @@
         "dd2c54ef-47ef-4090-a187-a827f3ad6431": {
           "type": "shopify:\/\/apps\/tweefy-twitter-feed\/blocks\/feed-block\/40c43230-c27e-47ea-9ff4-e628336a1db3",
           "settings": {
-            "twitter_handle": "quantmworld",
+            "twitter_handle": "",
             "tweet_limit": 5,
             "top_margin": 24,
             "bottom_margin": 24,
@@ -136,6 +153,7 @@
   },
   "order": [
     "raffle",
+    "4a8efe98-f401-48ca-946c-4813f2a1ee25",
     "9d27a236-22a2-40d9-8096-628274620fbb",
     "1683371349cb922da3"
   ]
