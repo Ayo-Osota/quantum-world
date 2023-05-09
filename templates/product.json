@@ -44,7 +44,7 @@
           "settings": {
             "heading": "CARE INSTRUCTIONS",
             "icon": "none",
-            "content": "<p><strong>Product Information:<\/strong><\/p>",
+            "content": "<p> <\/p>",
             "page": ""
           }
         },
@@ -63,7 +63,7 @@
           "settings": {
             "heading": "Dimensions",
             "icon": "none",
-            "content": "<p><strong>Size Information:<\/strong> <br\/> <\/p>",
+            "content": "<p> <\/p>",
             "page": ""
           }
         },
