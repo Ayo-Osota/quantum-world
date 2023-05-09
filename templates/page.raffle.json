@@ -90,7 +90,7 @@
     "4a8efe98-f401-48ca-946c-4813f2a1ee25": {
       "type": "video",
       "custom_css": [
-
+        ".video-section {width: 300px;}"
       ],
       "settings": {
         "heading": "QuantmWorld Previous Winners",
