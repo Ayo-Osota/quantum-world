@@ -115,7 +115,7 @@
         "dd2c54ef-47ef-4090-a187-a827f3ad6431": {
           "type": "shopify:\/\/apps\/tweefy-twitter-feed\/blocks\/feed-block\/40c43230-c27e-47ea-9ff4-e628336a1db3",
           "settings": {
-            "twitter_handle": "",
+            "twitter_handle": "quantmworld",
             "tweet_limit": 5,
             "top_margin": 24,
             "bottom_margin": 24,
