@@ -7975,8 +7975,8 @@ input.search-btn:hover {
   text-transform: uppercase;
   font-size: 1.5rem;
   font-weight: 700;
-  margin-top: -1rem;
-  margin-bottom: -2rem;
+/*   margin-top: -1rem;
+  margin-bottom: -2rem; */
 }
 
 .product-info-price span.price-item {
