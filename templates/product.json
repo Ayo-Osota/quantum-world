@@ -39,48 +39,20 @@
           "settings": {
           }
         },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true
-          }
-        },
-        "6bee2c37-3d7a-413d-a7d8-f8f536b69246": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Show Specifications",
-            "icon": "none",
-            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<\/p>",
-            "page": ""
-          }
-        },
-        "description": {
-          "type": "description",
-          "settings": {
-          }
-        },
         "collapsible-row-3": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "CARE INSTRUCTIONS",
             "icon": "none",
-            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<\/p>",
+            "content": "<p><strong>Product Information:<\/strong><\/p><p>Fabric Name: Polyester <br\/>Main Fabric Composition: Polyester Fiber (polyester) <br\/>Function: Support Waist, Abdomen <br\/>Suitable Seasons: Summer, WIinter, Spring, Autumn <br\/>Thickness: Thin Section<\/p>",
             "page": ""
           }
         },
-        "collapsible-row-0": {
+        "6bee2c37-3d7a-413d-a7d8-f8f536b69246": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
-            "heading": "Materials",
-            "icon": "none",
-            "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<\/p>",
-            "page": ""
-          }
-        },
-        "collapsible-row-1": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Shipping & Returns",
+            "heading": "Show Specifications",
             "icon": "none",
             "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<\/p>",
             "page": ""
@@ -91,8 +63,38 @@
           "settings": {
             "heading": "Dimensions",
             "icon": "none",
+            "content": "<p><strong>Size Information:<\/strong> <br\/>Size: M, L, XL, XXL <\/p>",
+            "page": ""
+          }
+        },
+        "collapsible-row-0": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Materials",
+            "icon": "none",
+            "content": "<p><strong>Note:<\/strong><\/p><p>1. Asian sizes are 1 to 2 sizes smaller than European and American people. Choose the larger size if your size is between two sizes. Please allow 2-3cm differences due to manual measurement.  <br\/> <br\/> 2. Please check the size chart carefully before you buy the item, if you don't know how to choose a size, please contact our customer service.  <br\/> <br\/> 3. As you know,  different computers display colours differently,  the colour of the actual item may vary slightly from the following images.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible-row-1": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Shipping & Returns",
+            "icon": "none",
             "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<\/p>",
             "page": ""
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
           }
         },
         "share": {
@@ -117,7 +119,7 @@
             "stars_fill_color": "#000000",
             "star_size": 15,
             "text_align": "center",
-            "product": "{{product}}",
+            "product": "",
             "stars_text_empty": "No reviews"
           }
         }
@@ -129,13 +131,13 @@
         "price",
         "6b2789bd-5f3d-474f-aabe-e6b061b78855",
         "quantity_selector",
-        "buy_buttons",
-        "6bee2c37-3d7a-413d-a7d8-f8f536b69246",
-        "description",
         "collapsible-row-3",
+        "6bee2c37-3d7a-413d-a7d8-f8f536b69246",
+        "collapsible-row-2",
         "collapsible-row-0",
         "collapsible-row-1",
-        "collapsible-row-2",
+        "buy_buttons",
+        "description",
         "share",
         "1af1f551-2fab-4620-a345-6c721c975472",
         "6303d790-655e-4ba8-94a1-c23984787e1e",
