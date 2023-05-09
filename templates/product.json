@@ -44,7 +44,7 @@
           "settings": {
             "heading": "CARE INSTRUCTIONS",
             "icon": "none",
-            "content": " <p> Care Instructions <\/p>",
+            "content": "<p> Care Instructions <\/p>",
             "page": ""
           }
         },
@@ -72,7 +72,7 @@
           "settings": {
             "heading": "Materials",
             "icon": "none",
-            "content": "<p> Materials <\/p>",
+            "content": "",
             "page": ""
           }
         },
