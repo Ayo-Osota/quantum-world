@@ -63,7 +63,7 @@
           "settings": {
             "heading": "Dimensions",
             "icon": "none",
-            "content": "<p>Package Size:<\/p><p>100 x 100 x 110 mm<\/p>",
+            "content": "<p><strong>Size Information:<\/strong><\/p><p>M, L, XL, XXL<\/p>",
             "page": ""
           }
         },
