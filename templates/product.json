@@ -63,7 +63,7 @@
           "settings": {
             "heading": "Dimensions",
             "icon": "none",
-            "content": "<p><strong>Size Information:<\/strong><\/p><p>M, L, XL, XXL<\/p>",
+            "content": "<p><strong>Size Information:<\/strong><\/p><p>M, L, XL,XXL<\/p>",
             "page": ""
           }
         },
