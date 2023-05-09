@@ -7970,6 +7970,11 @@ input.search-btn:hover {
   padding-bottom: 2rem;
 }
 
+.product-info-title{
+
+  line-height: 30px;
+}
+
 .product-info-title h1 {
   color: #333333;
   text-transform: uppercase;
@@ -7977,6 +7982,7 @@ input.search-btn:hover {
   font-weight: 700;
 /*   margin-top: -1rem;
   margin-bottom: -2rem; */
+  line-height: 30px;
 }
 
 .product-info-price span.price-item {
