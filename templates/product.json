@@ -44,7 +44,7 @@
           "settings": {
             "heading": "CARE INSTRUCTIONS",
             "icon": "none",
-            "content": "",
+            "content": " <p> Care Instructions <\/p>",
             "page": ""
           }
         },
@@ -54,7 +54,7 @@
           "settings": {
             "heading": "Show Specifications",
             "icon": "none",
-            "content": "<p> <\/p>",
+            "content": "<p> Show Specifications <\/p>",
             "page": ""
           }
         },
@@ -63,7 +63,7 @@
           "settings": {
             "heading": "Dimensions",
             "icon": "none",
-            "content": "<p><strong>Size Information:<\/strong><\/p><p>M, L, XL,XXL<\/p>",
+            "content": "<p> Dimensions <\/p>",
             "page": ""
           }
         },
@@ -72,7 +72,7 @@
           "settings": {
             "heading": "Materials",
             "icon": "none",
-            "content": "<p>Type: Bluetooth Speaker<br\/>Connection Method: Bluetooth Connection<br\/>Interface type: USB<br\/>Battery capacity: 1200mah<br\/>Frequency response range: 50HZ-18KHZ<br\/>Power supply mode: built-in lithium battery<\/p>",
+            "content": "<p> Materials <\/p>",
             "page": ""
           }
         },
@@ -82,7 +82,7 @@
           "settings": {
             "heading": "Shipping & Returns",
             "icon": "none",
-            "content": "<p> <\/p>",
+            "content": "<p> Shipping & Returns <\/p>",
             "page": ""
           }
         },
