@@ -712,6 +712,7 @@ r-input {
 
 .banner__buttons--multiple {
   display: flex;
+  justify-content: center;
   gap: 3rem;
 }
 
