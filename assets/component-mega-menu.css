@@ -6,7 +6,7 @@
   font-family: ITC Berkeley Old Style;
 }
 
-.mega-menu__list:hover{
+.mega-menu__list a:hover{
   color: #002d37;
 }
 
