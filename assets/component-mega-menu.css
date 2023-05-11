@@ -17,6 +17,10 @@
   
   z-index: 20;
   transition: all 2s ease;
+    -webkit-transition: all 2s ease;
+  -moz-transition: all 2s ease;
+  -o-transition: all 2s ease;
+  transition: all 2s ease;
   
 }
 
