@@ -18,6 +18,10 @@
   font-family: ITC Novares;
 }
 
+.megamenu_img_pad{
+  padding: 10px;
+}
+
 .megamenu_img{
   width: 100%;
 }
