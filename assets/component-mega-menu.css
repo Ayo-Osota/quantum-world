@@ -2,6 +2,14 @@
   position: static;
 }
 
+.megamenu_level_2{
+  
+}
+
+.megamenu_level_3{
+  font-weight: normal;
+}
+
 .mega-menu__content {
   background-color: rgb(var(--color-background));
   border-left: 0;
