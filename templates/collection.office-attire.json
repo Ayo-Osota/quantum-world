@@ -1,0 +1,133 @@
+{
+  "sections": {
+    "2b5810cf-c2da-481d-a6db-3a0fdfd08a94": {
+      "type": "plane-image-with-text",
+      "blocks": {
+        "template--16677415682284__2b5810cf-c2da-481d-a6db-3a0fdfd08a94-16781069320ed602f0-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "WE SELL MERCHANDISE TO CONTINUALLY SUPPORT OUR AGENDA",
+            "heading_size": "h1"
+          }
+        },
+        "template--16677415682284__2b5810cf-c2da-481d-a6db-3a0fdfd08a94-16781069320ed602f0-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We at QuantmWorld diversify in various aspects to help the community, we offer the sale of our products to help in generating income for the growth and development of people worldwide.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16677415682284__2b5810cf-c2da-481d-a6db-3a0fdfd08a94-16781069320ed602f0-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop now",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16677415682284__2b5810cf-c2da-481d-a6db-3a0fdfd08a94-16781069320ed602f0-0",
+        "template--16677415682284__2b5810cf-c2da-481d-a6db-3a0fdfd08a94-16781069320ed602f0-1",
+        "template--16677415682284__2b5810cf-c2da-481d-a6db-3a0fdfd08a94-16781069320ed602f0-2"
+      ],
+      "custom_css": [
+        "h2 {color: #000000; font-weight: 600; font-size: 3.5rem; line-height: 3.5rem;}",
+        ".plane-btn {background: #002d37e5; border: 1px solid #002d37e5; color: #ffffff; border-radius: 0.5rem; background-position: right bottom; transition: all 0.5s ease-in-out; margin-top: 3vh; padding: 8px 20px 8px 20px; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; line-height: 24px; font-weight: 300; text-align: center;}",
+        ".plane-btn:hover {background-color: #095f72e5; border: 1px solid #095f72e5; cursor: pointer;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/stacked-cloths.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 4
+      }
+    },
+    "b82065e1-a9e6-4147-9a83-a8843d3d3012": {
+      "type": "search-shop",
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 4,
+        "padding_bottom": 52
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "background-1"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "custom_css": [
+        ".quick-add {position: relative; grid-row-start: 4; margin: 0 0 1rem; z-index: 1; display: none;}"
+      ],
+      "settings": {
+        "products_per_page": 24,
+        "columns_desktop": 4,
+        "heading_size": "h1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": true,
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "130498a8-e259-4eb6-87b5-4a5bc8845973": {
+      "type": "newsletter",
+      "blocks": {
+        "template--16677415682284__130498a8-e259-4eb6-87b5-4a5bc8845973-1678803315e88d24e6-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe To Our Newsletter For",
+            "heading_size": "h1"
+          }
+        },
+        "template--16677415682284__130498a8-e259-4eb6-87b5-4a5bc8845973-1678803315e88d24e6-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "template--16677415682284__130498a8-e259-4eb6-87b5-4a5bc8845973-1678803315e88d24e6-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--16677415682284__130498a8-e259-4eb6-87b5-4a5bc8845973-1678803315e88d24e6-0",
+        "template--16677415682284__130498a8-e259-4eb6-87b5-4a5bc8845973-1678803315e88d24e6-1",
+        "template--16677415682284__130498a8-e259-4eb6-87b5-4a5bc8845973-1678803315e88d24e6-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "2b5810cf-c2da-481d-a6db-3a0fdfd08a94",
+    "b82065e1-a9e6-4147-9a83-a8843d3d3012",
+    "banner",
+    "product-grid",
+    "130498a8-e259-4eb6-87b5-4a5bc8845973"
+  ]
+}
