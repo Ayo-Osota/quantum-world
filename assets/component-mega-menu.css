@@ -6,6 +6,10 @@
   font-family: ITC Berkeley Old Style;
 }
 
+.mega-menu__list:hover{
+  color: #002d37;
+}
+
 .megamenu_level_2{
   
 }
