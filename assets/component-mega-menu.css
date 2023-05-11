@@ -23,7 +23,7 @@
   transition: all 2s ease;
 
   transition-timing-function: ease-out;
-  transition: 2s;
+  transition: all 2s ease;
   transform: translateY(0);
   
 }
