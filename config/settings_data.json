@@ -103,6 +103,22 @@
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
+        "blocks": {
+          "89355471-c417-48ff-b098-9f61346ab99b": {
+            "type": "announcement",
+            "settings": {
+              "text": "FREE SHIPPING: USE PROMO CODE 'SHIP4FREE' NOW! PORMO CODE VALID UNTIL 6TH JUNE",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "89355471-c417-48ff-b098-9f61346ab99b"
+        ],
+        "custom_css": [
+          "P{color: #FFF;}"
+        ],
         "settings": {
         }
       },
