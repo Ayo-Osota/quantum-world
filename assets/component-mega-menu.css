@@ -18,7 +18,7 @@
   z-index: 20;
   
   transition-timing-function: ease-out;
-  transition: 0.25s;
+  transition: 2s;
   transform: translateY(0);
   
 }
