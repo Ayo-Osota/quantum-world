@@ -17,7 +17,7 @@
   background: rgba(var(--color-foreground), 0.5);
   opacity: 0;
   visibility: hidden;
-  z-index: 2;
+  z-index: 20;
   transition: opacity 0s, visibility 0s;
 }
 
