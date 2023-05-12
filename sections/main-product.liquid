@@ -595,6 +595,44 @@
                                  #00008B
                                    {%- elsif lowercase_value == "black stripe" -%}
                                  linear-gradient(#000000, #696565)
+                                   {%- elsif lowercase_value == "dark blue and yellow stripe" -%}
+                                 linear-gradient(#00008B, #FFFF00)
+                                   {%- elsif lowercase_value == "blue and gray stripe" -%}
+                                 linear-gradient(blue, gray)
+                                   {%- elsif lowercase_value == "dark blue gray and white stripe" -%}
+                                 linear-gradient(#00008B, gray, #FFFFFF)
+                                   {%- elsif lowercase_value == "green brown and blue stripe" -%}
+                                 linear-gradient(green, brown, blue)
+                                   {%- elsif lowercase_value == "green and dark brown stripe" -%}
+                                 linear-gradient(green, #5C4033)
+                                   {%- elsif lowercase_value == "blue and brown stripe" -%}
+                                 linear-gradient(blue, brown)
+                                   {%- elsif lowercase_value == "dark blue and gray stripe" -%}
+                                 linear-gradient(#00008B, gray)
+                                   {%- elsif lowercase_value == "blue and grey stripe" -%}
+                                 linear-gradient(blue, gray)
+                                   {%- elsif lowercase_value == "blue grey and green stripe" -%}
+                                 linear-gradient(#6699CC, green)
+                                   {%- elsif lowercase_value == "blue and green grey stripe" -%}
+                                 linear-gradient(blue, #5E716A)
+                                   {%- elsif lowercase_value == "blue and brown grey stripe" -%}
+                                 linear-gradient(blue, #3D3635)
+                                   {%- elsif lowercase_value == "blue and green stripe" -%}
+                                 linear-gradient(blue, green)
+                                   {%- elsif lowercase_value == "light blue and brown stripe" -%}
+                                 linear-gradient(#000000, brown)
+                                   {%- elsif lowercase_value == "light blue brown and grey" -%}
+                                 linear-gradient(#ADD8E6, #696565)
+                                   {%- elsif lowercase_value == "light blue grey and dark blue stripe" -%}
+                                 linear-gradient(#ADD8E6, gray, #00008B)
+                                   {%- elsif lowercase_value == "brown stripe" -%}
+                                 linear-gradient(#696565, #C4A484)
+                                   {%- elsif lowercase_value == "grey and blue stripe" -%}
+                                 linear-gradient(gray, blue)
+                                   {%- elsif lowercase_value == "grey stripe" -%}
+                                 linear-gradient(#333333, #d9d9d9
+                                   {%- elsif lowercase_value == "light blue brown and blue stripe" -%}
+                                 linear-gradient(#ADD8E6, brown, blue)
                                  {% else %} 
                                  {{- lowercase_value | remove:" " -}}
                               {% endif %}"
