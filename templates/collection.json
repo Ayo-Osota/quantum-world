@@ -402,10 +402,37 @@
         "padding_bottom": 36
       }
     },
+    "4a8eeafe-f6a4-44f0-a0f7-133b65af27c3": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Backpacks",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "backpacks",
+        "products_to_show": 12,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "09c353ec-c8e5-4977-9716-e7d4a6cc5a83": {
       "type": "featured-collection",
       "settings": {
-        "title": "Accessories & Gadgets",
+        "title": "Gadgets & Accessories",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
@@ -510,16 +537,16 @@
         "padding_bottom": 36
       }
     },
-    "4a8eeafe-f6a4-44f0-a0f7-133b65af27c3": {
+    "1bfdfb8c-5806-4991-b522-7c7ffde3f8af": {
       "type": "featured-collection",
       "settings": {
-        "title": "Backpacks",
+        "title": "Featured collection",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "backpacks",
-        "products_to_show": 12,
+        "collection": "all-cosmetic-items",
+        "products_to_show": 5,
         "columns_desktop": 5,
         "full_width": false,
         "show_view_all": true,
@@ -532,7 +559,7 @@
         "show_rating": false,
         "enable_quick_add": false,
         "columns_mobile": "2",
-        "swipe_on_mobile": true,
+        "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -617,11 +644,12 @@
     "d107633f-a1b3-44e4-882c-b487bd8ed838",
     "614b24d6-d7a8-4cf7-9bf8-5d58615102e1",
     "dff70948-589c-4798-84ee-1d0c25a18b08",
+    "4a8eeafe-f6a4-44f0-a0f7-133b65af27c3",
     "09c353ec-c8e5-4977-9716-e7d4a6cc5a83",
     "edcaece4-23fe-4b95-a293-3cae2043474e",
     "9b76695a-2a75-4185-8c24-eff0cff8abab",
     "c0069dae-4293-449b-83a9-8c0f4a52a1cb",
-    "4a8eeafe-f6a4-44f0-a0f7-133b65af27c3",
+    "1bfdfb8c-5806-4991-b522-7c7ffde3f8af",
     "130498a8-e259-4eb6-87b5-4a5bc8845973",
     "product-grid",
     "banner"
