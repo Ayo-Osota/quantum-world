@@ -593,6 +593,8 @@
                                  linear-gradient(#000080, #ADD8E6)
                                    {%- elsif lowercase_value == "dark blue color dot" -%}
                                  #00008B
+                                   {%- elsif lowercase_value == "black stripe" -%}
+                                 linear-gradient(#000000, #333333)
                                  {% else %} 
                                  {{- lowercase_value | remove:" " -}}
                               {% endif %}"
