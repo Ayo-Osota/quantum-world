@@ -109,6 +109,12 @@
             "collection": "all-products"
           }
         },
+        "5b63a521-0f7b-4da1-92f2-c13b99ad5ab0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "the-quantm-quellection"
+          }
+        },
         "template--16238543372524__b754e42b-e1ef-4ed3-b35f-24061711850a-1666618975a0b7acce-1": {
           "type": "featured_collection",
           "settings": {
@@ -150,18 +156,33 @@
           "settings": {
             "collection": "hats-caps-bandana-and-head-warmers"
           }
+        },
+        "2c1feb43-2fc4-4c27-9af7-94c46e38c860": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "makeup-brushes-and-sponges"
+          }
+        },
+        "6645a1ba-d82a-413f-9211-7140201a3322": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "hair-accessories"
+          }
         }
       },
       "block_order": [
         "template--16238543372524__b754e42b-e1ef-4ed3-b35f-24061711850a-1666618975a0b7acce-0",
         "dc92f481-d170-4bd7-b796-04c3bed90533",
+        "5b63a521-0f7b-4da1-92f2-c13b99ad5ab0",
         "template--16238543372524__b754e42b-e1ef-4ed3-b35f-24061711850a-1666618975a0b7acce-1",
         "template--16238543372524__b754e42b-e1ef-4ed3-b35f-24061711850a-1666618975a0b7acce-2",
         "c71df84b-84d7-47a7-8117-07d0b7914f9d",
         "2ecf1735-8231-4700-a69f-288ff2d20d30",
         "d0e0a820-e1d3-4b99-aeef-bf8a56d994c7",
         "9c9b2198-203e-4ef4-9baa-f0c5e8d1e138",
-        "dc2857eb-a0ad-45be-8520-6eee0e7fe9d5"
+        "dc2857eb-a0ad-45be-8520-6eee0e7fe9d5",
+        "2c1feb43-2fc4-4c27-9af7-94c46e38c860",
+        "6645a1ba-d82a-413f-9211-7140201a3322"
       ],
       "settings": {
         "title": "",
