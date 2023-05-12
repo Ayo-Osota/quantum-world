@@ -1,16 +1,5 @@
 {
   "sections": {
-    "main": {
-      "type": "main-list-collections",
-      "disabled": true,
-      "settings": {
-        "title": "All Collections",
-        "sort": "alphabetical",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "columns_mobile": "2"
-      }
-    },
     "a2419f91-705c-4ca1-b123-6e55766d6dbf": {
       "type": "plane-image-with-text",
       "blocks": {
@@ -94,114 +83,20 @@
         "padding_bottom": 52
       }
     },
-    "b754e42b-e1ef-4ed3-b35f-24061711850a": {
-      "type": "collection-list",
-      "blocks": {
-        "template--16238543372524__b754e42b-e1ef-4ed3-b35f-24061711850a-1666618975a0b7acce-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "donations-pot"
-          }
-        },
-        "dc92f481-d170-4bd7-b796-04c3bed90533": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "all-products"
-          }
-        },
-        "5b63a521-0f7b-4da1-92f2-c13b99ad5ab0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "the-quantm-quellection"
-          }
-        },
-        "template--16238543372524__b754e42b-e1ef-4ed3-b35f-24061711850a-1666618975a0b7acce-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "jumpers-and-hoodies"
-          }
-        },
-        "template--16238543372524__b754e42b-e1ef-4ed3-b35f-24061711850a-1666618975a0b7acce-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "clothes-shoes-and-much-more"
-          }
-        },
-        "c71df84b-84d7-47a7-8117-07d0b7914f9d": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "backpacks"
-          }
-        },
-        "2ecf1735-8231-4700-a69f-288ff2d20d30": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "electronics"
-          }
-        },
-        "d0e0a820-e1d3-4b99-aeef-bf8a56d994c7": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "men"
-          }
-        },
-        "9c9b2198-203e-4ef4-9baa-f0c5e8d1e138": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "women"
-          }
-        },
-        "dc2857eb-a0ad-45be-8520-6eee0e7fe9d5": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "hats-caps-bandana-and-head-warmers"
-          }
-        },
-        "2c1feb43-2fc4-4c27-9af7-94c46e38c860": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "makeup-brushes-and-sponges"
-          }
-        },
-        "6645a1ba-d82a-413f-9211-7140201a3322": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "hair-accessories"
-          }
-        }
-      },
-      "block_order": [
-        "template--16238543372524__b754e42b-e1ef-4ed3-b35f-24061711850a-1666618975a0b7acce-0",
-        "dc92f481-d170-4bd7-b796-04c3bed90533",
-        "5b63a521-0f7b-4da1-92f2-c13b99ad5ab0",
-        "template--16238543372524__b754e42b-e1ef-4ed3-b35f-24061711850a-1666618975a0b7acce-1",
-        "template--16238543372524__b754e42b-e1ef-4ed3-b35f-24061711850a-1666618975a0b7acce-2",
-        "c71df84b-84d7-47a7-8117-07d0b7914f9d",
-        "2ecf1735-8231-4700-a69f-288ff2d20d30",
-        "d0e0a820-e1d3-4b99-aeef-bf8a56d994c7",
-        "9c9b2198-203e-4ef4-9baa-f0c5e8d1e138",
-        "dc2857eb-a0ad-45be-8520-6eee0e7fe9d5",
-        "2c1feb43-2fc4-4c27-9af7-94c46e38c860",
-        "6645a1ba-d82a-413f-9211-7140201a3322"
-      ],
+    "main": {
+      "type": "main-list-collections",
       "settings": {
-        "title": "",
-        "heading_size": "h1",
+        "title": "All Collections",
+        "sort": "alphabetical",
         "image_ratio": "square",
-        "columns_desktop": 3,
-        "color_scheme": "background-1",
-        "show_view_all": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "columns_desktop": 5,
+        "columns_mobile": "2"
       }
     }
   },
   "order": [
-    "main",
     "a2419f91-705c-4ca1-b123-6e55766d6dbf",
     "f22adc71-e0c2-41d8-808a-23f80e07de6a",
-    "b754e42b-e1ef-4ed3-b35f-24061711850a"
+    "main"
   ]
 }
