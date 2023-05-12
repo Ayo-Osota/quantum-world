@@ -69,7 +69,7 @@
         "collection": "all-products",
         "products_to_show": 12,
         "columns_desktop": 5,
-        "full_width": false,
+        "full_width": true,
         "show_view_all": true,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
@@ -243,7 +243,7 @@
     "bcb7cca6-59d4-44d9-9d65-a261f4e65f93": {
       "type": "featured-collection",
       "settings": {
-        "title": "Men",
+        "title": "The Quantm Quellection: Men",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
@@ -270,7 +270,7 @@
     "3ec1fd68-c391-46b5-9202-347ec233471c": {
       "type": "featured-collection",
       "settings": {
-        "title": "Women",
+        "title": "The Quantm Quellection: Women",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
@@ -324,7 +324,7 @@
     "d107633f-a1b3-44e4-882c-b487bd8ed838": {
       "type": "featured-collection",
       "settings": {
-        "title": "Sweaters, Jumpers and Hoodies",
+        "title": "The Quantm Quellection: Sweaters, Jumpers and Hoodies",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
@@ -351,7 +351,7 @@
     "614b24d6-d7a8-4cf7-9bf8-5d58615102e1": {
       "type": "featured-collection",
       "settings": {
-        "title": "QuantmWorld T-Shirts",
+        "title": "The Quantm Quellection: T-Shirts",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
@@ -378,7 +378,7 @@
     "dff70948-589c-4798-84ee-1d0c25a18b08": {
       "type": "featured-collection",
       "settings": {
-        "title": "Hats, Caps, Bandana and Head Warmers",
+        "title": "The Quantm Quellection: Hats, Caps, Bandana and Head Warmers",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
@@ -405,7 +405,7 @@
     "4a8eeafe-f6a4-44f0-a0f7-133b65af27c3": {
       "type": "featured-collection",
       "settings": {
-        "title": "Backpacks",
+        "title": "The Quantm Quellection: Backpacks",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
