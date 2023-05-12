@@ -483,6 +483,33 @@
         "padding_bottom": 36
       }
     },
+    "1bfdfb8c-5806-4991-b522-7c7ffde3f8af": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "All Cosmetic Items",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all-cosmetic-items",
+        "products_to_show": 5,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "9b76695a-2a75-4185-8c24-eff0cff8abab": {
       "type": "featured-collection",
       "settings": {
@@ -519,33 +546,6 @@
         "show_description": false,
         "description_style": "body",
         "collection": "gift-sets",
-        "products_to_show": 5,
-        "columns_desktop": 5,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "1bfdfb8c-5806-4991-b522-7c7ffde3f8af": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured collection",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all-cosmetic-items",
         "products_to_show": 5,
         "columns_desktop": 5,
         "full_width": false,
@@ -647,9 +647,9 @@
     "4a8eeafe-f6a4-44f0-a0f7-133b65af27c3",
     "09c353ec-c8e5-4977-9716-e7d4a6cc5a83",
     "edcaece4-23fe-4b95-a293-3cae2043474e",
+    "1bfdfb8c-5806-4991-b522-7c7ffde3f8af",
     "9b76695a-2a75-4185-8c24-eff0cff8abab",
     "c0069dae-4293-449b-83a9-8c0f4a52a1cb",
-    "1bfdfb8c-5806-4991-b522-7c7ffde3f8af",
     "130498a8-e259-4eb6-87b5-4a5bc8845973",
     "product-grid",
     "banner"
