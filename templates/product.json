@@ -23,12 +23,6 @@
             "text_style": "subtitle"
           }
         },
-        "6b2789bd-5f3d-474f-aabe-e6b061b78855": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button"
-          }
-        },
         "price": {
           "type": "price",
           "settings": {
@@ -131,7 +125,6 @@
         "vendor",
         "title",
         "caption",
-        "6b2789bd-5f3d-474f-aabe-e6b061b78855",
         "price",
         "quantity_selector",
         "collapsible-row-3",
