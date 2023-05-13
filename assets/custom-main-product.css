@@ -64,7 +64,7 @@
     text-transform: capitalize;
 }
 
-.pill-variant:nth-child(2), .custom-select-variant:nth-child(2){
+.pill-variant, .custom-select-variant{
     display: none !important;
 }
 
