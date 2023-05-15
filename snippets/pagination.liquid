@@ -29,7 +29,7 @@
       {%- for part in paginate.parts -%}
         <li>
           {%- if part.is_link -%}
-            <a href="{{ part.url }}{{ anchor }}" class="pagination__item link" aria-label="{{ 'general.pagination.page' | t: number: part.title }}">{{ part.title }}</a>
+            <a href="{{ part.url }}{{ anchor }}" class="pagination__item " aria-label="{{ 'general.pagination.page' | t: number: part.title }}">{{ part.title }}</a> <!-- class =          link -->
           {%- else -%}
             {%- if part.title == paginate.current_page -%}
               <a role="link" aria-disabled="true" class="pagination__item pagination__item--current light" aria-current="page" aria-label="{{ 'general.pagination.page' | t: number: part.title }}">{{ part.title }}</a>
@@ -42,9 +42,9 @@
 
       {%- if paginate.next -%}
         <li>
-          <a href="{{ paginate.next.url }}{{ anchor }}" class="pagination__item pagination__item--prev pagination__item-arrow link motion-reduce" aria-label="{{ 'general.pagination.next' | t }}" >
+          <a href="{{ paginate.next.url }}{{ anchor }}" class="pagination__item pagination__item--prev pagination__item-arrow  motion-reduce" aria-label="{{ 'general.pagination.next' | t }}" >
             {%- render 'icon-caret' -%}
-          </a>
+          </a> <!-- class =          link -->
         </li>
       {%- endif -%}
       </ul>
