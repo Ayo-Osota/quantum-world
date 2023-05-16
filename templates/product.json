@@ -30,10 +30,15 @@
         "template--16718454227180__eb44a922-37b3-42ce-95cf-4b2bbccf3db2-1684244208544468aa-1",
         "template--16718454227180__eb44a922-37b3-42ce-95cf-4b2bbccf3db2-1684244208544468aa-2"
       ],
+      "custom_css": [
+        "h2 {color: #000000; font-weight: 600; font-size: 3.5rem; line-height: 3.5rem;}",
+        ".plane-btn {background: #002d37e5; border: 1px solid #002d37e5; color: #ffffff; border-radius: 0.5rem; background-position: right bottom; transition: all 0.5s ease-in-out; margin-top: 3vh; padding: 8px 20px 8px 20px; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; line-height: 24px; font-weight: 300; text-align: center;}",
+        ".plane-btn:hover {background-color: #095f72e5; border: 1px solid #095f72e5; cursor: pointer;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Image.png",
         "height": "adapt",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "small",
         "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
