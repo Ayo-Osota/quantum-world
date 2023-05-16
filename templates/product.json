@@ -1,88 +1,5 @@
 {
   "sections": {
-    "eb44a922-37b3-42ce-95cf-4b2bbccf3db2": {
-      "type": "plane-image-with-text",
-      "blocks": {
-        "template--16718454227180__eb44a922-37b3-42ce-95cf-4b2bbccf3db2-1684244208544468aa-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "WE SELL MERCHANDISE TO CONTINUALLY SUPPORT OUR AGENDA",
-            "heading_size": "h1"
-          }
-        },
-        "template--16718454227180__eb44a922-37b3-42ce-95cf-4b2bbccf3db2-1684244208544468aa-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>We at QuantmWorld diversify in various aspects to help the community, we offer the sale of our products to help in generating income for the growth and development of people worldwide.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--16718454227180__eb44a922-37b3-42ce-95cf-4b2bbccf3db2-1684244208544468aa-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Shop Now",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--16718454227180__eb44a922-37b3-42ce-95cf-4b2bbccf3db2-1684244208544468aa-0",
-        "template--16718454227180__eb44a922-37b3-42ce-95cf-4b2bbccf3db2-1684244208544468aa-1",
-        "template--16718454227180__eb44a922-37b3-42ce-95cf-4b2bbccf3db2-1684244208544468aa-2"
-      ],
-      "custom_css": [
-        "h2 {color: #000000; font-weight: 600; font-size: 3.5rem; line-height: 3.5rem;}",
-        ".plane-btn {background: #002d37e5; border: 1px solid #002d37e5; color: #ffffff; border-radius: 0.5rem; background-position: right bottom; transition: all 0.5s ease-in-out; margin-top: 3vh; padding: 8px 20px 8px 20px; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; line-height: 24px; font-weight: 300; text-align: center;}",
-        ".plane-btn:hover {background-color: #095f72e5; border: 1px solid #095f72e5; cursor: pointer;}"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/stacked-cloths.png",
-        "height": "adapt",
-        "desktop_image_width": "small",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "578cf5bc-9aa0-456d-b19a-437d5662faaa": {
-      "type": "search-shop",
-      "blocks": {
-        "template--16718454227180__578cf5bc-9aa0-456d-b19a-437d5662faaa-16842441339ce73475-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Subscribe to our emails",
-            "heading_size": "h1"
-          }
-        },
-        "template--16718454227180__578cf5bc-9aa0-456d-b19a-437d5662faaa-16842441339ce73475-1": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
-          }
-        },
-        "template--16718454227180__578cf5bc-9aa0-456d-b19a-437d5662faaa-16842441339ce73475-2": {
-          "type": "email_form",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "template--16718454227180__578cf5bc-9aa0-456d-b19a-437d5662faaa-16842441339ce73475-0",
-        "template--16718454227180__578cf5bc-9aa0-456d-b19a-437d5662faaa-16842441339ce73475-1",
-        "template--16718454227180__578cf5bc-9aa0-456d-b19a-437d5662faaa-16842441339ce73475-2"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -240,6 +157,91 @@
         "padding_bottom": 12
       }
     },
+    "eb44a922-37b3-42ce-95cf-4b2bbccf3db2": {
+      "type": "plane-image-with-text",
+      "disabled": true,
+      "blocks": {
+        "template--16718454227180__eb44a922-37b3-42ce-95cf-4b2bbccf3db2-1684244208544468aa-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "WE SELL MERCHANDISE TO CONTINUALLY SUPPORT OUR AGENDA",
+            "heading_size": "h1"
+          }
+        },
+        "template--16718454227180__eb44a922-37b3-42ce-95cf-4b2bbccf3db2-1684244208544468aa-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We at QuantmWorld diversify in various aspects to help the community, we offer the sale of our products to help in generating income for the growth and development of people worldwide.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16718454227180__eb44a922-37b3-42ce-95cf-4b2bbccf3db2-1684244208544468aa-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16718454227180__eb44a922-37b3-42ce-95cf-4b2bbccf3db2-1684244208544468aa-0",
+        "template--16718454227180__eb44a922-37b3-42ce-95cf-4b2bbccf3db2-1684244208544468aa-1",
+        "template--16718454227180__eb44a922-37b3-42ce-95cf-4b2bbccf3db2-1684244208544468aa-2"
+      ],
+      "custom_css": [
+        "h2 {color: #000000; font-weight: 600; font-size: 3.5rem; line-height: 3.5rem;}",
+        ".plane-btn {background: #002d37e5; border: 1px solid #002d37e5; color: #ffffff; border-radius: 0.5rem; background-position: right bottom; transition: all 0.5s ease-in-out; margin-top: 3vh; padding: 8px 20px 8px 20px; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; line-height: 24px; font-weight: 300; text-align: center;}",
+        ".plane-btn:hover {background-color: #095f72e5; border: 1px solid #095f72e5; cursor: pointer;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/stacked-cloths.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "578cf5bc-9aa0-456d-b19a-437d5662faaa": {
+      "type": "search-shop",
+      "disabled": true,
+      "blocks": {
+        "template--16718454227180__578cf5bc-9aa0-456d-b19a-437d5662faaa-16842441339ce73475-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "template--16718454227180__578cf5bc-9aa0-456d-b19a-437d5662faaa-16842441339ce73475-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "template--16718454227180__578cf5bc-9aa0-456d-b19a-437d5662faaa-16842441339ce73475-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--16718454227180__578cf5bc-9aa0-456d-b19a-437d5662faaa-16842441339ce73475-0",
+        "template--16718454227180__578cf5bc-9aa0-456d-b19a-437d5662faaa-16842441339ce73475-1",
+        "template--16718454227180__578cf5bc-9aa0-456d-b19a-437d5662faaa-16842441339ce73475-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -293,9 +295,9 @@
     }
   },
   "order": [
+    "main",
     "eb44a922-37b3-42ce-95cf-4b2bbccf3db2",
     "578cf5bc-9aa0-456d-b19a-437d5662faaa",
-    "main",
     "product-recommendations",
     "a4f6f518-497f-4bbb-9079-33d1e385160e"
   ]
