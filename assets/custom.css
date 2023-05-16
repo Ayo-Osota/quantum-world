@@ -8155,7 +8155,7 @@ input.search-btn:hover {
 }
 
 .globo-swatch-product-detail .globo-swatch-list .swatch--gl:nth-child(2) .ul-globo-dropdown-option, .swatches-globo .globo-swatch-list.globo-swatch-list .ul-globo-dropdown-option {
-z-index: 0;
+z-index: 1;
 }
 
 @media screen and (max-width: 750px) {
