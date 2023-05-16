@@ -8154,6 +8154,10 @@ input.search-btn:hover {
   z-index: 0;
 }
 
+.globo-swatch-product-detail .globo-swatch-list .swatch--gl:nth-child(2) .ul-globo-dropdown-option, .swatches-globo .globo-swatch-list.globo-swatch-list .ul-globo-dropdown-option {
+z-index: 0;
+}
+
 @media screen and (max-width: 750px) {
   .custom-image-with-text a,
   .custom-image-with-text a:last-child {
